@@ -4,12 +4,33 @@ main:
      url: /team/
    - title: "Mission"
      url: /mission/
+     children:
+      - title: "The Problem"
+        url: /mission/problem/
+      - title: "Our Solution"
+        url: /mission/solution/  
    - title: "Projects"
      url: /projects/
    - title: "Services"
      url: /services/
+     children:
+      - title: "NWB Conversion Pipelines"
+        url: /services/conversion/
+      - title: "Spike Sorting Pipelines"
+        url: /services/sorting/
+      - title: "Data Infrastructure on Grant Applications"
+        url: /services/applications/
    - title: "Software"
      url: /software/
+     children:
+      - title: "NeuroConv"
+        url: /software/conversion/
+      - title: "NWB Inspector"
+        url: /software/inspector/
+      - title: "NWB Guide"
+        url: /software/guide/
+      - title: "Spike Interface"
+        url: /software/spike/
    - title: "Blog"
      url: /blog/
    - title: "Contact"
