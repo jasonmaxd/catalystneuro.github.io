@@ -5,5 +5,8 @@ bio: Ben Dichter is the founder of CatalystNeuro. He received his Ph.D. in Bioen
 image: /assets/images/team/ben_pic.png
 github: https://github.com/bendichter
 web: bendichter.com
+publications: https://orcid.org/0000-0001-5725-6910
+contact: ben.dichter@catalystneuro.com
+order: 1
 ---
 
