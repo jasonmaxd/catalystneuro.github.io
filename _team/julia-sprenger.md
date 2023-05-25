@@ -7,4 +7,5 @@ bio: |
   She is currently a research engineer at the Institut de Neurosciences de la Timone in Marseille where she works on the development and implementation of data and metadata standards for electrophysiology datasets. She is co-leading the BIDS Extension Proposal 032 for animal electrophysiology and is a maintainer of the Neo package for electrophysiology data representation and conversion.
 image: /assets/images/team/julia_pic.png
 github: https://github.com/juliasprenger
+order: 7
 ---
