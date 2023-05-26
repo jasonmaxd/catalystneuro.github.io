@@ -7,4 +7,5 @@ bio: |
   (Brains@Play){https://brainsatplay.com}
 image: /assets/images/team/garrett_pic.png
 github: https://github.com/garrettmflynn
+order: 6
 ---
