@@ -12,7 +12,13 @@
         {% else %}
           <span class="nav__sub-title">{{ nav.title }}</span>
         {% endif %}
-
+        {% if item.submenu %}
+          <ul class="submenu">
+            {% for subitem in item.submenu %}
+              <li><a href="{{ subitem.url }}">{{ subitem.title }}</a></li>
+            {% endfor %}
+          </ul>
+        {% endif %}
         {% if nav.children != null %}
         <ul>
           {% for child in nav.children %}

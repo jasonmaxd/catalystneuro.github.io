@@ -3,8 +3,7 @@ main:
    - title: "Team"
      url: /team/
    - title: "Mission"
-     url: /mission/
-     children:
+     submenu:
       - title: "The Problem"
         url: /mission/problem
       - title: "Our Solution"
@@ -12,8 +11,7 @@ main:
    - title: "Projects"
      url: /projects/
    - title: "Services"
-     url: /services/
-     children:
+     submenu:
       - title: "NWB Conversion Pipelines"
         url: /services/conversion
       - title: "Spike Sorting Pipelines"
@@ -21,8 +19,7 @@ main:
       - title: "Data Infrastructure on Grant Applications"
         url: /services/applications
    - title: "Software"
-     url: /software/
-     children:
+     submenu:
       - title: "Neuroconv"
         url: /software/neuroconv
       - title: "NWB Inspector"
