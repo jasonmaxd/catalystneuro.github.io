@@ -3,6 +3,7 @@ main:
    - title: "Team"
      url: /team/
    - title: "Mission"
+     url: /mission/
      submenu:
       - title: "The Problem"
         url: /mission/problem
@@ -11,6 +12,7 @@ main:
    - title: "Projects"
      url: /projects/
    - title: "Services"
+     url: /services/
      submenu:
       - title: "NWB Conversion Pipelines"
         url: /services/conversion
@@ -19,6 +21,7 @@ main:
       - title: "Data Infrastructure on Grant Applications"
         url: /services/applications
    - title: "Software"
+     url: /software/
      submenu:
       - title: "Neuroconv"
         url: /software/neuroconv
