@@ -18,6 +18,7 @@ feature_row2:
 - title: Spike sorting
   excerpt: We can help design and implement spike sorting pipelines using state-of-the-art algorithms using
     SpikeInterface.
+  image_path: /assets/images/bottom.gif
   url: "/services/spike-sorting/"
   btn_class: "btn--primary"
   btn_label: "Learn more"
