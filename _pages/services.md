@@ -26,6 +26,7 @@ feature_row2:
 feature_row3:
   - title: "Data Infrastructure on Grant Applications"
     excerpt: We can assist with expertise to maximize the impact of your research in the neuroscience community and meet compliance with NIH policies, providing services in many categories.
+    image_path: /assets/images/logo_nwb.png
     url: "/services/grant-data/"
     btn_class: "btn--primary"
     btn_label: "Learn more"
