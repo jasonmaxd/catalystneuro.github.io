@@ -1,7 +1,7 @@
 ---
 layout: splash
 title: "Spike Sorting Pipelines"
-permalink: /services/spike-sorting
+permalink: /services/spike-sorting/
 header:
   overlay_color: "#5e616c"
   overlay_image: /assets/images/neuro-software.jpg

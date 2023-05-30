@@ -1,7 +1,7 @@
 ---
 layout: splash
 title: "NWB Conversion Pipelines"
-permalink: /services/nwb-conversion
+permalink: /services/nwb-conversion/
 header:
   overlay_color: "#5e616c"
   overlay_image: /assets/images/neuro-software.jpg

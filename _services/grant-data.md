@@ -1,7 +1,7 @@
 ---
 layout: splash
 title: "Data Infrastructure on Grant Applications"
-permalink: /services/grant-data
+permalink: /services/grant-data/
 header:
   overlay_color: "#5e616c"
   overlay_image: /assets/images/neuro-software.jpg
