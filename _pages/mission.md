@@ -15,3 +15,6 @@ feature_row2:
     excerpt: NeuroConv provides automated conversions from proprietary formats
     image_path: /assets/images/neuroconv_logo.png
 ---
+
+{% include feature_row type="left" %}
+{% include feature_row id="feature_row2" type="left" %}

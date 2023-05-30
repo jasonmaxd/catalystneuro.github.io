@@ -31,6 +31,6 @@ feature_row3:
   btn_label: "Learn more"
 ---
 
-{% include feature_row type="left"%}
+{% include feature_row type="left" %}
 {% include feature_row id="feature_row2" type="right" %}
 {% include feature_row id="feature_row3" type="left" %}
