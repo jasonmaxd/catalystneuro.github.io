@@ -24,11 +24,11 @@ feature_row2:
   btn_class: "btn--primary"
   btn_label: "Learn more"
 feature_row3:
-- title: "Data Infrastructure on Grant Applications"
-  excerpt: We can assist with expertise to maximize the impact of your reserach in the neuroscience commuity and meet compliance with NIH policies, providing services in many categories.
-  url: "/services/grant-data/"
-  btn_class: "btn--primary"
-  btn_label: "Learn more"
+  - title: "Data Infrastructure on Grant Applications"
+    excerpt: We can assist with expertise to maximize the impact of your research in the neuroscience community and meet compliance with NIH policies, providing services in many categories.
+    url: "/services/grant-data/"
+    btn_class: "btn--primary"
+    btn_label: "Learn more"
 ---
 
 {% include feature_row type="left" %}
