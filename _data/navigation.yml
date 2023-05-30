@@ -30,7 +30,7 @@ docs:
       - title: "Data Infrastructure on Grant Applications"
         url: /docs/applications/
    - title: Software
-        children:
+      children:
       - title: "Neuroconv"
         url: /docs/neuroconv/
       - title: "NWB Inspector"
