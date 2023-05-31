@@ -1,26 +1,26 @@
 # main links
 main:
-   - title: "Team"
-     url: /team/
-   - title: "Mission"
-     url: /mission/
-   - title: "Projects"
-     url: /projects/
-   - title: "Services"
-     url: /services/
-     children:
+  - title: "Team"
+    url: /team/
+  - title: "Mission"
+    url: /mission/
+  - title: "Projects"
+    url: /projects/
+  - title: "Services"
+    url: /services/
+    children:
       - title: "NWB Conversion Pipelines"
         url: /services/nwb-conversion/
       - title: "Spike Sorting Pipelines"
         url: /services/spike-sorting/
       - title: "Data Infrastructure on Grant Applications"
         url: /services/grant-data/
-   - title: "Software"
-     url: /software/
-   - title: "Blog"
-     url: /blog/
-   - title: "Contact"
-     url: /contact/
+  - title: "Software"
+    url: /software/
+  - title: "Blog"
+    url: /blog/
+  - title: "Contact"
+    url: /contact/
 
 docs:
    - title: Mission
