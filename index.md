@@ -5,6 +5,9 @@ hidden: true
 header:
   overlay_color: "#5e616c"
   overlay_image: /assets/images/splash_banner.jpeg
+footer:
+  overlay_color: "#5e616c"
+  overlay_image: /assets/images/bottom.gif
 excerpt: >
   Data and software engineering solutions<br />for neuroscience labs
 feature_row:
