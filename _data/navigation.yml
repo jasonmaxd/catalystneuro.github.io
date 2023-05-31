@@ -7,6 +7,7 @@ main:
    - title: "Projects"
      url: /projects/
    - title: "Services"
+     url: /services/
      children:
       - title: "NWB Conversion Pipelines"
         url: /services/nwb-conversion/
