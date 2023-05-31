@@ -26,7 +26,24 @@ feature_row2:
       CatalystNeuro is designed to be complementary to labs. We focus on data and software engineering so labs can focus on advancing and communicating scientific discoveries. Despite being a for-profit organization, we adhere to an open-source approach with permissive licensing for our developed software, thereby offering free access to anyone in the community. 
 
       Presently, our primary areas of focus include data sharing in neurophysiology and spike sorting.
+feature_row3:
+  - title: "Data Sharing in Neurophysiology"
+    excerpt: |
+      In collaboration with BRAIN-endorsed teams, we are developing an infrastructure that promotes active cooperation across the neurophysiology community. We utilize the Neurodata Without Borders (NWB) standard for neurophysiology data and work closely with the DANDI Archive, which accepts NWB data and is capable of storing terabytes of neurophysiology data at no charge. As part of the development teams for these projects, we create open-source software to simplify the usage of these tools, including:
+        - NWB Inspector: A tool that scans NWB files for potential errors and areas of improvement, generating a comprehensive report.
+        - NeuroConv: A utility that automates the conversion from proprietary neurophysiology data formats to NWB.
+        - NWB GUIDE: A graphical user interface (GUI) that offers a code-free solution for conversion to NWB (currently in progress).
+
+      We collaborate with individual labs to develop tailored solutions to help them leverage these resources. This includes both virtual and in-person training, and contracts for the development of customized solutions.
+    custom_class: "small_title"
+feature_row4:
+  - title: "Spike Sorting"
+    excerpt: |
+      Spike sorting is the process of identifying neuronal action potentials in an electrophysiology recordings and assigning them to different neurons. Spike sorting is a challenging problem that is far from solved, and the recent advances in electrophysiology channel count and density have made the problem much more difficult. SpikeInterface is an open source software solution that makes it easy to access state-of-the-art spike sorting technology. With a few lines of code, SpikeInterface enables you to load and pre-process an electrophysiology recording, run several state-of-the-art spike sorters, compare them, post-process and curate the output, compute quality metrics, and visualize the results.
+    custom_class: "small_title"
 ---
 
-{% include feature_row type="left" %}
-{% include feature_row id="feature_row2" type="left" %}
+{% include feature_row %}
+{% include feature_row id="feature_row2" %}
+{% include feature_row id="feature_row3" %}
+{% include feature_row id="feature_row4" %}
