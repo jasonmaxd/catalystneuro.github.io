@@ -20,7 +20,6 @@ feature_row1:
       - MIT
       - NWB
       - LBNL
-  image_path: /assets/images/logo_nwb.png
 feature_row2:
 - title: "NWB Inspector"
   excerpt: |
@@ -33,7 +32,6 @@ feature_row2:
 feature_row3:
 - title: "NWB Guide"
   excerpt: NWB GUIDE is a graphical user interface (GUI) that offers a code-free solution for conversion to NWB (currently in progress).
-  image_path: /assets/images/logo_nwb.png
 feature_row4:
 - title: "SpikeInterface"
   excerpt: We can help design and implement spike sorting pipelines using state-of-the-art algorithms using
