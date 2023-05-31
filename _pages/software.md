@@ -9,7 +9,7 @@ header:
   overlay_color: "#5e616c"
   overlay_image: /assets/images/neuro-software.jpg
 feature_row:
-- title: "Standardizing and publishing neurophysiology data"
+- title: "Standardizing and Publishing neurophysiology data"
   excerpt: We specialize in helping neurophysiology labs convert their data to the Neurodata Without Borders (NWB) 
     format and publish on the DANDI Archive.
   image_path: /assets/images/logo_nwb.png
