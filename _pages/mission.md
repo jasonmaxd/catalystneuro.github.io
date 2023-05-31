@@ -18,7 +18,7 @@ feature_row:
       A key reason for this issue is that it can be difficult for research labs to devote the necessary time and attention to data and software engineering. Pushing the boundaries of human knowledge requires enormous effort, and most research groups work within a “publish-or-perish” system where labs that focus on looking for the next big scientific findings will supplant labs that divert attention to other things. In addition, until recently, there has not been strong consensus in the field around data standards or processing pipelines.
 
       The problem has become more urgent recently, with a new NIH policy that all papers must include the publication of scientific data. Now, whether motivated by an appreciation for open science or by funding requirements, many labs are facing new challenges in sharing data. This problem is exacerbated by new data acquisition technologies that are producing data at an unprecedented pace.
-
+    image_path: /assets/images/neuroconv_logo.png
 feature_row2:
   - title: "Our Solution"
     excerpt: |
@@ -27,7 +27,7 @@ feature_row2:
     CatalystNeuro is designed to be complementary to labs. We focus on data and software engineering so labs can focus on advancing and communicating scientific discoveries. Despite being a for-profit organization, we adhere to an open-source approach with permissive licensing for our developed software, thereby offering free access to anyone in the community. 
 
     Presently, our primary areas of focus include data sharing in neurophysiology and spike sorting.
-
+  image_path: /assets/images/neuroconv_logo.png
 ---
 
 {% include feature_row type="left" %}
