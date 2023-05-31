@@ -7,19 +7,19 @@
         <b class="team-member-role">{{ member.role }}</b>
         <p>{{ member.bio }}</p>
         {% if member.github %}
-            <p>Github: <a href="{{ member.github }}" class="team-member-link">{{ member.github }}</a></p>
+            <span>Github: <a href="{{ member.github }}" class="team-member-link">{{ member.github }}</a></span>
         {% endif %}
         {% if member.website %}
-            <p>Personal Website: <a href="{{ member.website }}" class="team-member-link">{{ member.website }}</a></p>
+            <span>Personal Website: <a href="{{ member.website }}" class="team-member-link">{{ member.website }}</a></span>
         {% endif %}
         {% if member.publications %}
-            <p>Publications: <a href="{{ member.publications }}" class="team-member-link">{{ member.publications }}</a></p>
+            <span>Publications: <a href="{{ member.publications }}" class="team-member-link">{{ member.publications }}</a></span>
         {% endif %}
         {% if member.link2 %}
-            <p>{{member.other}}: <a href="{{ member.link2 }}" class="team-member-link">{{ member.link2 }}</a></p>
+            <span>{{member.other}}: <a href="{{ member.link2 }}" class="team-member-link">{{ member.link2 }}</a></span>
         {% endif %}
         {% if member.linkedin %}
-            <p>LinkedIn: <a href="{{ member.linkedin }}" class="team-member-link">{{ member.linkedin }}</a></p>
+            <span>LinkedIn: <a href="{{ member.linkedin }}" class="team-member-link">{{ member.linkedin }}</a></span>
         {% endif %}
     </div>
 </div>
