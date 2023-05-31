@@ -19,11 +19,15 @@ feature_row:
 
       The problem has become more urgent recently, with a new NIH policy that all papers must include the publication of scientific data. Now, whether motivated by an appreciation for open science or by funding requirements, many labs are facing new challenges in sharing data. This problem is exacerbated by new data acquisition technologies that are producing data at an unprecedented pace.
 
-    image_path: /assets/images/neuroconv_logo.png
 feature_row2:
   - title: "Our Solution"
-    excerpt: NeuroConv provides automated conversions from proprietary formats
-    image_path: /assets/images/neuroconv_logo.png
+    excerpt: |
+    CatalystNeuro is a specialized company committed to assisting neuroscience labs navigate this challenging period. Our international team consists of neuroscientist software developers who are deeply passionate about employing data and software engineering to create a seamless network among data producers, tool developers, and users within the neuroscience community. 
+
+    CatalystNeuro is designed to be complementary to labs. We focus on data and software engineering so labs can focus on advancing and communicating scientific discoveries. Despite being a for-profit organization, we adhere to an open-source approach with permissive licensing for our developed software, thereby offering free access to anyone in the community. 
+
+    Presently, our primary areas of focus include data sharing in neurophysiology and spike sorting.
+
 ---
 
 {% include feature_row type="left" %}
