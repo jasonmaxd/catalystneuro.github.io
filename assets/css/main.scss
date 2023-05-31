@@ -33,6 +33,11 @@ search: false
     height: 175
 }
 
+.bio-container {
+    flex-grow: 1;
+    margin-left: 10px;
+}
+
 .team-member-name {
     font-size: 36px; /* Adjust to the desired size */
     margin-bottom: 0; /* This eliminates extra space below the name */

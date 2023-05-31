@@ -5,7 +5,7 @@
     <div>
         <b class="team-member-name">{{ member.name }}</b><br>
         <b class="team-member-role">{{ member.role }}</b>
-        <p>{{ member.bio }}</p>
+        <p class="bio-container">{{ member.bio }}</p>
         {% if member.github %}
             <span>Github: <a href="{{ member.github }}" class="team-member-link">{{ member.github }}</a></span><br>
         {% endif %}
