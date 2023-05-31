@@ -7,7 +7,13 @@ main:
    - title: "Projects"
      url: /projects/
    - title: "Services"
-     url: /services/
+     children:
+      - title: "NWB Conversion Pipelines"
+        url: /services/nwb-conversion/
+      - title: "Spike Sorting Pipelines"
+        url: /services/spike-sorting/
+      - title: "Data Infrastructure on Grant Applications"
+        url: /services/grant-data/
    - title: "Software"
      url: /software/
    - title: "Blog"
