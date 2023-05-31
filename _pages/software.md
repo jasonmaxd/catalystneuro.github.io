@@ -9,38 +9,39 @@ header:
   overlay_color: "#5e616c"
   overlay_image: /assets/images/neuro-software.jpg
 feature_row:
-- title: "Standardizing and Publishing neurophysiology data"
-  excerpt: We specialize in helping neurophysiology labs convert their data to the Neurodata Without Borders (NWB) 
-    format and publish on the DANDI Archive.
+- excerpt: |
+    CatalystNeuro aims to accelerate the rate of scientific discovery by building open source solutions that bring data and software engineering solutions to neuroscience labs, and address the practical problems of researchers in the field. We integrate deeply with codebases across the open source community, so many of our contributions are in repositories that are part of other organizations.
+feature_row1:
+- title: "NeuroConv"
+  excerpt: |
+    NeuroConv is a library that automates the conversion from proprietary neurophysiology data formats to NWB.
+    ### Collaborators
+      - DANDI
+      - MIT
+      - NWB
+      - LBNL
   image_path: /assets/images/logo_nwb.png
-  url: "/services/nwb-conversion/"
-  btn_class: "btn--primary"
-  btn_label: "Learn more"
 feature_row2:
-- title: Spike sorting
-  excerpt: We can help design and implement spike sorting pipelines using state-of-the-art algorithms using
-    SpikeInterface.
-  url: "/services/spike-sorting/"
-  btn_class: "btn--primary"
-  btn_label: "Learn more"
+- title: "NWB Inspector"
+  excerpt: |
+    NWB Inspector is a tool that scans NWB files for potential errors and areas of improvement, generating a comprehensive report.
+    ### Collaborators
+      - DANDI
+      - MIT
+      - NWB
+      - LBNL
 feature_row3:
-- title: "Standardizing and publishing neurophysiology data"
-  excerpt: We specialize in helping neurophysiology labs convert their data to the Neurodata Without Borders (NWB) 
-    format and publish on the DANDI Archive.
+- title: "NWB Guide"
+  excerpt: NWB GUIDE is a graphical user interface (GUI) that offers a code-free solution for conversion to NWB (currently in progress).
   image_path: /assets/images/logo_nwb.png
-  url: "/services/nwb-conversion/"
-  btn_class: "btn--primary"
-  btn_label: "Learn more"
 feature_row4:
-- title: Spike sorting
+- title: "SpikeInterface"
   excerpt: We can help design and implement spike sorting pipelines using state-of-the-art algorithms using
     SpikeInterface.
-  url: "/services/spike-sorting/"
-  btn_class: "btn--primary"
-  btn_label: "Learn more"
 ---
 
 {% include feature_row type="wide"%}
+{% include feature_row id="feature_row1" type="wide" %}
 {% include feature_row id="feature_row2" type="wide" %}
 {% include feature_row id="feature_row3" type="wide" %}
 {% include feature_row id="feature_row4" type="wide" %}
