@@ -6,7 +6,7 @@ search: false
 $primary-color: #0468af; // Darker Blue
 $primary-color-dark: #09568e; // Darker shade of blue
 $primary-color-light: #2190c7; // Lighter shade of sky blue
-$secondary-color: #001288; // White
+$secondary-color: #ffffff; // White
 $background-color: #f2f7fb; // Pale blue background
 $text-color: #333333; // Dark gray text color
 
@@ -65,4 +65,9 @@ $text-color: #333333; // Dark gray text color
 
 .team-member-link {
     line-height: 0;
+}
+
+.footer {
+    background-color: rgb(0, 10, 97); /* Change the background color to sky blue */
+    color: white; /* Change the font color to white */
 }
