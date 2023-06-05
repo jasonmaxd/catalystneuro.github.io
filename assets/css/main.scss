@@ -37,6 +37,9 @@ search: false
 
 .team-member-details {
     flex: 1; /* Allow the details section to take up remaining space */
+    display: flex; /* Add flex display to allow for flex-direction */
+    flex-direction: column; /* Stack name, role, and bio vertically */
+    justify-content: flex-start; /* Align items to the left */
 }
 
 .team-member-name {
