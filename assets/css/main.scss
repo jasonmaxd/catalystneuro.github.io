@@ -27,6 +27,7 @@ search: false
     width: 100%;
     object-fit: cover;
     border-radius: 50%; /* This makes the image circular. */
+    flex-shrink: 0; /* Prevent the image from shrinking */
 }
 
 .team-member {
