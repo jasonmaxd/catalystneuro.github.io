@@ -29,6 +29,12 @@ search: false
     border-radius: 50%; /* This makes the image circular. */
 }
 
+.team-member {
+    height: auto; /* Allow the container to adjust its height based on content */
+    display: flex; /* Add flex display to allow for flex-direction */
+    align-items: flex-start; /* Align items to the top */
+}
+
 
 .team-member-name {
     font-size: 36px; /* Adjust to the desired size */
