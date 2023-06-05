@@ -51,6 +51,10 @@ search: false
     font-size: 24px; /* Adjust to the desired size */
 }
 
+.team-member-bio {
+    max-width: 100%; /* Set maximum width for the bio */
+}
+
 .team-member-link {
     line-height: 0;
 }
