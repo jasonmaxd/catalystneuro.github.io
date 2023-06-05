@@ -8,7 +8,7 @@ main:
     url: /projects/
   - title: "Services"
     url: /services/
-    children:
+    sublinks:
       - title: "NWB Conversion Pipelines"
         url: /services/nwb-conversion/
       - title: "Spike Sorting Pipelines"
