@@ -2,6 +2,13 @@
 # Only the main Sass file needs front matter (the dashes are enough)
 search: false
 ---
+// Color Variables
+$primary-color: #0077cc; // Darker Blue
+$primary-color-dark: #0468af; // Darker shade of blue
+$primary-color-light: #3babe3; // Lighter shade of sky blue
+$secondary-color: #ffffff; // White
+$background-color: #f5faff; // Pale blue background
+$text-color: #333333; // Dark gray text color
 
 @charset "utf-8";
 
