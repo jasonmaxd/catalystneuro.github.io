@@ -35,6 +35,9 @@ search: false
     align-items: flex-start; /* Align items to the top */
 }
 
+.team-member-details {
+    flex: 1; /* Allow the details section to take up remaining space */
+}
 
 .team-member-name {
     font-size: 36px; /* Adjust to the desired size */
