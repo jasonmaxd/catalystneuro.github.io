@@ -16,7 +16,8 @@
     {% endunless %}
   </ul>
 </div>
-  <div class="footer__links">
+<div class="footer-column">
+  <div class="footer-column-content">
     <ul class="footer__menu">
       <li><a href="/team">Team</a></li>
       <li><a href="/mission">Mission</a></li>
@@ -26,10 +27,14 @@
       <li><a href="/blog">Blog</a></li>
       <li><a href="/contact">Contact</a></li>
     </ul>
+    </div>
   </div>
-  <div class="footer__address">
-    <span>Catalyst Neuro</span><br>
-    <span>844 Rose Drive</span><br>
-    <span>Benicia, CA 94510</span><br>
+  <div class="footer-column">
+    <div class="footer-column-content">
+      <span>Catalyst Neuro</span><br>
+      <span>844 Rose Drive</span><br>
+      <span>Benicia, CA 94510</span><br>
+    </div>
+  </div>
 </div>
 <div class="page__footer-copyright">&copy; {{ site.time | date: '%Y' }} {{ site.name | default: site.title }}. {{ site.data.ui-text[site.locale].powered_by | default: "Powered by" }} <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
