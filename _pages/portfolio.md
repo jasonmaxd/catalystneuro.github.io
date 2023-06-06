@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: Blog
-permalink: /blog/
+title: Portfolio
+permalink: /portfolio/
 author_profile: true
 ---
