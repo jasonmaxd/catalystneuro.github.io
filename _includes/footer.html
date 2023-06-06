@@ -1,9 +1,10 @@
 <style>
   .site-footer {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     color: #ffffff;
-    font-size: 14px;
+    font-size: 20px;
     line-height: 1.5;
   }
 
@@ -14,6 +15,12 @@
 
   .footer-column a:hover {
     text-decoration: underline;
+  }
+
+  .page__footer-copyright {
+    clear: both;
+    text-align: left;
+    padding-top: 10px;
   }
 </style>
 
@@ -54,9 +61,10 @@
         {% endunless %}
       </ul>
     </div>
-    <div class="page__footer-copyright">
-      &copy; {{ site.time | date: '%Y' }} {{ site.name | default: site.title }}.
-      {{ site.data.ui-text[site.locale].powered_by | default: "Powered by" }} <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.
-    </div>
+  </div>
+
+  <div class="page__footer-copyright">
+    &copy; {{ site.time | date: '%Y' }} {{ site.name | default: site.title }}.
+    {{ site.data.ui-text[site.locale].powered_by | default: "Powered by" }} <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.
   </div>
 </footer>
