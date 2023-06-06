@@ -52,15 +52,18 @@ $text-color: #333333; // Dark gray text color
 
 .team-member-name {
     font-size: 36px; /* Adjust to the desired size */
+    font-family: "Verdana", sans-serif;
     margin-bottom: 0; /* This eliminates extra space below the name */
 }
 
 .team-member-role {
     font-size: 24px; /* Adjust to the desired size */
+    font-family: "Verdana", sans-serif;
 }
 
 .team-member-bio {
     max-width: 100%; /* Set maximum width for the bio */
+    font-family: "Verdana", sans-serif;
 }
 
 .team-member-link {
