@@ -9,7 +9,7 @@
   margin-right: 0;
   width: 100%;
   margin-top: 3em;
-  color: #7a8288;
+  color: $muted-text-color;
   -webkit-animation: $intro-transition;
   animation: $intro-transition;
   -webkit-animation-delay: 0.45s;
@@ -50,6 +50,16 @@
 .page__footer-copyright {
   font-family: $global-font-family;
   font-size: $type-size-7;
+}
+
+.site-footer .container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.site-footer .footer-left,
+.site-footer .footer-right {
+  width: 48%;
 }
 
 .page__footer-follow {
