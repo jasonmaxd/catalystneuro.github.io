@@ -1,11 +1,16 @@
 <style>
   .site-footer {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    flex-direction: column;
     color: #ffffff;
     font-size: 20px;
     line-height: 1.5;
+  }
+
+  .footer-columns {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
   }
 
   .footer-column {
@@ -18,48 +23,48 @@
   }
 
   .page__footer-copyright {
-    clear: both;
     text-align: left;
-    padding-top: 10px;
   }
 </style>
 
 <footer class="site-footer">
-  <div class="footer-column">
-    <ul class="footer__menu">
-      <li><a href="/team">Team</a></li>
-      <li><a href="/mission">Mission</a></li>
-      <li><a href="/software">Software</a></li>
-      <li><a href="/services">Services</a></li>
-      <li><a href="/projects">Projects</a></li>
-      <li><a href="/blog">Blog</a></li>
-      <li><a href="/contact">Contact</a></li>
-    </ul>
-  </div>
-
-  <div class="footer-column">
-    <div class="footer-right">
-      <span>Catalyst Neuro</span><br>
-      <span>844 Rose Drive</span><br>
-      <span>Benicia, CA 94510</span><br>
-    </div>
-    <div class="page__footer-follow">
-      <ul class="social-icons">
-        {% if site.data.ui-text[site.locale].follow_label %}
-          <li><strong>{{ site.data.ui-text[site.locale].follow_label }}</strong></li>
-        {% endif %}
-
-        {% if site.footer.links %}
-          {% for link in site.footer.links %}
-            {% if link.label and link.url %}
-              <li><a href="{{ link.url }}" rel="nofollow noopener noreferrer"><i class="{{ link.icon | default: 'fas fa-link' }}" aria-hidden="true"></i> {{ link.label }}</a></li>
-            {% endif %}
-          {% endfor %}
-        {% endif %}
-        {% unless site.atom_feed.hide %}
-          <li><a href="{% if site.atom_feed.path %}{{ site.atom_feed.path }}{% else %}{{ '/feed.xml' | relative_url }}{% endif %}"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].feed_label | default: "Feed" }}</a></li>
-        {% endunless %}
+  <div class="footer-columns">
+    <div class="footer-column">
+      <ul class="footer__menu">
+        <li><a href="/team">Team</a></li>
+        <li><a href="/mission">Mission</a></li>
+        <li><a href="/software">Software</a></li>
+        <li><a href="/services">Services</a></li>
+        <li><a href="/projects">Projects</a></li>
+        <li><a href="/blog">Blog</a></li>
+        <li><a href="/contact">Contact</a></li>
       </ul>
+    </div>
+
+    <div class="footer-column">
+      <div class="footer-right">
+        <span>Catalyst Neuro</span><br>
+        <span>844 Rose Drive</span><br>
+        <span>Benicia, CA 94510</span><br>
+      </div>
+      <div class="page__footer-follow">
+        <ul class="social-icons">
+          {% if site.data.ui-text[site.locale].follow_label %}
+            <li><strong>{{ site.data.ui-text[site.locale].follow_label }}</strong></li>
+          {% endif %}
+
+          {% if site.footer.links %}
+            {% for link in site.footer.links %}
+              {% if link.label and link.url %}
+                <li><a href="{{ link.url }}" rel="nofollow noopener noreferrer"><i class="{{ link.icon | default: 'fas fa-link' }}" aria-hidden="true"></i> {{ link.label }}</a></li>
+              {% endif %}
+            {% endfor %}
+          {% endif %}
+          {% unless site.atom_feed.hide %}
+            <li><a href="{% if site.atom_feed.path %}{{ site.atom_feed.path }}{% else %}{{ '/feed.xml' | relative_url }}{% endif %}"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].feed_label | default: "Feed" }}</a></li>
+          {% endunless %}
+        </ul>
+      </div>
     </div>
   </div>
 
