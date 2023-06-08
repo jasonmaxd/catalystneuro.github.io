@@ -17,7 +17,7 @@ author_profile: false
   }
 
   post-description {
-    margin-top: 2.5px;
+    margin-top: 0;
     margin-bottom: 5px;
   }
 
