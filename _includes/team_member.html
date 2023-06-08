@@ -1,9 +1,12 @@
 <style>
-    .team-member:not(:last-child) {
+    .team-member {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .border {
         border-bottom: 1px solid #515151;
-        padding-bottom: 20px;
-        margin-top: 20px;
-        margin-bottom: 20px;
+        margin-top: 20px; /* Adjust the spacing as needed */
     }
     .team-member a:hover svg {
         transform: scale(1.25);
@@ -106,6 +109,7 @@
                 <br><span>{{member.other}}: <a href="{{ member.link2 }}" class="team-member-link">{{ member.link2 }}</a></span><br>
             {% endif %}
             </div>
+            <div class="border"></div>
         </div>
     </div>
 </div>
