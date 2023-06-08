@@ -17,7 +17,7 @@ author_profile: false
   }
 
   .post-description {
-    margin-bottom: 10px;
+    
   }
   .post-role{
     font-size: 1.1em;
@@ -63,12 +63,10 @@ author_profile: false
     {% else %}
       <span class="post-type other-type">Other</span>
     {% endif %}
-    {% if show_date %}
-        <span class="post-date">{{ post.date | date_to_string }}</span>
-    {% endif %}
+    <span class="post-date">{{ post.date | date_to_string }}</span>
     <h2 class="post-title"><a href="{{ post.url }}">{{ post.title }}</a></h2>
     {% if post.role %}
-        <p class="post-role">Role: {{ post.role }}</p>
+        <p class="post-role"><strong>Role:</strong> {{ post.role }}</p>
     {% endif %}
     <p class="post-description">{% if post.excerpt %}{{ post.excerpt | markdownify | strip_html | truncate: 120 }}{% endif %}</p>
   </div>
