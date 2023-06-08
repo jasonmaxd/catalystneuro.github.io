@@ -14,8 +14,8 @@ header:
 
 {% for member in sorted_members %}
     {% include team_member.html member=member %}
-    {% if forloop.index < total_members %}
-        <hr style="border-bottom: 1px solid #5e616c;">
-    {% endif %}
+    {% unless forloop.last %}
+        <div style="border-bottom: 1px solid #5e616c;"></div>
+    {% endunless %}
 {% endfor %}
 </html>
