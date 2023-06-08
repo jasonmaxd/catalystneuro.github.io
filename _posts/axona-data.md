@@ -2,6 +2,8 @@
 layout: single
 title: "Axona Data Processing Columbia University"
 categories: blog
+date: 2020-02-24
+show_date: false
 author: CatalystNeuro
 classes: wide
 type: project
