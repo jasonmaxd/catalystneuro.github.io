@@ -10,8 +10,12 @@ header:
 
 <html>
 {% assign sorted_members = site.team | sort: 'order' %}
+{% assign total_members = sorted_members | size %}
 
 {% for member in sorted_members %}
     {% include team_member.html member=member %}
+    {% unless forloop.last %}
+        <hr style="border-bottom: 1px solid #ccc;">
+    {% endunless %}
 {% endfor %}
 </html>
