@@ -21,6 +21,8 @@ author_profile: false
   }
   .post-role{
     font-size: 1.1em;
+    margin-bottom: 2px;
+    margin-top: 2px;
   }
 
   .post-type {
@@ -61,7 +63,9 @@ author_profile: false
     {% else %}
       <span class="post-type other-type">Other</span>
     {% endif %}
-    <span class="post-date">{{ post.date | date_to_string }}</span>
+    {% if show_date %}
+        <span class="post-date">{{ post.date | date_to_string }}</span>
+    {% endif %}
     <h2 class="post-title"><a href="{{ post.url }}">{{ post.title }}</a></h2>
     {% if post.role %}
         <p class="post-role">Role: {{ post.role }}</p>
