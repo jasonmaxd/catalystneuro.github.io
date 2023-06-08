@@ -66,7 +66,9 @@ author_profile: false
     {% else %}
       <span class="post-type other-type">Other</span>
     {% endif %}
+    {% if show_date %}
     <span class="post-date">{{ post.date | date_to_string }}</span>
+    {% endif %}
     <h2 class="post-title"><a href="{{ post.url }}">{{ post.title }}</a></h2>
     {% if post.role %}
         <p class="post-role">Role: {{ post.role }}</p>
