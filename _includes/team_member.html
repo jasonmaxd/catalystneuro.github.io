@@ -73,19 +73,8 @@
 </div>
 
 <script>
-    const teamMembersContainer = document.getElementById('team-members-container');
-    const imageContainers = teamMembersContainer.getElementsByClassName('image-container');
-    const bioContainers = teamMembersContainer.getElementsByClassName('bio-container');
-
-    for (let i = 0; i < imageContainers.length; i++) {
-        imageContainers[i].addEventListener('click', function () {
-            for (let j = 0; j < bioContainers.length; j++) {
-                if (j === i) {
-                    bioContainers[j].classList.toggle('hidden');
-                } else {
-                    bioContainers[j].classList.add('hidden');
-                }
-            }
-        });
+    function toggleBio(container) {
+        const bioContainer = container.nextElementSibling;
+        bioContainer.classList.toggle('hidden');
     }
 </script>
