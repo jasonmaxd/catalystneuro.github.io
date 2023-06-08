@@ -115,20 +115,16 @@
     function toggleBio(image) {
         const teamMember = image.closest('.team-member');
         const bioContainer = teamMember.querySelector('.bio-container');
-        
+
         // Hide all other team member bios
         const allBioContainers = document.querySelectorAll('.bio-container');
         allBioContainers.forEach(container => {
             if (container !== bioContainer) {
-                container.style.display = 'none';
+                container.classList.remove('visible');
             }
         });
-        
+
         // Toggle the clicked team member's bio visibility
-        if (bioContainer.style.display === 'none') {
-            bioContainer.style.display = 'block';
-        } else {
-            bioContainer.style.display = 'none';
-        }
+        bioContainer.classList.toggle('visible');
     }
 </script>
