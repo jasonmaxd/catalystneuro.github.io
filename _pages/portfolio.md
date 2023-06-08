@@ -63,7 +63,9 @@ author_profile: false
     {% endif %}
     <span class="post-date">{{ post.date | date_to_string }}</span>
     <h2 class="post-title"><a href="{{ post.url }}">{{ post.title }}</a></h2>
-    <p class="post-role">Role: {{ post.role }}</p>
+    {% if post.role %}
+        <p class="post-role">Role: {{ post.role }}</p>
+    {% endif %}
     <p class="post-description">{% if post.excerpt %}{{ post.excerpt | markdownify | strip_html | truncate: 120 }}{% endif %}</p>
   </div>
 {% endfor %}
