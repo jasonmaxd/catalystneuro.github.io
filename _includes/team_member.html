@@ -1,6 +1,6 @@
 <style>
     .team-member:not(:last-child) {
-        border-bottom: 1px solid #ccc;
+        border-bottom: 1px solid #888888;
         padding-bottom: 20px;
         margin-bottom: 20px;
     }
@@ -107,7 +107,6 @@
             </div>
         </div>
     </div>
-    <!-- Repeat the above code for each team member -->
 </div>
 
 <script>
@@ -115,7 +114,6 @@
         const teamMember = image.closest('.team-member');
         const bioContainer = teamMember.querySelector('.bio-container');
 
-        // Hide all other team member bios
         const allBioContainers = document.querySelectorAll('.bio-container');
         allBioContainers.forEach(container => {
             if (container !== bioContainer) {
@@ -123,7 +121,6 @@
             }
         });
 
-        // Toggle the clicked team member's bio visibility
         bioContainer.classList.toggle('visible');
     }
 </script>
