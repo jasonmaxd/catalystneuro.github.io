@@ -64,7 +64,7 @@
         <div>
             <b class="team-member-name">{{ member.name }}</b><br>
             <b class="team-member-role">{{ member.role }}</b>
-            <div class="bio-container">
+            <div class="bio-container {% if member.visible %}visible{% endif %}">
                 <p>{{ member.bio }}</p>
                 {% if member.github %}
                 <a href="{{ member.github }}" target="_blank" rel="noreferrer" class="px-1" aria-label="Github">

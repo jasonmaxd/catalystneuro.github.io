@@ -9,5 +9,6 @@ publications: https://orcid.org/0000-0001-5725-6910
 website: https://bendichter.com
 contact: ben.dichter@catalystneuro.com
 order: 1
+visible: true
 ---
 
