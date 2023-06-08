@@ -16,13 +16,16 @@ author_profile: false
     margin: 5px 0;
   }
 
-  .post-description {
-    
+  post-description {
+    margin-top: 2.5px;
+    margin-bottom: 5px;
   }
-  .post-role{
+
+  .post-role {
     font-size: 1.1em;
-    margin-bottom: 2px;
-    margin-top: 2px;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 2.5px;
   }
 
   .post-type {
@@ -66,7 +69,7 @@ author_profile: false
     <span class="post-date">{{ post.date | date_to_string }}</span>
     <h2 class="post-title"><a href="{{ post.url }}">{{ post.title }}</a></h2>
     {% if post.role %}
-        <p class="post-role"><strong>Role:</strong> {{ post.role }}</p>
+        <p class="post-role">Role: {{ post.role }}</p>
     {% endif %}
     <p class="post-description">{% if post.excerpt %}{{ post.excerpt | markdownify | strip_html | truncate: 120 }}{% endif %}</p>
   </div>
