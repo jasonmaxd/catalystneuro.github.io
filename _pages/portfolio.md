@@ -20,9 +20,28 @@ author_profile: false
     margin-bottom: 10px;
   }
 
-  .post-tags {
+  .post-type {
+    display: inline-block;
     font-size: 0.8em;
-    color: #666;
+    font-weight: bold;
+    padding: 2px 5px;
+    border-radius: 4px;
+    margin-right: 5px;
+  }
+
+  .blog-type {
+    background-color: #ffa500;
+    color: #fff;
+  }
+
+  .project-type {
+    background-color: #008000;
+    color: #fff;
+  }
+
+  .other-type {
+    background-color: #808080;
+    color: #fff;
   }
 </style>
 
@@ -32,9 +51,15 @@ author_profile: false
 
 {% for post in sorted %}
   <div class="post">
+    {% if post.type == 'blog' %}
+      <span class="post-type blog-type">Blog</span>
+    {% elsif post.type == 'project' %}
+      <span class="post-type project-type">Project</span>
+    {% else %}
+      <span class="post-type other-type">Other</span>
+    {% endif %}
     <span class="post-date">{{ post.date | date_to_string }}</span>
     <h2 class="post-title"><a href="{{ post.url }}">{{ post.title }}</a></h2>
     <p class="post-description">{% if post.excerpt %}{{ post.excerpt | markdownify | strip_html | truncate: 120 }}{% endif %}</p>
-    <p class="post-tags">{% if post.tags %}Tags: {% for tag in post.tags %}<span class="tag">{{ tag }}</span> {% endfor %}{% endif %}</p>
   </div>
 {% endfor %}
