@@ -54,9 +54,6 @@ author_profile: false
 </style>
 
 <h1>{{ page.title }}</h1>
-{% if post.subtitle %}
-<h2 class="post-subtitle">{{ post.subtitle }}</h2>
-{% endif %}
 
 {% assign sorted = site.posts | reverse %}
 
@@ -73,6 +70,9 @@ author_profile: false
     <span class="post-date">{{ post.date | date_to_string }}</span>
     {% endif %}
     <h2 class="post-title"><a href="{{ post.url }}">{{ post.title }}</a></h2>
+    {% if post.subtitle %}
+    <h4 class="post-subtitle">{{ post.subtitle }}</h4>
+    {% endif %}
     {% if post.role %}
         <p class="post-role">Role: {{ post.role }}</p>
     {% endif %}
