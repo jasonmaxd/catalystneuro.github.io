@@ -14,12 +14,12 @@ author_profile: false
   .post-title {
     font-size: 1.2em;
     margin-top: 0.1em;
-    margin-bottom: 0.2em;
+    margin-bottom: 0.1em;
   }
   
   .post-subtitle {
     font-size: 1em;
-    margin-top: 0;
+    margin-top: 0.1em;
     margin-bottom: 0.5em;
   }
 
