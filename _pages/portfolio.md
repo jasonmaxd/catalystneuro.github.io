@@ -22,7 +22,7 @@ author_profile: false
   }
 
   .post-role {
-    font-size: 1.1em;
+    font-size: 1em;
     font-weight: bold;
     margin-top: 0;
     margin-bottom: 2.5px;
@@ -54,6 +54,9 @@ author_profile: false
 </style>
 
 <h1>{{ page.title }}</h1>
+{% if post.subtitle %}
+<h2 class="post-subtitle">{{ post.subtitle }}</h2>
+{% endif %}
 
 {% assign sorted = site.posts | reverse %}
 
