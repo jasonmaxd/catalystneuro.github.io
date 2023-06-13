@@ -11,8 +11,8 @@ type: project
 ---
 
 We help the systems neuroscience community adopt NWB:N 2.0 through triaging issues, core development, and community engagement like organizing hackathons and writing the newsletter. This contract funds consulting for labs to help with NWB:N 2.0 adoption. Until February 1, 2021 I am able to provide the following services free of charge:
-    - Discuss how NWB adoption could accelerate scientific discovery in your lab and help determine if NWB is appropriate for you.
-    - Help to create a project plan for NWB adoption into your labs ecosystem.  I can help determine what analysis and conversion tools and extensions would be relevant for you.
-    - Review pre-released NWB files for compliance with the NWB schema and best practices.
+- Discuss how NWB adoption could accelerate scientific discovery in your lab and help determine if NWB is appropriate for you.
+- Help to create a project plan for NWB adoption into your labs ecosystem.  I can help determine what analysis and conversion tools and extensions would be relevant for you.
+- Review pre-released NWB files for compliance with the NWB schema and best practices.
 
 <strong>Collaboration with: Lawrence Berkeley National Laboratory<strong>
