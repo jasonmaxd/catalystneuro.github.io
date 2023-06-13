@@ -27,13 +27,6 @@ author_profile: false
     margin-bottom: 5px;
   }
 
-  .post-role {
-    font-size: 1em;
-    font-weight: bold;
-    margin-top: 0;
-    margin-bottom: 2.5px;
-  }
-
   .post-type {
     display: inline-block;
     font-size: 0.8em;
@@ -78,9 +71,6 @@ author_profile: false
     <h2 class="post-title"><a href="{{ post.url }}">{{ post.title }}</a></h2>
     {% if post.subtitle %}
     <h4 class="post-subtitle">{{ post.subtitle }}</h4>
-    {% endif %}
-    {% if post.role %}
-        <p class="post-role">Role: {{ post.role }}</p>
     {% endif %}
     <p class="post-description">{% if post.excerpt %}{{ post.excerpt | markdownify | strip_html | truncate: 120 }}{% endif %}</p>
   </div>
