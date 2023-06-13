@@ -13,6 +13,7 @@ author_profile: false
 
   .post-title {
     font-size: 1.2em;
+    margin-top: 0.1em;
     margin-bottom: 0.2em;
   }
   
@@ -34,6 +35,7 @@ author_profile: false
     padding: 2px 5px;
     border-radius: 4px;
     margin-right: 5px;
+    margin-bottom: 0.1em;
   }
 
   .blog-type {
