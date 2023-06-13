@@ -56,7 +56,7 @@ author_profile: false
 
 <h1>{{ page.title }}</h1>
 
-{% assign sorted = site.posts | reverse %}
+{% assign sorted = site.posts %}
 
 {% for post in sorted %}
   <div class="post">
