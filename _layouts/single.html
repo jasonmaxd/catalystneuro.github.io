@@ -22,7 +22,7 @@ layout: default
   {% include sidebar.html %}
 
   <article class="page h-entry" itemscope itemtype="https://schema.org/CreativeWork">
-    {% if page.title %}<meta itemprop="headline" content="{{ page.title | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
+    {% if page.title %}<h1 itemprop="headline">{{ page.title | markdownify | strip_html | strip_newlines | escape_once }}"</h1>{% endif %}
     {% if page.subtitle %}<h2 itemprop="alternativeHeadline">{{ page.subtitle }}</h2>{% endif %}
     {% if page.thumbnail %}<meta itemprop="thumbnail" content="{{ page.thumbnail }}">{% endif %}
     {% if page.excerpt %}<meta itemprop="description" content="{{ page.excerpt | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
