@@ -22,7 +22,7 @@ feature_row1:
       - LBNL
 feature_row2:
 - title: "NWB Inspector"
-  imagepath: '/assets/images/inspector.png'
+  image_path: /assets/images/inspector.png
   excerpt: |
     NWB Inspector is a tool that scans NWB files for potential errors and areas of improvement, generating a comprehensive report.
     ### Collaborators
