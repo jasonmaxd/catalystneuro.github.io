@@ -75,7 +75,14 @@ $text-color: #333333; // Dark gray text color
     padding-right: 1px;
 }
 
-.custom-image {
+.image-container {
     width: 50%;
-    /* Adjust the size as needed */
-  }
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+  .custom-image {
+    max-width: 100%;
+    height: auto;
+}
