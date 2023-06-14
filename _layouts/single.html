@@ -14,6 +14,10 @@ layout: default
 .page__excerpt {
   margin-top: 0.25em;
 }
+
+.page__thumbnail {
+  margin-bottom: 0.25em;
+}
 </style>
 
 {% if page.header.overlay_color or page.header.overlay_image or page.header.image %}
@@ -39,7 +43,7 @@ layout: default
     {% if page.title %}<h1 itemprop="headline" class="page__title">{{ page.title }}</h1>{% endif %}
     {% if page.subtitle %}<h3 itemprop="alternativeHeadline" class="page__subtitle">{{ page.subtitle }}</h3>{% endif %}
     {% if page.thumbnail %}
-    <meta itemprop="thumbnail" content="{{ page.thumbnail }}">
+    <meta class="page__thumbnail" itemprop="thumbnail" content="{{ page.thumbnail }}">
     <img src="{{ page.thumbnail }}" alt="Thumbnail Image">
     {% endif %}
     {% if page.excerpt %}<meta itemprop="description" content="{{ page.excerpt | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
