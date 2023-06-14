@@ -8,6 +8,7 @@ show_date: false
 author: CatalystNeuro
 classes: wide
 type: project
+thumbnail: "/assets/images/simons-foundation.png"
 ---
 
 This pilot project with the Simons Foundation is aimed at helping labs adopt NWB while building and publicly releasing tools that will help other labs with the transition. This initial pilot included:
