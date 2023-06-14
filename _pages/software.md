@@ -14,6 +14,7 @@ feature_row:
 feature_row1:
 - title: "NeuroConv"
   image_path: /assets/images/neuroconv_logo.png
+  image_size: 50%
   excerpt: |
     NeuroConv is a library that automates the conversion from proprietary neurophysiology data formats to NWB.
     ### Collaborators: 
