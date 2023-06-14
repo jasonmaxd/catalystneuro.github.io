@@ -14,7 +14,7 @@ feature_row:
 feature_row1:
 - title: "NeuroConv"
   image_path: /assets/images/neuroconv_logo.png
-  image_size: 50%
+  image_size: 
   excerpt: |
     NeuroConv is a library that automates the conversion from proprietary neurophysiology data formats to NWB.
     ### Collaborators: 
@@ -40,3 +40,11 @@ feature_row4:
 {% include feature_row id="feature_row2" type="left" %}
 {% include feature_row id="feature_row3" type="wide" %}
 {% include feature_row id="feature_row4" type="wide" %}
+
+{% for feature in page.feature_row %}
+  <div class="feature-row">
+    <h2>{{ feature.title }}</h2>
+    <img src="{{ feature.image_path }}" class="custom-image" alt="">
+    <p>{{ feature.excerpt }}</p>
+  </div>
+{% endfor %}
