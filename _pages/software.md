@@ -58,7 +58,7 @@ feature_row4:
 .custom-image {
   height: auto;
   max-height: 100%;
-  max-width: 50%;
+  max-width: 25%;
   margin-right: 20px;
 }
 </style>
