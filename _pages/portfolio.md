@@ -54,6 +54,7 @@ author_profile: false
   }
 </style>
 
+<h1>{{ page.title }}</h1>
 
 {% assign sorted = site.posts %}
 
