@@ -13,13 +13,11 @@ feature_row:
     CatalystNeuro aims to accelerate the rate of scientific discovery by building open source solutions that bring data and software engineering solutions to neuroscience labs, and address the practical problems of researchers in the field. We integrate deeply with codebases across the open source community, so many of our contributions are in repositories that are part of other organizations.
 feature_row1:
 - title: "NeuroConv"
+  image_path: /assets/images/neuroconv_logo.png
   excerpt: |
     NeuroConv is a library that automates the conversion from proprietary neurophysiology data formats to NWB.
-    ### Collaborators
-      - DANDI
-      - MIT
-      - NWB
-      - LBNL
+    ### Collaborators: 
+    DANDI, MIT, NWB, LBNL
 feature_row2:
 - title: "NWB Inspector"
   image_path: /assets/images/inspector.png
@@ -37,7 +35,7 @@ feature_row4:
 ---
 
 {% include feature_row type="wide"%}
-{% include feature_row id="feature_row1" type="wide" %}
+{% include feature_row id="feature_row1" type="right" %}
 {% include feature_row id="feature_row2" type="left" %}
 {% include feature_row id="feature_row3" type="wide" %}
 {% include feature_row id="feature_row4" type="wide" %}
