@@ -44,7 +44,21 @@ feature_row4:
 {% for feature in page.feature_row %}
   <div class="feature-row">
     <h2>{{ feature.title }}</h2>
-    <img src="{{ feature.image_path }}" class="custom-image" alt="">
+    <img src="{{ feature.image_path }}" class="custom-image" alt="{{ feature.image_caption }}">
     <p>{{ feature.excerpt }}</p>
   </div>
 {% endfor %}
+
+<style>
+.feature-row {
+  display: flex;
+  align-items: center;
+}
+
+.custom-image {
+  height: auto;
+  max-height: 100%;
+  max-width: 50%;
+  margin-right: 20px;
+}
+</style>
