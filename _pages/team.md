@@ -1,6 +1,6 @@
 ---
 layout: splash
-title: "<span style='font-weight: normal;'>Our</span><span>Team</span>"
+title: "<span style='font-weight: normal;'>Our</span><span><b>Team</b></span>"
 permalink: /team/
 collection: team
 header:
