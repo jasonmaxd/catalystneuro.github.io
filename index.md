@@ -2,6 +2,7 @@
 layout: splash
 permalink: /
 hidden: true
+title: Catalyst Neuro
 header:
   overlay_color: "#5e616c"
   overlay_image: /assets/images/splash_banner.jpeg
