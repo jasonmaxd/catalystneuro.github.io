@@ -15,7 +15,7 @@ feature_row:
     title: "<span style='font-family: Verdana, sans-serif; margin-bottom: 10px; font-weight: normal;'>Our <b>Mission</b></span>"
     url: "/mission/"
     btn_class: "btn--primary"
-    btn_label: "Learn more"
+    btn_label: "<span style='font-family: Verdana, sans-serif;'>Learn more</span>"
 ---
 
 {% include feature_row type="left" %}
