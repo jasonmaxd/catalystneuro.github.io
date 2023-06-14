@@ -25,11 +25,8 @@ feature_row2:
   image_path: /assets/images/inspector.png
   excerpt: |
     NWB Inspector is a tool that scans NWB files for potential errors and areas of improvement, generating a comprehensive report.
-    ### Collaborators
-      - DANDI
-      - MIT
-      - NWB
-      - LBNL
+    ### Collaborators: 
+    DANDI, MIT, NWB, LBNL
 feature_row3:
 - title: "NWB Guide"
   excerpt: NWB GUIDE is a graphical user interface (GUI) that offers a code-free solution for conversion to NWB (currently in progress).
