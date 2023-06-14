@@ -8,7 +8,7 @@ sidebar:
 header:
   overlay_color: "#5e616c"
   overlay_image: /assets/images/neuro-software.jpg
-feature_row:
+feature_row_main:
 - excerpt: |
     CatalystNeuro aims to accelerate the rate of scientific discovery by building open source solutions that bring data and software engineering solutions to neuroscience labs, and address the practical problems of researchers in the field. We integrate deeply with codebases across the open source community, so many of our contributions are in repositories that are part of other organizations.
 feature_row1:
@@ -35,7 +35,7 @@ feature_row4:
     SpikeInterface.
 ---
 
-{% include feature_row type="wide"%}
+{% include feature_row id="feature_row_main" type="wide" %}
 {% include feature_row id="feature_row1" type="right" %}
 {% include feature_row id="feature_row2" type="left" %}
 {% include feature_row id="feature_row3" type="wide" %}
