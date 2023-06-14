@@ -2,7 +2,7 @@
 layout: splash
 permalink: /
 hidden: true
-title: "<span style='text-align: center; font-family: Verdana, sans-serif; margin-bottom: 10px; font-weight: normal;'>CATALYST</span><br><span style='text-align: center; font-family: Arial, sans-serif;'></span>"
+title: "<span style='text-align: center; font-family: Verdana, sans-serif; margin-bottom: 10px; font-weight: normal;'>CATALYST</span><br><span style='text-align: center; font-family: Arial, sans-serif;'>NEURO</span>"
 header:
   overlay_color: "#5e616c"
   overlay_image: /assets/images/splash_banner.jpeg
