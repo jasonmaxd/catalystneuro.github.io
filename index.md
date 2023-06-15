@@ -16,6 +16,22 @@ feature_row:
     url: "/mission/"
     btn_class: "btn--primary"
     btn_label: "<span style='font-family: Helvetica, sans-serif;'>Learn more</span>"
+feature_row_gallery:
+  - title: "Our Portfolio"
+    excerpt: "We help neuroscientists utilize state-of-the-art tools in data analysis, visualization, organization, sharing, and publishing."
 ---
 
 {% include feature_row type="left" %}
+{% for feature in page.feature_row_gallery %}
+  <div class="feature-row">
+    <h2>{{ feature.title }}</h2>
+    <p>{{ feature.excerpt }}</p>
+    <ul class="image-gallery">
+      {% for i in (1..6) %}
+        <li>
+          <img src="{{ '/assets/images/slide-' | append: i | append: '.jpg' }}" alt="Image {{ i }}">
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
+{% endfor %}

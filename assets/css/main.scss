@@ -79,3 +79,19 @@ $text-color: #333333; // Dark gray text color
     max-width: 20%; /* Adjust the value as needed */
     margin: 0 auto; /* Center the image horizontally */
   }
+.image-gallery {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+.image-gallery li {
+    flex: 1;
+    margin: 10px;
+  }
+  
+.image-gallery img {
+    width: 100%;
+    height: auto;
+  }
