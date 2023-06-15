@@ -17,7 +17,7 @@ feature_row:
     btn_class: "btn--primary"
     btn_label: "<span style='font-family: Helvetica, sans-serif;'>Learn more</span>"
 feature_row_gallery:
-  - title: "Our Portfolio"
+  - title: "<span style='font-family: Verdana, sans-serif; margin-bottom: 10px; font-weight: normal;'>Our <b>Portfolio</b></span>"
     excerpt: "We help neuroscientists utilize state-of-the-art tools in data analysis, visualization, organization, sharing, and publishing."
 ---
 
@@ -41,43 +41,43 @@ feature_row_gallery:
         <div class="image-overlay">
           <div class="image-overlay-content">
             <p>{{ feature.image_excerpts[1] }}</p>
-            <a href="{{ feature.image_links[1] }}" class="btn {{ feature.btn_classes[1] }}">{{ feature.btn_labels[1] }}</a>
+            <a href="{{ '/project/data-engineering-speech/' }}" class="btn {{ feature.btn_classes[1] }}">Learn More</a>
           </div>
         </div>
       </div>
       <div class="image-grid-item">
-        <img src="{{ '/assets/images/portfolio/slide-3.jpg' }}" alt="Image 1">
+        <img src="{{ '/assets/images/portfolio/slide-3.jpg' }}" alt="Image 3">
         <div class="image-overlay">
           <div class="image-overlay-content">
             <p>{{ feature.image_excerpts[0] }}</p>
-            <a href="{{ feature.image_links[0] }}" class="btn {{ feature.btn_classes[0] }}">{{ feature.btn_labels[0] }}</a>
+            <a href="{{ '/project/data-science-core/' }}" class="btn {{ feature.btn_classes[2] }}">Learn More</a>
           </div>
         </div>
       </div>
       <div class="image-grid-item">
-        <img src="{{ '/assets/images/portfolio/slide-4.jpg' }}" alt="Image 2">
+        <img src="{{ '/assets/images/portfolio/slide-4.jpg' }}" alt="Image 4">
         <div class="image-overlay">
           <div class="image-overlay-content">
             <p>{{ feature.image_excerpts[1] }}</p>
-            <a href="{{ feature.image_links[1] }}" class="btn {{ feature.btn_classes[1] }}">{{ feature.btn_labels[1] }}</a>
+            <a href="{{ '/project/data-standardization/' }}" class="btn {{ feature.btn_classes[3] }}">Learn More</a>
           </div>
         </div>
       </div>
       <div class="image-grid-item">
-        <img src="{{ '/assets/images/portfolio/slide-5.jpg' }}" alt="Image 1">
+        <img src="{{ '/assets/images/portfolio/slide-5.jpg' }}" alt="Image 5">
         <div class="image-overlay">
           <div class="image-overlay-content">
             <p>{{ feature.image_excerpts[0] }}</p>
-            <a href="{{ feature.image_links[0] }}" class="btn {{ feature.btn_classes[0] }}">{{ feature.btn_labels[0] }}</a>
+            <a href="{{ '/project/interactive-data/' }}" class="btn {{ feature.btn_classes[4] }}">Learn More</a>
           </div>
         </div>
       </div>
       <div class="image-grid-item">
-        <img src="{{ '/assets/images/portfolio/slide-6.jpg' }}" alt="Image 2">
+        <img src="{{ '/assets/images/portfolio/slide-6.jpg' }}" alt="Image 6">
         <div class="image-overlay">
           <div class="image-overlay-content">
             <p>{{ feature.image_excerpts[1] }}</p>
-            <a href="{{ feature.image_links[1] }}" class="btn {{ feature.btn_classes[1] }}">{{ feature.btn_labels[1] }}</a>
+            <a href="{{ '/project/nwb-dissemination/' }}" class="btn {{ feature.btn_classes[5] }}">Learn More</a>
           </div>
         </div>
       </div>
