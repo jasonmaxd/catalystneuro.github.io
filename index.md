@@ -20,6 +20,7 @@ feature_row_gallery:
   - title: "<span style='font-family: Verdana, sans-serif; margin-bottom: 10px; font-weight: normal;'>Our <b>Portfolio</b></span>"
     excerpt: "We help neuroscientists utilize state-of-the-art tools in data analysis, visualization, organization, sharing, and publishing."
 feature_row_bottom:
+  - title: "<span style='font-family: Verdana, sans-serif; margin-bottom: 10px; font-weight: normal;'>Our <b>Reach</b></span>"
 
 ---
 
@@ -86,8 +87,12 @@ feature_row_bottom:
     </div>
   </div>
 {% endfor %}
-<div class="feature-row">
-  <div class="gif-container">
-    <img src="/assets/images/bottom.gif" alt="Bottom GIF">
+
+{% for feature in page.feature_row_bottom %}
+  <div class="feature-row">
+    <h2>{{ feature.title }}</h2>
+    <div class="gif-container" style="display: flex; justify-content: center; align-items: center;">
+      <img src="/assets/images/bottom.gif" alt="Bottom GIF">
+    </div>
   </div>
-</div>
+{% endfor %}
