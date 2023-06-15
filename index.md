@@ -32,7 +32,7 @@ feature_row_gallery:
         <div class="image-overlay">
           <div class="image-overlay-content">
             <p>{{ feature.image_excerpts[0] }}</p>
-            <a href="{{ '/_pages/_posts/2020-01-01-dandi.md' }}" class="btn {{ feature.btn_classes[0] }}">Learn More</a>
+            <a href="{{ '/project/dandi/' }}" class="btn {{ feature.btn_classes[0] }}">Learn More</a>
           </div>
         </div>
       </div>
