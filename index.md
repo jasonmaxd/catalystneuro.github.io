@@ -27,7 +27,7 @@ feature_row_bottom:
 {% include feature_row type="left" %}
 {% for feature in page.feature_row_gallery %}
   <div class="feature-row">
-    <h2>{{ feature.title }}</h2>
+    <h1>{{ feature.title }}</h1>
     <p>{{ feature.excerpt }}</p>
     <div class="image-grid">
       <div class="image-grid-item">
@@ -90,7 +90,7 @@ feature_row_bottom:
 
 {% for feature in page.feature_row_bottom %}
   <div class="feature-row">
-    <h2>{{ feature.title }}</h2>
+    <h1 style="text-align: center;">{{ feature.title }}</h1>
     <div class="gif-container" style="display: flex; justify-content: center; align-items: center;">
       <img src="/assets/images/bottom.gif" alt="Bottom GIF">
     </div>
