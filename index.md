@@ -26,12 +26,12 @@ feature_row_gallery:
   <div class="feature-row">
     <h2>{{ feature.title }}</h2>
     <p>{{ feature.excerpt }}</p>
-    <ul class="image-gallery">
+    <div class="image-grid">
       {% for i in (1..6) %}
-        <li>
+        <div class="image-grid-item">
           <img src="{{ '/assets/images/portfolio/slide-' | append: i | append: '.jpg' }}" alt="Image {{ i }}">
-        </li>
+        </div>
       {% endfor %}
-    </ul>
+    </div>
   </div>
 {% endfor %}

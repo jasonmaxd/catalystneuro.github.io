@@ -79,19 +79,18 @@ $text-color: #333333; // Dark gray text color
     max-width: 20%; /* Adjust the value as needed */
     margin: 0 auto; /* Center the image horizontally */
   }
-.image-gallery {
-    display: flex;
-    list-style: none;
-    padding: 0;
+  .image-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 10px;
+  }
+  
+  .image-grid-item {
+    width: 100%;
     margin: 0;
   }
   
-.image-gallery li {
-    flex: 1;
-    margin: 10px;
-  }
-  
-.image-gallery img {
+  .image-grid img {
     width: 100%;
     height: auto;
   }
