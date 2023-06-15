@@ -19,6 +19,8 @@ feature_row:
 feature_row_gallery:
   - title: "<span style='font-family: Verdana, sans-serif; margin-bottom: 10px; font-weight: normal;'>Our <b>Portfolio</b></span>"
     excerpt: "We help neuroscientists utilize state-of-the-art tools in data analysis, visualization, organization, sharing, and publishing."
+feature_row_bottom:
+
 ---
 
 {% include feature_row type="left" %}
@@ -84,3 +86,8 @@ feature_row_gallery:
     </div>
   </div>
 {% endfor %}
+<div class="feature-row">
+  <div class="gif-container">
+    <img src="/assets/images/bottom.gif" alt="Bottom GIF">
+  </div>
+</div>
