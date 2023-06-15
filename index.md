@@ -21,7 +21,6 @@ feature_row_gallery:
     excerpt: "We help neuroscientists utilize state-of-the-art tools in data analysis, visualization, organization, sharing, and publishing."
 ---
 
-{% include feature_row type="left" %}
 {% for feature in page.feature_row_gallery %}
   <div class="feature-row">
     <h2>{{ feature.title }}</h2>
