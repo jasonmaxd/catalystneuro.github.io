@@ -22,7 +22,6 @@ feature_row_gallery:
 ---
 
 {% include feature_row type="left" %}
-{% include feature_row type="left" %}
 {% for feature in page.feature_row_gallery %}
   <div class="feature-row">
     <h2>{{ feature.title }}</h2>
@@ -33,12 +32,12 @@ feature_row_gallery:
         <div class="image-overlay">
           <div class="image-overlay-content">
             <p>{{ feature.image_excerpts[0] }}</p>
-            <a href="{{ '/_pages/_posts/2020-01-01-dandi.md }}" class="btn {{ feature.btn_classes[0] }}">{{ feature.btn_labels[0] }}</a>
+            <a href="{{ '/_pages/_posts/2020-01-01-dandi.md' }}" class="btn {{ feature.btn_classes[0] }}">Learn More</a>
           </div>
         </div>
       </div>
       <div class="image-grid-item">
-        <img src="{{ '/assets/images/portfolio/sldie-2.jpg' }}" alt="Image 2">
+        <img src="{{ '/assets/images/portfolio/slide-2.jpg' }}" alt="Image 2">
         <div class="image-overlay">
           <div class="image-overlay-content">
             <p>{{ feature.image_excerpts[1] }}</p>
