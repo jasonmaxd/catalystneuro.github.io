@@ -81,11 +81,8 @@ $text-color: #333333; // Dark gray text color
   }
   .image-grid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(2, minmax(0, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     grid-gap: 10px;
-    height: 0;
-    padding-bottom: 66.66667%;
   }
   
   .image-grid-item {
