@@ -29,7 +29,7 @@ feature_row_gallery:
     <ul class="image-gallery">
       {% for i in (1..6) %}
         <li>
-          <img src="{{ '/assets/images/slide-' | append: i | append: '.jpg' }}" alt="Image {{ i }}">
+          <img src="{{ '/assets/images/portfolio/slide-' | append: i | append: '.jpg' }}" alt="Image {{ i }}">
         </li>
       {% endfor %}
     </ul>
