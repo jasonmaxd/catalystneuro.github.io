@@ -1,85 +1,63 @@
 <style>
-    .border {
-        border-bottom: 1px solid #515151;
-        margin-top: 20px;
-        margin-bottom: 20px;
-    }
-    .team-member a:hover svg {
-       transform: scale(1.25);
-       text-decoration: none;
-    }
-    .team-member a svg {
-       vertical-align: middle;
-    }
-    .team-members-container {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        align-items: center;
-    }
-    .team-member {
-        margin-right: 20px;
-        margin-bottom: 40px;
-        margin-top: 20px;
-    }
-    .image-container {
-        width: 300px; /* Adjust the width as desired */
-        height: 300px; /* Adjust the height as desired */
-        margin-right: 10px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    .team-member-image {
-        cursor: pointer;
-        max-width: 100%;
-        max-height: 100%;
-        object-fit: contain;
-        transition: transform 0.3s ease;
-    }
-    .team-member-info {
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-    }
-    .bio-container {
-        max-width: 90%;
-        font-size: 18px;
-        margin-top: 10px; /* Adjust the top margin to create equal spacing */
-        margin-bottom: 20px; /* Adjust the bottom margin to create the desired distance */
-    }
-    .bio-container p {
-        margin-bottom: 10px;
-    }
-    .team-member-name {
-        margin: 10px 0 0 0;
-    }
-    .team-member-role {
-        margin: 0;
-    }
-    .team-member-links {
-        display: flex;
-        gap: 5px;
-        margin-top: 10px;
-    }
-    .team-member-links a {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        width: 30px;
-        height: 30px;
-        background-color: #f5f5f5;
-        border-radius: 50%;
-        transition: transform 0.3s ease;
-    }
-    .team-member-links a:hover {
-        transform: scale(1.1);
-    }
-    .team-member-links a svg {
-        width: 18px;
-        height: 18px;
-        fill: #515151;
-    }
+.border {
+    border-bottom: 1px solid #515151;
+    margin-top: 5px;
+}
+.team-member a:hover svg {
+   transform: scale(1.25);
+   text-decoration: none;
+}
+.team-member a svg {
+   vertical-align: middle;
+}
+.team-members-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+.team-member {
+    display: flex;
+    align-items: center; /* Center the items vertically */
+    margin-right: 20px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    justify-content: space-between; /* Add space between the image and info */
+}
+
+.image-container {
+    margin-right: 10px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start; /* Align the image to the top */
+}
+
+.team-member-image {
+    cursor: pointer;
+    width: 200px;
+    height: auto;
+    transition: transform 0.3s ease;
+    margin-bottom: 5px; /* Add margin to the bottom of the image */
+}
+
+.team-member-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-grow: 1; /* Allow the info to grow and take up remaining space */
+}
+
+.bio-container {
+    max-width: 90%;
+    font-size: 18px;
+    margin-bottom: 10px; /* Add margin to the bottom of the bio container */
+}
+.team-member-name {
+    margin: 0;
+}
+.team-member-role {
+    margin: 0;
+}
+
 </style>
 <div class="team-members-container">
     <div class="team-member" style="display: flex;">
