@@ -14,20 +14,24 @@
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
-        align-items: center;
+        align-items: flex-start; /* Change align-items to flex-start */
     }
     .team-member {
         margin-right: 20px;
         margin-bottom: 10px;
         margin-top: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center; /* Add align-items: center */
+        text-align: center; /* Add text-align: center */
     }
     .image-container {
         width: 350px;
-        height: 400px;
+        height: 400px; /* Update height to match the images */
         margin-right: 10px;
         display: flex;
-        justify-content: center;
-        align-items: center;
+        justify-content: center; /* Change justify-content to center */
+        align-items: center; /* Add align-items: center */
     }
     .team-member-image {
         cursor: pointer;
@@ -37,9 +41,10 @@
         transition: transform 0.3s ease;
     }
     .team-member-info {
+        margin-top: 10px; /* Add margin-top to create spacing */
         display: flex;
         flex-direction: column;
-        align-items: flex-start;
+        align-items: center; /* Add align-items: center */
     }
     .bio-container {
         max-width: 90%;
