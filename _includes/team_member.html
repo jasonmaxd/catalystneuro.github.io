@@ -1,8 +1,7 @@
 <style>
     .border {
         border-bottom: 1px solid #515151;
-        margin-top: 10px;
-        margin-bottom: 10px;
+        margin-top: 5px;
     }
     .team-member a:hover svg {
        transform: scale(1.25);
@@ -14,27 +13,24 @@
     .team-members-container {
         display: flex;
         flex-wrap: wrap;
-        justify-content: center;
-        align-items: center;
+        justify-content: center; /* Center items horizontally */
+        align-items: center; /* Center items vertically */
     }
     .team-member {
         margin-right: 20px;
-        margin-bottom: 20px;
-        margin-top: 20px;
+        margin-bottom: 10px;
+        margin-top: 10px;
     }
     .image-container {
-        width: 350px;
-        height: 200px;
+        width: 200px; /* Set a fixed width for the image container */
+        height: 200px; /* Set a fixed height for the image container */
         margin-right: 10px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
     }
     .team-member-image {
         cursor: pointer;
-        max-width: 100%;
-        max-height: 100%;
-        object-fit: contain;
+        width: 100%; /* Occupy the full width of the image container */
+        height: 100%; /* Occupy the full height of the image container */
+        object-fit: cover; /* Maintain aspect ratio and fill the container */
         transition: transform 0.3s ease;
     }
     .team-member-info {
@@ -43,8 +39,8 @@
         align-items: flex-start;
     }
     .bio-container {
-        max-width: 90%;
-        font-size: 18px;
+        max-width: 90%; /* Set the maximum width of the bio container */
+        font-size: 18px; /* Set the default font size */
     }
     .bio-container p {
         margin: 0;
