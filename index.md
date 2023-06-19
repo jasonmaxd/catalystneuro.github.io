@@ -12,20 +12,22 @@ excerpt: >
 feature_row:
   - image_path: /assets/images/Our-Mission.jpg 
     excerpt: "We believe that the future of neuroscience will be driven by collaboration between labs. Our mission is to develop channels of communication and distribution of resources between labs to enable exponential growth and innovation. We are at the forefront of this effort, shaping the way data, analysis and visualization tools are standardized and shared across the international community of systems neuroscientists. We ensure that these tools accelerate scientific discovery by working in parallel with neuroscientists and work with them to enhance the tools they already use."
-    title: "<span style='font-family: Verdana, sans-serif; margin-bottom: 10px; font-weight: normal;'>Our <b>Mission</b></span>"
+    title: "<span class='underlined-title'>Our <b>Mission</b></span>"
     url: "/mission/"
     btn_class: "btn--primary"
     btn_label: "<span style='font-family: Helvetica, sans-serif;'>Learn more</span>"
+  
 feature_row_gallery:
-  - title: "<span style='font-family: Verdana, sans-serif; margin-bottom: 10px; font-weight: normal;'>Our <b>Portfolio</b></span>"
+  - title: "<span class='underlined-title'>Our <b>Portfolio</b></span>"
     excerpt: "We help neuroscientists utilize state-of-the-art tools in data analysis, visualization, organization, sharing, and publishing."
 feature_row_bottom:
-  - title: "<span style='font-family: Verdana, sans-serif; margin-bottom: 10px; font-weight: normal;'>Our <b>Reach</b></span>"
+  - title: "<span class='underlined-title'>Our <b>Reach</b></span>"
 
 ---
 
 {% include feature_row type="left" %}
 {% for feature in page.feature_row_gallery %}
+
   <div class="feature-row">
     <h1>{{ feature.title }}</h1>
     <p>{{ feature.excerpt }}</p>
