@@ -142,48 +142,31 @@ $text-color: #333333; // Dark gray text color
     position: relative;
     font-weight: normal;
   }
-  
-  .underlined-title::after {
-    content: '';
-    position: absolute;
-    bottom: -2px;
-    left: 0;
-    width: 100%;
-    height: 4px; /* Adjust the overall thickness of the underline here */
-    background-color: #47e4e2; /* Adjust the color of the underline here */
-    z-index: -1; /* Push the underline below the text */
-  }
-  
-  .underlined-title b {
-    position: relative;
+
+  .underlined-title .first-word {
     font-weight: bold;
-    z-index: 1;
   }
-  
-  .underlined-title span {
-    position: relative;
-    display: inline-block;
-    margin-bottom: -6px; /* Adjust the gap between the text and underline here */
-  }
-  
+
   .underlined-title .first-word::after {
     content: '';
     position: absolute;
-    bottom: -6px; /* Adjust the position of the underline here */
+    bottom: -12px;
     left: 0;
-    width: 100%;
-    height: 6px; /* Adjust the thickness of the first underline here */
-    background-color: #47e4e2; /* Adjust the color of the first underline here */
-    z-index: -1;
+    width: 50%;
+    height: 13px; /* Adjust the thickness of the first word's underline here */
+    background-color: #47e4e2; /* Adjust the color of the first word's underline here */
   }
-  
-  .underlined-title .second-word::after {
+
+  .underlined-title b {
+    font-weight: bold;
+  }
+
+  .underlined-title b::after {
     content: '';
     position: absolute;
-    bottom: -12px; /* Adjust the position of the underline here */
-    left: 0;
-    width: 100%;
-    height: 12px; /* Adjust the thickness of the second underline here */
-    background-color: #47e4e2; /* Adjust the color of the second underline here */
-    z-index: -1;
+    bottom: -12px;
+    left: 50%;
+    width: 50%;
+    height: 2px; /* Adjust the thickness of the second word's underline here */
+    background-color: #47e4e2; /* Adjust the color of the second word's underline here */
   }
