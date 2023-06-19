@@ -57,16 +57,39 @@
     .team-member-role {
         margin: 0;
     }
+    .team-member-links {
+        display: flex;
+        gap: 5px;
+        margin-top: 10px;
+    }
+    .team-member-links a {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 30px;
+        height: 30px;
+        background-color: #f5f5f5;
+        border-radius: 50%;
+        transition: transform 0.3s ease;
+    }
+    .team-member-links a:hover {
+        transform: scale(1.1);
+    }
+    .team-member-links a svg {
+        width: 18px;
+        height: 18px;
+        fill: #515151;
+    }
 </style>
 <div class="team-members-container">
     <div class="team-member" style="display: flex;">
         <div class="image-container">
-            <img src="{{ member.image }}" alt="{{ member.name }}" class="team-member-image" onclick="toggleBio(this)">
+            <img src="{{ member.image }}" alt="{{ member.name }}" class="team-member-image">
         </div>
-        <div>
+        <div class="team-member-info">
             <b class="team-member-name">{{ member.name }}</b><br>
             <b class="team-member-role">{{ member.role }}</b>
-            <div class="bio-container {% if member.visible %}visible{% endif %}">
+            <div class="bio-container">
                 <p>{{ member.bio }}</p>
                 {% if member.github %}
                 <a href="{{ member.github }}" target="_blank" rel="noreferrer" class="px-1" aria-label="Github">
