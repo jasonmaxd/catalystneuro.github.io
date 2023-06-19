@@ -1,70 +1,71 @@
 <style>
 .border {
-    border-bottom: 1px solid #515151;
-    margin-top: 5px;
-  }
-  
-  .team-member a:hover svg {
-    transform: scale(1.25);
-    text-decoration: none;
-  }
-  
-  .team-member a svg {
-    vertical-align: middle;
-  }
-  
-  .team-members-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-  }
-  
-  .team-member {
-    display: flex;
-    align-items: center; /* Center the items vertically */
-    margin-right: 20px;
-    margin-bottom: 10px;
-    margin-top: 10px;
-    justify-content: space-between; /* Add space between the image and info */
-  }
-  
-  .image-container {
-    margin-right: 10px;
-    display: flex;
-    align-items: flex-start;
-    justify-content: flex-start; /* Align the image to the top */
-  }
-  
-  .team-member-image {
-    cursor: pointer;
-    width: 200px;
-    height: 200px; /* Set a fixed size for the image */
-    object-fit: cover; /* Maintain aspect ratio and cover the container */
-    transition: transform 0.3s ease;
-    margin-bottom: 5px; /* Add margin to the bottom of the image */
-  }
-  
-  .team-member-info {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    flex-grow: 1; /* Allow the info to grow and take up remaining space */
-  }
-  
-  .bio-container {
-    max-width: 90%;
-    font-size: 18px;
-    margin-bottom: 10px; /* Add margin to the bottom of the bio container */
-  }
-  
-  .team-member-name {
-    margin: 0;
-    margin-bottom: 5px; /* Reduce the space between the name and role */
-  }
-  
-  .team-member-role {
-    margin: 0;
-  }
+  border-bottom: 1px solid #515151;
+  margin-top: 5px;
+}
+
+.team-member a:hover svg {
+  transform: scale(1.25);
+  text-decoration: none;
+}
+
+.team-member a svg {
+  vertical-align: middle;
+}
+
+.team-members-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.team-member {
+  display: flex;
+  align-items: center; /* Center the items vertically */
+  margin-right: 20px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  justify-content: space-between; /* Add space between the image and info */
+}
+
+.image-container {
+  margin-right: 10px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start; /* Align the image to the top */
+}
+
+.team-member-image {
+  cursor: pointer;
+  width: 200px;
+  height: 200px; /* Set a fixed size for the image */
+  object-fit: cover; /* Maintain aspect ratio and cover the container */
+  transition: transform 0.3s ease;
+  margin-bottom: 5px; /* Add margin to the bottom of the image */
+}
+
+.team-member-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  flex-grow: 1; /* Allow the info to grow and take up remaining space */
+}
+
+.bio-container {
+  max-width: 90%;
+  font-size: 18px;
+  margin-bottom: 10px; /* Add margin to the bottom of the bio container */
+}
+
+.team-member-name {
+  margin: 0;
+  margin-bottom: 5px; /* Reduce the space between the name and role */
+}
+
+.team-member-role {
+  margin: 0;
+  margin-top: -5px; /* Reduce the space above the role */
+}
 </style>
 <div class="team-members-container">
     <div class="team-member" style="display: flex;">
