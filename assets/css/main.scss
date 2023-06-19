@@ -146,10 +146,10 @@ $text-color: #333333; // Dark gray text color
   .underlined-title::after {
     content: '';
     position: absolute;
-    bottom: -4px;
+    bottom: -6px;
     left: 0;
     width: 100%;
-    height: 4px; /* Adjust the overall thickness of the underline here */
+    height: 3px; /* Adjust the overall thickness of the underline here */
     background-color: #47e4e2; /* Adjust the color of the underline here */
     z-index: -1; /* Push the underline below the text */
   }
