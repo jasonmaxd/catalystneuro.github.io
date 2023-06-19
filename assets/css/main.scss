@@ -163,7 +163,7 @@ $text-color: #333333; // Dark gray text color
   .underlined-title span {
     position: relative;
     display: inline-block;
-    margin-bottom: -6px; /* Adjust the gap between the text and underline here */
+    margin-bottom: -12px; /* Adjust the gap between the text and underline here */
   }
   
   .underlined-title .first-word::after {
