@@ -75,8 +75,8 @@ feature_row_bottom:
         <img src="{{ '/assets/images/portfolio/slide-5.jpg' }}" alt="Image 5">
         <div class="image-overlay">
           <div class="image-overlay-content">
-          <p class="excerpt-line"></p>
-            <p class="excerpt-text">Interactive Data Visualization<br>Allen Institue and Kitware Inc.</p>
+          <div class="excerpt-line"></div>
+            <p>Interactive Data Visualization<br>Allen Institue and Kitware Inc.</p>
             <a href="{{ '/project/interactive-data/' }}" class="btn {{ feature.btn_classes[4] }} custom-button-port">Learn More</a>
           </div>
         </div>
@@ -85,8 +85,8 @@ feature_row_bottom:
         <img src="{{ '/assets/images/portfolio/slide-6.jpg' }}" alt="Image 6">
         <div class="image-overlay">
           <div class="image-overlay-content">
-          <p class="excerpt-line"></p>
-            <p class="excerpt-text">Neurodata Without Borders Dissemination<br>Lawrence Berkley National Laboratory</p>
+          <div class="excerpt-line"></div>
+            <p>Neurodata Without Borders Dissemination<br>Lawrence Berkley National Laboratory</p>
             <a href="{{ '/project/nwb-dissemination/' }}" class="btn {{ feature.btn_classes[5] }} custom-button-port">Learn More</a>
           </div>
         </div>
