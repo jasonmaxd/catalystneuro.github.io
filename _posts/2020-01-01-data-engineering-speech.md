@@ -8,7 +8,7 @@ show_date: false
 author: CatalystNeuro
 classes: wide
 type: project
-thumbnail: "/assets/images/porfolio/slide-2.jpg"
+thumbnail: "/assets/images/portfolio/slide-2.jpg"
 ---
 
 We worked with the labs of Dr. Edward Chang, Dr. Nitin Tandon, and Dr. Mark Richardson to use NWB 2.0 as a foundation for standardizing ECoG data. Through this effort we have restructured internal tools to work with the NWB format, and have publicly released high density ECoG recordings during speech on DANDI [here](https://dandiarchive.org/dandiset/000019/draft).
