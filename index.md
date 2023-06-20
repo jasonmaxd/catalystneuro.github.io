@@ -85,7 +85,7 @@ feature_row_bottom:
         <img src="{{ '/assets/images/portfolio/slide-6.jpg' }}" alt="Image 6">
         <div class="image-overlay">
           <div class="image-overlay-content">
-          <div class="excerpt-line"></div>
+          <p class="excerpt-line"></p>
             <p>Neurodata Without Borders Dissemination<br>Lawrence Berkley National Laboratory</p>
             <a href="{{ '/project/nwb-dissemination/' }}" class="btn {{ feature.btn_classes[5] }} custom-button-port">Learn More</a>
           </div>
