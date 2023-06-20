@@ -35,7 +35,7 @@ feature_row_bottom:
         <img src="{{ '/assets/images/portfolio/slide-1.jpg' }}" alt="Image 1">
         <div class="image-overlay">
           <div class="image-overlay-content">
-            <p>{{ feature.image_excerpts[0] }}</p>
+            <p>DANDI<br>Massachusetts Institute of Technology</p>
             <a href="{{ '/project/dandi/' }}" class="btn {{ feature.btn_classes[0] }}">Learn More</a>
           </div>
         </div>
@@ -44,7 +44,7 @@ feature_row_bottom:
         <img src="{{ '/assets/images/portfolio/slide-2.jpg' }}" alt="Image 2">
         <div class="image-overlay">
           <div class="image-overlay-content">
-            <p>{{ feature.image_excerpts[1] }}</p>
+            <p>Data Engineering Speech Neuroscience<br>UC San Francisco</p>
             <a href="{{ '/project/data-engineering-speech/' }}" class="btn {{ feature.btn_classes[1] }}">Learn More</a>
           </div>
         </div>
@@ -53,7 +53,7 @@ feature_row_bottom:
         <img src="{{ '/assets/images/portfolio/slide-3.jpg' }}" alt="Image 3">
         <div class="image-overlay">
           <div class="image-overlay-content">
-            <p>{{ feature.image_excerpts[0] }}</p>
+            <p>Data Science Core of Ripple U19<br>Stanford University</p>
             <a href="{{ '/project/data-science-core/' }}" class="btn {{ feature.btn_classes[2] }}">Learn More</a>
           </div>
         </div>
@@ -62,7 +62,7 @@ feature_row_bottom:
         <img src="{{ '/assets/images/portfolio/slide-4.jpg' }}" alt="Image 4">
         <div class="image-overlay">
           <div class="image-overlay-content">
-            <p>{{ feature.image_excerpts[1] }}</p>
+            <p>Data Standardization<br>Simons Foundation</p>
             <a href="{{ '/project/data-standardization/' }}" class="btn {{ feature.btn_classes[3] }}">Learn More</a>
           </div>
         </div>
@@ -71,7 +71,7 @@ feature_row_bottom:
         <img src="{{ '/assets/images/portfolio/slide-5.jpg' }}" alt="Image 5">
         <div class="image-overlay">
           <div class="image-overlay-content">
-            <p>{{ feature.image_excerpts[0] }}</p>
+            <p>Interactive Data Visualization<br>Allen Institue and Kitware Inc.</p>
             <a href="{{ '/project/interactive-data/' }}" class="btn {{ feature.btn_classes[4] }}">Learn More</a>
           </div>
         </div>
@@ -80,7 +80,7 @@ feature_row_bottom:
         <img src="{{ '/assets/images/portfolio/slide-6.jpg' }}" alt="Image 6">
         <div class="image-overlay">
           <div class="image-overlay-content">
-            <p>{{ feature.image_excerpts[1] }}</p>
+            <p>Neurodata Without Borders Dissemination<br>Lawrence Berkley National Laboratory</p>
             <a href="{{ '/project/nwb-dissemination/' }}" class="btn {{ feature.btn_classes[5] }}">Learn More</a>
           </div>
         </div>
