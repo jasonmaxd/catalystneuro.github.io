@@ -148,7 +148,8 @@ $text-color: #333333; // Dark gray text color
   }
 
   .excerpt-line {
-    align-items: center;
+    display: flex;
+    justify-content: center;
     width: 50px;
     height: 2px;
     background-color: #47e4e2;
