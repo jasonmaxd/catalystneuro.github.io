@@ -33,36 +33,36 @@ $text-color: #333333; // Dark gray text color
 .team-member-image {
     width: 100%;
     object-fit: cover;
-    border-radius: 50%; /* This makes the image circular. */
-    flex-shrink: 0; /* Prevent the image from shrinking */
+    border-radius: 50%;
+    flex-shrink: 0;
 }
 
 .team-member {
-    height: auto; /* Allow the container to adjust its height based on content */
-    display: flex; /* Add flex display to allow for flex-direction */
-    align-items: flex-start; /* Align items to the top */
+    height: auto;
+    display: flex;
+    align-items: flex-start;
 }
 
 .team-member-details {
-    flex: 1; /* Allow the details section to take up remaining space */
-    display: flex; /* Add flex display to allow for flex-direction */
-    flex-direction: column; /* Stack name, role, and bio vertically */
-    justify-content: flex-start; /* Align items to the left */
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
 }
 
 .team-member-name {
-    font-size: 36px; /* Adjust to the desired size */
+    font-size: 36px;
     font-family: "Noto sans", sans-serif;
-    margin-bottom: 0; /* This eliminates extra space below the name */
+    margin-bottom: 0;
 }
 
 .team-member-role {
-    font-size: 24px; /* Adjust to the desired size */
+    font-size: 24px;
     font-family: "Noto sans", sans-serif;
 }
 
 .team-member-bio {
-    max-width: 100%; /* Set maximum width for the bio */
+    max-width: 100%;
     font-family: "Noto sans", sans-serif;
 }
 
@@ -76,8 +76,8 @@ $text-color: #333333; // Dark gray text color
 }
 
 .feature-row-image {
-    max-width: 20%; /* Adjust the value as needed */
-    margin: 0 auto; /* Center the image horizontally */
+    max-width: 20%;
+    margin: 0 auto;
   }
   
   .image-grid {
@@ -138,27 +138,20 @@ $text-color: #333333; // Dark gray text color
     color: #fff;
   }
   .custom-button-port {
-    /* Add your custom button styles here */
-    /* For example, you can set the background color and text color */
     background-color: #47e4e2;
     color: #fff;
   }
   
-  /* Add the custom-button:hover class for hover state customization */
   .custom-button-port:hover {
-    /* Add your custom button hover styles here */
-    /* For example, you can change the background color and text color */
     background-color: #0c067e;
     color: #ffffff;
   }
+
   .excerpt-line {
-    position: absolute;
-    top: 0;
-    left: 50%;
-    transform: translateX(-50%); /* Center the line horizontally */
-    width: 50px; /* Adjust the line width */
-    height: 4px; /* Adjust the line thickness */
-    background-color: #47e4e2; /* Adjust the line color */
+    width: 50px;
+    height: 2px;
+    background-color: #47e4e2;
+    margin-bottom: 10px;
   }
   .underlined-title {
     font-family: Verdana, sans-serif;
