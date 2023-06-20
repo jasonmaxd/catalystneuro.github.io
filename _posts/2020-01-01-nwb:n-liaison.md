@@ -8,6 +8,7 @@ show_date: false
 author: CatalystNeuro
 classes: wide
 type: project
+thumbnail: "/assets/images/porfolio/slide-7.jpg"
 ---
 
 We help the systems neuroscience community adopt NWB:N 2.0 through triaging issues, core development, and community engagement like organizing hackathons and writing the newsletter. This contract funds consulting for labs to help with NWB:N 2.0 adoption. Until February 1, 2021 I am able to provide the following services free of charge:

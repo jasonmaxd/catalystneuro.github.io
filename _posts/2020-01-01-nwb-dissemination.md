@@ -8,6 +8,7 @@ show_date: false
 author: CatalystNeuro
 classes: wide
 type: project
+thumbnail: "/assets/images/porfolio/slide-6.jpg"
 ---
 
 The Lawrence Berkeley National Laboratory (LBNL) has been recently awarded a Brain Research Through Advancing Innovative Neurotechnologies (BRAIN) Initiative U24 grant from National Institute of Health for dissemination of the Neurodata Without Borders (NWB) standard for neurophysiology data to the neuroscience community over the next five (5) years. 
