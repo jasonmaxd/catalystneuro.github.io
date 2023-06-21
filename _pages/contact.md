@@ -1,6 +1,5 @@
 ---
 layout: splash
-title: "Contact"
 permalink: /contact/
 header:
   overlay_color: "#5e616c"
