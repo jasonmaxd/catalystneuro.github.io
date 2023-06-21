@@ -9,7 +9,7 @@ header:
 
 <header class="header" style="position: relative;">
   <div class="header-overlay" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.4); display: flex; flex-direction: row;">
-    <div class="header-content" style="flex-basis: 67%; color: #ffffff; margin-left: 2rem;">
+    <div class="header-content" style="flex-basis: 66%; color: #ffffff; margin-left: 2rem;">
       <h1 style="font-size: 3rem;">Contact Us</h1>
       <p style="font-size: 1.5rem;">Feel free to reach out to us with any inquiries or questions.</p>
     </div>
