@@ -1,13 +1,13 @@
 ---
-layout: default
-title: Contact
+layout: splash
+title: "Contact"
 permalink: /contact/
 header:
   overlay_color: "#5e616c"
   overlay_image: /assets/images/c-banner-2.jpg
 ---
 
-<div class="header-box" style="text-align: left;">
+<div class="header-box" style="text-align: left; position: absolute; top: 0; right: 0;">
   <h1 style="text-align: left;">Contact Us</h1>
   <p style="text-align: left;">Feel free to reach out to us with any inquiries or questions.</p>
 </div>
