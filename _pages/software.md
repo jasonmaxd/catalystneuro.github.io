@@ -18,7 +18,6 @@ feature_row1:
       ### Collaborators: 
       DANDI, MIT, NWB, LBNL
     image_path: /assets/images/neuroconv_logo.png
-    image_caption: "NeuroConv Logo"
 feature_row2:
 - title: "NWB Inspector"
   image_path: /assets/images/inspector.png
