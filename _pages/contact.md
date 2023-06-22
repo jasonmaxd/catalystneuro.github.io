@@ -30,7 +30,7 @@ feature_row:
 
 <div style="position: relative;">
   <div class="feature-row" style="background-image: url('{{ page.feature_row[0].image_path }}'); background-size: cover; background-position: center; display: flex;">
-    <div class="header-content" style="flex-grow: 8; color: #ffffff; padding: 4rem; position: relative;">
+    <div class="header-content" style="width: 75%; color: #ffffff; padding: 4rem; position: relative;">
       <h1 style="font-size: 3rem; margin-left: 2rem;">
         <span style="position: relative;">
           <span class="color-line" style="position: absolute; left: -2rem; top: 50%; transform: translateY(-50%); width: 8px; height: 100%; background-color: #47e4e2;"></span>
@@ -39,7 +39,7 @@ feature_row:
       </h1>
       <p style="font-size: 1.5rem;">{{ page.feature_row[0].excerpt }}</p>
     </div>
-    <div class="contact-info" style="flex-grow: 2; display: flex; flex-direction: column; color: #ffffff; justify-content: flex-end; padding: 4rem; margin-left: auto;">
+    <div class="contact-info" style="width: 25%; display: flex; flex-direction: column; color: #ffffff; justify-content: flex-end; padding: 4rem; margin-left: auto;">
       <h2 style="font-size: 2rem; color: #ffffff; margin-bottom: 1rem;">Contact Info</h2>
       <div style="display: flex; align-items: center; margin-bottom: 1rem;">
         <svg xmlns="http://www.w3.org/2000/svg" color="#ffffff" width="30" height="30" viewBox="0 0 448 512">
