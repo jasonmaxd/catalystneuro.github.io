@@ -11,18 +11,6 @@ feature_row:
     button_url: "/submit-contact"
 ---
 
----
-layout: splash
-title: "Contact"
-permalink: /contact/
-feature_row:
-  - image_path: /assets/images/c-banner-2.jpg
-    alt: "Header Image"
-    title: "Contact Us"
-    excerpt: "Feel free to reach out to us with any inquiries or questions."
-    button_label: "Submit"
-    button_url: "/submit-contact"
----
 
 <div style="position: relative;">
   <div class="feature-row" style="background-image: url('{{ page.feature_row[0].image_path }}'); background-size: cover; background-position: center; display: flex;">
