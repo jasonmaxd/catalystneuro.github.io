@@ -30,7 +30,7 @@ feature_row:
 
 <div style="position: relative;">
   <div class="feature-row" style="background-image: url('{{ page.feature_row[0].image_path }}'); background-size: cover; background-position: center; display: flex;">
-    <div class="header-content" style="width: 65%; color: #ffffff; padding: 4rem; position: relative;">
+    <div class="header-content" style="width: 75%; color: #ffffff; padding: 4rem; position: relative;">
       <h1 style="font-size: 3rem; margin-left: 2rem;">
         <span style="position: relative;">
           <span class="color-line" style="position: absolute; left: -2rem; top: 50%; transform: translateY(-50%); width: 8px; height: 100%; background-color: #47e4e2;"></span>
