@@ -26,6 +26,34 @@ feature_row:
   .contact-info p {
     color: #ffffff; /* Set the font color to white */
   }
+  .contact-form {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+
+  .contact-form label {
+    display: block;
+    margin-bottom: 0.5rem;
+  }
+
+  .contact-form input,
+  .contact-form textarea {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+  }
+
+  .contact-form input[type="submit"] {
+    background-color: #47e4e2;
+    color: #47e4e2;
+    border: none;
+    padding: 0.75rem 1rem;
+    cursor: pointer;
+  }
+
+  .contact-form input[type="submit"]:hover {
+    background-color: #31b2af;
+  }
 </style>
 
 <div style="position: relative;">
@@ -57,28 +85,31 @@ feature_row:
   </div>
 </div>
 
-## Get in Touch
-
-<form action="{{ page.feature_row[0].button_url }}" method="POST">
-  <div>
-    <label for="first_name">First Name:</label>
-    <input type="text" id="first_name" name="first_name" required>
-    <label for="last_name">Last Name:</label>
-    <input type="text" id="last_name" name="last_name" required>
-  </div>
-  <div>
-    <label for="subject">Subject:</label>
-    <input type="text" id="subject" name="subject" required>
-  </div>
-  <div>
-    <label for="email">Email:</label>
-    <input type="email" id="email" name="email" required>
-  </div>
-  <div>
-    <label for="message">Message:</label>
-    <textarea id="message" name="message" required></textarea>
-  </div>
-  <div>
-    <input type="submit" value="{{ page.feature_row[0].button_label }}">
-  </div>
-</form>
+<div class="contact-form">
+  <h2>Get in Touch</h2>
+  <form action="{{ page.feature_row[0].button_url }}" method="POST">
+    <div>
+      <label for="first_name">First Name:</label>
+      <input type="text" id="first_name" name="first_name" required>
+    </div>
+    <div>
+      <label for="last_name">Last Name:</label>
+      <input type="text" id="last_name" name="last_name" required>
+    </div>
+    <div>
+      <label for="subject">Subject:</label>
+      <input type="text" id="subject" name="subject" required>
+    </div>
+    <div>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+    </div>
+    <div>
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" required></textarea>
+    </div>
+    <div>
+      <input type="submit" value="{{ page.feature_row[0].button_label }}">
+    </div>
+  </form>
+</div>
