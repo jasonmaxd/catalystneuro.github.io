@@ -45,6 +45,7 @@ feature_row:
     margin-bottom: 1rem;
     border: none;
     border-bottom: 2px solid #000000;
+    background-color: #ffffff; /* Set background color to white */
     color: #000000;
   }
 
