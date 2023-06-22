@@ -26,12 +26,6 @@ feature_row:
   .contact-info p {
     color: #ffffff; /* Set the font color to white */
   }
-  .contact-form {
-    max-width: 80%;
-    margin: 0 auto;
-    background-color: #ffffff;
-  }
-
   .contact-form label {
     display: block;
     margin-bottom: 0.5rem;
@@ -91,7 +85,7 @@ feature_row:
   </div>
 </div>
 
-<div class="contact-form">
+<div class="contact-form" style="background-color: #ffffff;">
   <h2>Get in Touch</h2>
   <form action="{{ page.feature_row[0].button_url }}" method="POST">
     <div>
@@ -107,15 +101,11 @@ feature_row:
       <input type="text" id="subject" name="subject" required>
     </div>
     <div>
-      <label for="email">Email:</label>
-      <input type="email" id="email" name="email" required>
-    </div>
-    <div>
       <label for="message">Message:</label>
-      <textarea id="message" name="message" required></textarea>
+      <textarea id="message" name="message" rows="5" required></textarea>
     </div>
     <div>
-      <input type="submit" value="{{ page.feature_row[0].button_label }}">
+      <input type="submit" value="Submit">
     </div>
   </form>
 </div>
