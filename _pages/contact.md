@@ -2,26 +2,28 @@
 layout: splash
 title: "Contact"
 permalink: /contact/
-header:
-  overlay_color: "#5e616c"
-  overlay_image: /assets/images/c-banner-2.jpg
+feature_row:
+  - image_path: /assets/images/c-banner-2.jpg
+    alt: "Header Image"
+    title: "Contact Us"
+    excerpt: "Feel free to reach out to us with any inquiries or questions."
 ---
 
-<header class="header" style="position: relative;">
-  <div class="header-overlay" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.4); display: flex; flex-direction: row;">
-    <div class="header-content" style="flex-basis: 67%; color: #ffffff; margin-left: 2rem;">
-      <h1 style="font-size: 3rem;">Contact Us</h1>
-      <p style="font-size: 1.5rem;">Feel free to reach out to us with any inquiries or questions.</p>
+<div style="position: relative;">
+  <div class="feature-row" style="background-image: url('{{ page.feature_row[0].image_path }}'); background-size: cover; background-position: center; padding: 4rem; position: relative;">
+    <div class="header-content" style="color: #ffffff;">
+      <h1 style="font-size: 3rem;">{{ page.feature_row[0].title }}</h1>
+      <p style="font-size: 1.5rem;">{{ page.feature_row[0].excerpt }}</p>
     </div>
-    <div class="contact-info" style="flex-basis: 33%; text-align: right; margin-right: 2rem; display: flex; flex-direction: column; justify-content: flex-end;">
-      <div style="display: flex; align-items: center;">
+    <div class="contact-info" style="position: absolute; bottom: 2rem; right: 2rem; display: flex; align-items: flex-end;">
+      <div style="display: flex; align-items: center; margin-right: 2rem;">
         <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 448 512">
           <!-- Font Awesome Pro 5.15.4 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) -->
           <path d="M400 32H48C21.49 32 0 53.49 0 80v352c0 26.51 21.49 48 48 48h352c26.51 0 48-21.49 48-48V80c0-26.51-21.49-48-48-48zM178.117 262.104C87.429 196.287 88.353 196.121 64 177.167V152c0-13.255 10.745-24 24-24h272c13.255 0 24 10.745 24 24v25.167c-24.371 18.969-23.434 19.124-114.117 84.938-10.5 7.655-31.392 26.12-45.883 25.894-14.503.218-35.367-18.227-45.883-25.895zM384 217.775V360c0 13.255-10.745 24-24 24H88c-13.255 0-24-10.745-24-24V217.775c13.958 10.794 33.329 25.236 95.303 70.214 14.162 10.341 37.975 32.145 64.694 32.01 26.887.134 51.037-22.041 64.72-32.025 61.958-44.965 81.325-59.406 95.283-70.199z"/>
         </svg>
         <p style="margin: 0 0 0 0.5rem;">844 Rose Drive, <br> Benicia, CA 94510</p>
       </div>
-      <div style="display: flex; align-items: center; margin-top: 0.5rem;">
+      <div style="display: flex; align-items: center;">
         <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 384 512">
           <!-- Font Awesome Pro 5.15.4 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) -->
           <path d="M172.268 501.67C26.97 291.031 0 269.413 0 192 0 85.961 85.961 0 192 0s192 85.961 192 192c0 77.413-26.97 99.031-172.268 309.67-9.535 13.774-29.93 13.773-39.464 0zM192 272c44.183 0 80-35.817 80-80s-35.817-80-80-80-80 35.817-80 80 35.817 80 80 80z"/>
@@ -30,13 +32,11 @@ header:
       </div>
     </div>
   </div>
-</header>
-
----
+</div>
 
 ## Get in Touch
 
-<form action="/submit-contact" method="POST">
+<form action="{{ page.feature_row[0].button_url }}" method="POST">
   <div>
     <label for="first_name">First Name:</label>
     <input type="text" id="first_name" name="first_name" required>
@@ -56,6 +56,6 @@ header:
     <textarea id="message" name="message" required></textarea>
   </div>
   <div>
-    <input type="submit" value="Submit">
+    <input type="submit" value="{{ page.feature_row[0].button_label }}">
   </div>
 </form>
