@@ -6,40 +6,24 @@ feature_row:
   - image_path: /assets/images/c-banner-2.jpg
     alt: "Header Image"
     title: "Contact Us"
-    excerpt: "Feel free to reach out to us with any inquiries or questions."
+    excerpt: "We are ready to help your lab. Please send us a message below describing your needs and we would be happy to schedule a video call consultation."
     button_label: "Submit"
     button_url: "/submit-contact"
 ---
 
-<style>
-  .color-line {
-    height: 100%;
-    position: absolute;
-    left: 50%;
-    top: 0;
-    transform: translateX(-50%);
-    width: 4px;
-    background-color: #47e4e2;
-  }
-
-  .contact-info p {
-    color: #ffffff;
-  }
-</style>
 
 <div style="position: relative;">
-  <div class="feature-row" style="position: relative; display: flex;">
-    <div class="overlay" style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; background-color: rgba(0, 0, 0, 0.5);"></div>
+  <div class="feature-row" style="background-image: url('{{ page.feature_row[0].image_path }}'); background-size: cover; background-position: center; display: flex;">
     <div class="header-content" style="flex-basis: 66%; color: #ffffff; padding: 4rem; position: relative;">
       <h1 style="font-size: 3rem; margin-left: 2rem;">
         <span style="position: relative;">
-          <span class="color-line"></span>
+          <span class="color-line" style="position: absolute; left: -2rem; top: 50%; transform: translateY(-50%); width: 8px; height: 100%; background-color: #47e4e2;"></span>
           {{ page.feature_row[0].title }}
         </span>
       </h1>
       <p style="font-size: 1.5rem;">{{ page.feature_row[0].excerpt }}</p>
     </div>
-    <div class="contact-info" style="flex-basis: 33%; display: flex; flex-direction: column; justify-content: flex-end; padding: 4rem;">
+    <div class="contact-info" style="flex-basis: 33%; display: flex; flex-direction: column; color: #ffffff justify-content: flex-end; padding: 4rem;">
       <h2 style="font-size: 2rem; color: #ffffff; margin-bottom: 1rem;">Contact Info</h2>
       <div style="display: flex; align-items: center; margin-bottom: 1rem;">
         <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 448 512">
