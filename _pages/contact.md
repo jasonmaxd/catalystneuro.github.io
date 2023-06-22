@@ -45,7 +45,7 @@ feature_row:
 
   .contact-form input[type="submit"] {
     background-color: #47e4e2;
-    color: #47e4e2;
+    color: #ffffff;
     border: none;
     padding: 0.75rem 1rem;
     cursor: pointer;
