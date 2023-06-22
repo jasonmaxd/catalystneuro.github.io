@@ -97,6 +97,10 @@ feature_row:
       <input type="text" id="last_name" name="last_name" required>
     </div>
     <div>
+      <label for="email">Email:</label>
+      <input type="text" id="email" name="email" required>
+    </div>
+    <div>
       <label for="subject">Subject:</label>
       <input type="text" id="subject" name="subject" required>
     </div>
