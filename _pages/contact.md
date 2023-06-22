@@ -27,9 +27,9 @@ feature_row:
     color: #ffffff; /* Set the font color to white */
   }
   .contact-form {
-    max-width: 80%;
+    max-width: 400px;
     margin: 0 auto;
-    background-color: #ffffff
+    background-color: #ffffff;
   }
 
   .contact-form label {
