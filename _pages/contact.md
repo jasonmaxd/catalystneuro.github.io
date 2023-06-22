@@ -39,7 +39,7 @@ feature_row:
       </h1>
       <p style="font-size: 1.5rem;">{{ page.feature_row[0].excerpt }}</p>
     </div>
-    <div class="contact-info" style="width: 35%; display: flex; flex-direction: column; color: #ffffff; justify-content: flex-end; padding: 4rem; margin-left: auto;">
+    <div class="contact-info" style="width: 40%; display: flex; flex-direction: column; color: #ffffff; justify-content: flex-end; padding: 4rem; margin-left: auto;">
       <h2 style="font-size: 2rem; color: #ffffff; margin-bottom: 1rem;">Contact Info</h2>
       <div style="display: flex; align-items: center; margin-bottom: 1rem;">
         <svg xmlns="http://www.w3.org/2000/svg" color="#ffffff" width="30" height="30" viewBox="0 0 448 512">
