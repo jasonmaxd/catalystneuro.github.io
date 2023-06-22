@@ -29,6 +29,7 @@ feature_row:
   .contact-form {
     max-width: 80%;
     margin: 0 auto;
+    background-color: #ffffff
   }
 
   .contact-form label {
