@@ -222,6 +222,7 @@ feature_row:
   </div>
 </div>
   <div class="contact-form" style="padding: 2rem;">
+  <h1>Get In Touch</h1>
   <form method="post" action="#" netlify>
     <input type="text" id="first" name="first" required placeholder="First name">
     <input type="text" id="last" name="last" required placeholder="Last name">
