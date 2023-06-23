@@ -182,7 +182,7 @@ feature_row:
       </div>
     </div>
     <div class="feature-row" style="background-image: url('{{ page.feature_row[1].image_path_right }}'); background-size: cover; background-position: center; display: flex; position: relative; flex: 0 0 34%;">
-      <div class="contact-info" style="width: 60%; display: flex; flex-direction: column; color: #ffffff; justify-content: flex-end; padding: 1rem;">
+      <div class="contact-info" style="width: 100%; display: flex; flex-direction: column; color: #ffffff; justify-content: flex-end; padding: 1rem;">
         <h2 style="font-size: 2rem; color: #ffffff; margin-bottom: 1rem;">Contact Info</h2>
         <div style="display: flex; align-items: center; margin-bottom: 1rem;">
           <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 384 512">
