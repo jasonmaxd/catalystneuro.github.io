@@ -3,23 +3,19 @@ layout: splash
 title: "Contact"
 permalink: /contact/
 feature_row:
-  - image_path: /assets/images/c-banner-2.jpg
-    alt: "Header Image"
-    title: "Contact Us"
-    excerpt: "We are ready to help your lab. Please send us a message below describing your needs and we would be happy to schedule a video call consultation."
-    button_label: "Submit"
-    button_url: "/submit-contact"
+  - image_path_left: /assets/images/contactus.png
+    alt_left: "Left Image"
+    title_left: "Contact Us"
+    excerpt_left: "We are ready to help your lab. Please send us a message below describing your needs and we would be happy to schedule a video call consultation."
+  - image_path_right: /assets/images/contactinfo.png
+    alt_right: "Right Image"
+    title_right: "Contact Info"
 ---
-
 
 <style>
   .feature-container {
     display: flex;
     justify-content: space-between;
-  }
-
-  .feature-row:first-child {
-    margin-left: 0;
   }
 
   .feature-row {
@@ -77,17 +73,19 @@ feature_row:
 </style>
 
 <div style="position: relative;">
-  <div class="feature-row" style="background-image: url('{{ page.feature_row[0].image_path }}'); background-size: cover; background-position: center; display: flex;">
-    <div class="header-content" style="width: 85%; color: #ffffff; padding: 4rem; position: relative;">
-      <h1 style="font-size: 3rem; margin-left: 2rem;">
-        <span style="position: relative;">
-          <span class="color-line" style="position: absolute; left: -2rem; top: 50%; transform: translateY(-50%); width: 8px; height: 100%; background-color: #47e4e2;"></span>
-          {{ page.feature_row[0].title }}
-        </span>
-      </h1>
-      <p style="font-size: 1.5rem;">{{ page.feature_row[0].excerpt }}</p>
+  <div class="feature-container">
+    <div class="feature-row" style="background-image: url('{{ page.feature_row[0].image_path_left }}'); background-size: cover; background-position: center; display: flex;">
+      <div class="header-content" style="width: 85%; color: #ffffff; padding: 4rem; position: relative;">
+        <h1 style="font-size: 3rem; margin-left: 2rem;">
+          <span style="position: relative;">
+            <span class="color-line" style="position: absolute; left: -2rem; top: 50%; transform: translateY(-50%); width: 8px; height: 100%; background-color: #47e4e2;"></span>
+            {{ page.feature_row[0].title_left }}
+          </span>
+        </h1>
+        <p style="font-size: 1.5rem;">{{ page.feature_row[0].excerpt_left }}</p>
+      </div>
     </div>
-    <div class="contact-info" style="width: 38%; display: flex; flex-direction: column; color: #ffffff; justify-content: flex-end; padding: 4rem; margin-left: auto;">
+     <div class="contact-info" style="width: 38%; display: flex; flex-direction: column; color: #ffffff; justify-content: flex-end; padding: 4rem; margin-left: auto;">
       <h2 style="font-size: 2rem; color: #ffffff; margin-bottom: 1rem;">Contact Info</h2>
       <div style="display: flex; align-items: center; margin-bottom: 1rem;">
         <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 384 512">
@@ -101,7 +99,7 @@ feature_row:
         </svg>
         <p style="margin: 0 0 0 0.5rem;">inquiry@catalystneuro.com</p>
       </div>
-    </div>
+    <div class="feature-row" style="background-image: url('{{ page.feature_row[1].image_path_right }}'); background-size: cover; background-position: center; display: flex;"></div>
   </div>
 </div>
 
