@@ -26,7 +26,7 @@ feature_row:
 
   .feature-row .header-content {
     color: #ffffff;
-    padding: 2rem;
+    padding: 2rem; /* Adjust the padding values here */
     position: absolute;
     top: 50%;
     left: 50%;
@@ -36,15 +36,11 @@ feature_row:
   .feature-row .header-content h1 {
     font-size: 3rem;
     margin: 0;
-    border-right: 4px solid #ffffff; /* Adjust the border values here */
-    padding-right: 1rem; /* Adjust the padding value here */
   }
 
   .feature-row .header-content p {
     font-size: 1.5rem;
     margin: 0;
-    border-right: 4px solid #ffffff; /* Adjust the border values here */
-    padding-right: 1rem; /* Adjust the padding value here */
   }
 
   .color-line {
@@ -98,19 +94,19 @@ feature_row:
 <div style="position: relative;">
   <div class="feature-container">
     <div class="feature-row" style="background-image: url('{{ page.feature_row[0].image_path_left }}'); background-size: cover; background-position: center; display: flex;">
-      <div class="header-content" style="width: 66%; color: #ffffff; padding: 4rem; position: relative;">
-        <h1 style="font-size: 3rem; margin-left: 2rem; border-right: 2px solid #ffffff; padding-right: 0.5rem;">
+      <div class="header-content" style="width: 66%; color: #ffffff; padding: 1rem; position: relative;">
+        <h1 style="font-size: 3rem; margin-left: 1rem;">
           <span style="position: relative;">
-            <span class="color-line" style="position: absolute; left: -2rem; top: 50%; transform: translateY(-50%); width: 8px; height: 100%; background-color: #47e4e2;"></span>
+            <span class="color-line" style="position: absolute; left: -1rem; top: 50%; transform: translateY(-50%); width: 4px; height: 100%; background-color: #47e4e2;"></span>
             {{ page.feature_row[0].title_left }}
           </span>
         </h1>
-        <p style="font-size: 1.5rem; border-right: 2px solid #ffffff; padding-right: 0.5rem;">{{ page.feature_row[0].excerpt_left }}</p>
+        <p style="font-size: 1.5rem; margin-left: 1rem;">{{ page.feature_row[0].excerpt_left }}</p>
       </div>
     </div>
     <div class="feature-row" style="background-image: url('{{ page.feature_row[1].image_path_right }}'); background-size: cover; background-position: center; display: flex; position: relative;">
-      <div class="contact-info" style="width: 33%; display: flex; flex-direction: column; color: #ffffff; justify-content: flex-end; padding: 4rem;">
-        <h2 style="font-size: 2rem; color: #ffffff; margin-bottom: 1rem; border-right: 2px solid #ffffff; padding-right: 0.5rem;">Contact Info</h2>
+      <div class="contact-info" style="width: 33%; display: flex; flex-direction: column; color: #ffffff; justify-content: flex-end; padding: 1rem;">
+        <h2 style="font-size: 2rem; color: #ffffff; margin-bottom: 1rem;">Contact Info</h2>
         <div style="display: flex; align-items: center; margin-bottom: 1rem;">
           <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 384 512">
             <path fill="#ffffff" d="M172.268 501.67C26.97 291.031 0 269.413 0 192 0 85.961 85.961 0 192 0s192 85.961 192 192c0 77.413-26.97 99.031-172.268 309.67-9.535 13.774-29.93 13.773-39.464 0zM192 272c44.183 0 80-35.817 80-80s-35.817-80-80-80-80 35.817-80 80 35.817 80 80 80z"/>
@@ -119,36 +115,22 @@ feature_row:
         </div>
         <div style="display: flex; align-items: center;">
           <svg xmlns="http://www.w3.org/2000/svg" color="#ffffff" width="30" height="30" viewBox="0 0 448 512">
-            <path fill="#ffffff" d="M400 32H48C21.49 32 0 53.49 0 80v352c0 26.51 21.49 48 48 48h352c26.51 0 48-21.49 48-48V80c0-26.51-21.49-48-48-48zM178.117 262.104C87.429 196.287 88.353 196.121 64 177.167V152c0-13.255 10.745-24 24-24h272c13.255 0 24 10.745 24 24v25.167c-24.371 18.969-23.434 19.124-114.117 84.938-10.5 7.655-31.392 26.12-45.883 25.894-14.503.218-35.367-18.227-45.883-25.895zM384 217.775V360c0 13.255-10.745 24-24 24H88c-13.255 0-24-10.745-24-24V217.775c13.958 10.794 33.329 25.236 95.303 70.214 10.79 7.76 31.377 26.44 45.697 26.011.196.006.392.009.59.009.198 0 .395-.003.591-.009 14.32.429 34.907-18.251 45.697-26.011 61.988-44.445 81.327-59.358 95.303-70.214zM256 296c-57.346 0-104-46.654-104-104S198.654 88 256 88s104 46.654 104 104-46.654 104-104 104zm0-176c-35.29 0-64 28.71-64 64s28.71 64 64 64 64-28.71 64-64-28.71-64-64-64z"/>
+            <path fill="#ffffff" d="M400 32H48C21.49 32 0 53.49 0 80v352c0 26.51 21.49 48 48 48h352c26.51 0 48-21.49 48-48V80c0-26.51-21.49-48-48-48zM178.117 262.104C87.429 196.287 88.353 196.121 64 177.167V152c0-13.255 10.745-24 24-24h272c13.255 0 24 10.745 24 24v25.167c-24.371 18.969-23.434 19.124-114.117 84.938-10.5 7.655-31.392 26.12-45.883 25.894-14.503.218-35.367-18.227-45.883-25.895zM384 217.775V360c0 13.255-10.745 24-24 24H88c-13.255 0-24-10.745-24-24V217.775c13.958 10.794 33.329 25.236 95.303 70.214 14.162 10.341 37.975 32.145 64.694 32.011h0c26.768.134 50.568-21.64 64.706-31.98 61.984-44.961 81.225-59.542 95.297-70.225zM400 96H48V80c0-8.837 7.163-16 16-16h320c8.837 0 16 7.163 16 16v16z"/>
           </svg>
-          <p style="margin: 0 0 0 0.5rem;">info@catalystneuro.com <br>+1 123-456-7890</p>
+          <p style="margin: 0 0 0 0.5rem;">+1 123-456-7890</p>
         </div>
       </div>
     </div>
   </div>
-</div>
-
-<div class="contact-form">
-  <h2>Get in Touch</h2>
-  <form action="{{ page.feature_row[0].button_url }}" method="POST">
-    <div>
-      <label for="first_name">First Name:</label>
-      <input type="text" id="first_name" name="first_name" required>
-    </div>
-    <div>
-      <label for="last_name">Last Name:</label>
-      <input type="text" id="last_name" name="last_name" required>
-    </div>
-    <div>
+  <div class="contact-form" style="padding: 2rem;">
+    <form method="post" action="#" netlify>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
       <label for="email">Email:</label>
       <input type="email" id="email" name="email" required>
-    </div>
-    <div>
       <label for="message">Message:</label>
       <textarea id="message" name="message" required></textarea>
-    </div>
-    <div>
       <input type="submit" value="Submit">
-    </div>
-  </form>
+    </form>
+  </div>
 </div>
