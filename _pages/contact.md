@@ -25,7 +25,7 @@ feature_row:
 
   .feature-row .header-content {
     color: #ffffff;
-    padding: 2rem; /* Adjust the padding values here */
+    padding: 2rem;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -48,7 +48,6 @@ feature_row:
     left: -2rem;
     top: 50%;
     transform: translateY(-50%);
-    width: 8px;
     background-color: #47e4e2;
   }
 
@@ -98,7 +97,7 @@ feature_row:
       <div class="header-content" style="color: #ffffff; padding: 1rem; position: relative;">
         <h1 style="font-size: 3rem; margin-left: 1rem;">
           <span style="position: relative;">
-            <span class="color-line" style="position: absolute; left: -1rem; top: 50%; transform: translateY(-50%); width: 4px; height: 100%; background-color: #47e4e2;"></span>
+            <span class="color-line" style="position: absolute; left: -1rem; top: 50%; transform: translateY(-50%); width: 10px; height: 100%; background-color: #47e4e2;"></span>
             {{ page.feature_row[0].title_left }}
           </span>
         </h1>
@@ -106,7 +105,7 @@ feature_row:
       </div>
     </div>
     <div class="feature-row" style="background-image: url('{{ page.feature_row[1].image_path_right }}'); background-size: cover; background-position: center; display: flex; position: relative;">
-      <div class="contact-info" style="width: 33%; display: flex; flex-direction: column; color: #ffffff; justify-content: flex-end; padding: 1rem;">
+      <div class="contact-info" style="width: 40%; display: flex; flex-direction: column; color: #ffffff; justify-content: flex-end; padding: 1rem;">
         <h2 style="font-size: 2rem; color: #ffffff; margin-bottom: 1rem;">Contact Info</h2>
         <div style="display: flex; align-items: center; margin-bottom: 1rem;">
           <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 384 512">
