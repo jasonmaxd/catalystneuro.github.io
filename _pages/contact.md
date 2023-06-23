@@ -133,6 +133,10 @@ feature_row:
     color: #ffffff;
     white-space: nowrap;
   }
+  
+  .contact-form form {
+    background-color: #ffffff;
+  }
 
   .contact-form {
     background-color: #ffffff;
