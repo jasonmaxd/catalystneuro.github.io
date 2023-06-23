@@ -13,8 +13,16 @@ feature_row:
 
 
 <style>
+  .feature-container {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .feature-row {
+    flex: 1 0 auto;
+  }
   .color-line {
-    height: 100%; /* Adjust the height as needed */
+    height: 100%;
     position: absolute;
     left: 50%;
     top: 0;
@@ -24,7 +32,7 @@ feature_row:
   }
 
   .contact-info p {
-    color: #ffffff; /* Set the font color to white */
+    color: #ffffff;
   }
   .contact-form label {
     display: block;
@@ -39,7 +47,7 @@ feature_row:
     margin-bottom: 1rem;
     border: none;
     border-bottom: 2px solid #000000;
-    background-color: #ffffff; /* Set background color to white */
+    background-color: #ffffff;
     color: #000000;
   }
 
@@ -54,6 +62,7 @@ feature_row:
   .contact-form input[type="submit"]:hover {
     background-color: #31b2af;
   }
+
 </style>
 
 <div style="position: relative;">
