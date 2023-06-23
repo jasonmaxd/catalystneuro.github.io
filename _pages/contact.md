@@ -16,23 +16,30 @@ feature_row:
   .feature-container {
     display: flex;
     justify-content: space-between;
-    align-items: stretch;
+  }
 
   .feature-row {
-    flex: 1 0 auto;
+    flex: 0 0 66%;
     margin-left: 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    position: relative;
+  }
+
+  .feature-row .header-content {
+    color: #ffffff;
+    padding: 4rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
   }
 
   .color-line {
     height: 100%;
     position: absolute;
-    left: 50%;
-    top: 0;
-    transform: translateX(-50%);
-    width: 4px;
+    left: -2rem;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 8px;
     background-color: #47e4e2;
   }
 
