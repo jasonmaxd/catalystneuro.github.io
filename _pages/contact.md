@@ -26,11 +26,21 @@ feature_row:
 
   .feature-row .header-content {
     color: #ffffff;
-    padding: 0.5rem;
+    padding: 2rem; /* Adjust the padding values here */
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+  }
+
+  .feature-row .header-content h1 {
+    font-size: 3rem;
+    margin: 0;
+  }
+
+  .feature-row .header-content p {
+    font-size: 1.5rem;
+    margin: 0;
   }
 
   .color-line {
