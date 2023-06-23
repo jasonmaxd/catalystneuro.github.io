@@ -70,7 +70,7 @@ feature_row:
   .contact-form input,
   .contact-form textarea {
     width: 100%;
-    padding: 0.5rem 0;
+    padding: 0;
     margin-bottom: 1rem;
     border: none;
     border-bottom: 2px solid #000000;
