@@ -24,6 +24,10 @@ feature_row:
     position: relative;
   }
 
+  .feature-row:first-child {
+    flex: 0 0 34%; /* Adjust the width here */
+  }
+
   .feature-row .header-content {
     color: #ffffff;
     padding: 2rem; /* Adjust the padding values here */
@@ -53,8 +57,36 @@ feature_row:
     background-color: #47e4e2;
   }
 
-  .contact-info p {
+  .contact-info {
+    width: 33%; /* Adjust the width here */
+    display: flex;
+    flex-direction: column;
     color: #ffffff;
+    justify-content: flex-end;
+    padding: 1rem;
+    position: relative;
+  }
+
+  .contact-info h2 {
+    font-size: 2rem;
+    color: #ffffff;
+    margin-bottom: 1rem;
+  }
+
+  .contact-info > div {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+  }
+
+  .contact-info svg {
+    width: 30px;
+    height: 30px;
+    margin-right: 0.5rem;
+  }
+
+  .contact-info p {
+    margin: 0;
   }
 
   .contact-form {
@@ -105,7 +137,7 @@ feature_row:
       </div>
     </div>
     <div class="feature-row" style="background-image: url('{{ page.feature_row[1].image_path_right }}'); background-size: cover; background-position: center; display: flex; position: relative;">
-      <div class="contact-info" style="width: 33%; display: flex; flex-direction: column; color: #ffffff; justify-content: flex-end; padding: 1rem;">
+      <div class="contact-info" style="width: 34%; display: flex; flex-direction: column; color: #ffffff; justify-content: flex-end; padding: 1rem;">
         <h2 style="font-size: 2rem; color: #ffffff; margin-bottom: 1rem;">Contact Info</h2>
         <div style="display: flex; align-items: center; margin-bottom: 1rem;">
           <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 384 512">
@@ -117,11 +149,12 @@ feature_row:
           <svg xmlns="http://www.w3.org/2000/svg" color="#ffffff" width="30" height="30" viewBox="0 0 448 512">
             <path fill="#ffffff" d="M400 32H48C21.49 32 0 53.49 0 80v352c0 26.51 21.49 48 48 48h352c26.51 0 48-21.49 48-48V80c0-26.51-21.49-48-48-48zM178.117 262.104C87.429 196.287 88.353 196.121 64 177.167V152c0-13.255 10.745-24 24-24h272c13.255 0 24 10.745 24 24v25.167c-24.371 18.969-23.434 19.124-114.117 84.938-10.5 7.655-31.392 26.12-45.883 25.894-14.503.218-35.367-18.227-45.883-25.895zM384 217.775V360c0 13.255-10.745 24-24 24H88c-13.255 0-24-10.745-24-24V217.775c13.958 10.794 33.329 25.236 95.303 70.214 14.162 10.341 37.975 32.145 64.694 32.011h0c26.768.134 50.568-21.64 64.706-31.98 61.984-44.961 81.225-59.542 95.297-70.225zM400 96H48V80c0-8.837 7.163-16 16-16h320c8.837 0 16 7.163 16 16v16z"/>
           </svg>
-          <p style="margin: 0 0 0 0;">info@catalystneuro.com</p>
+          <p style="margin: 0 0 0 0.5rem;">info@catalystneuro.com</p>
         </div>
       </div>
     </div>
   </div>
+</div>
   <div class="contact-form" style="padding: 2rem;">
     <form method="post" action="#" netlify>
       <label for="name">Name:</label>
