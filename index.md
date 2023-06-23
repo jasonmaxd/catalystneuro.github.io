@@ -14,7 +14,7 @@ feature_row:
     excerpt: "We believe that the future of neuroscience will be driven by collaboration between labs. Our mission is to develop channels of communication and distribution of resources between labs to enable exponential growth and innovation. We are at the forefront of this effort, shaping the way data, analysis and visualization tools are standardized and shared across the international community of systems neuroscientists. We ensure that these tools accelerate scientific discovery by working in parallel with neuroscientists and work with them to enhance the tools they already use."
     title: "<span class='underlined-title'><span class='first-word'>Our</span> <b>Mission</b></span>"
     url: "/mission/"
-    btn_class: "rounded-button"
+    btn_class: "btn--primary rounded-button"
     btn_label: "<span style='font-family: Helvetica, sans-serif;'>Learn more</span>"
 feature_row_gallery:
   - title: "<span class='underlined-title'><span class='first-word'>Our</span> <b>Portfolio</b></span>"

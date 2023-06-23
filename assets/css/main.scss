@@ -147,6 +147,19 @@ $text-color: #333333; // Dark gray text color
     background-color: #0c067e;
     color: #ffffff;
   }
+  .btn--primary.rounded-button {
+    background-color: #47e4e2;
+    border-radius: 50px;
+    transition: background-color 0.3s ease;
+  }
+  .rounded-button {
+    border-radius: 50px;
+    background-color: #47e4e2;
+  }
+  .rounded-button:hover {
+    background-color: #0c067e;
+    color: #ffffff;
+  }
 
   .excerpt-line {
     display: flex;
