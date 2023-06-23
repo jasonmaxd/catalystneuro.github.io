@@ -147,7 +147,30 @@ feature_row:
     margin-bottom: 0.5rem;
     color: #000000;
   }
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+  width: 100%;
+  padding: 0.5rem 0;
+  margin-bottom: 1rem;
+  border: none;
+  border-bottom: 2px solid #000000;
+  background-color: #ffffff;
+  color: #000000;
+  caret-color: lightgrey;
+}
 
+.contact-form input[type="text"]::placeholder,
+.contact-form input[type="email"]::placeholder,
+.contact-form textarea::placeholder {
+  color: lightgrey;
+}
+
+.contact-form input[type="text"]:focus::placeholder,
+.contact-form input[type="email"]:focus::placeholder,
+.contact-form textarea:focus::placeholder {
+  color: transparent;
+}
   .contact-form input,
   .contact-form textarea {
     width: 100%;
@@ -205,17 +228,17 @@ feature_row:
   </div>
 </div>
   <div class="contact-form" style="padding: 2rem;">
-    <form method="post" action="#" netlify>
-      <label for="first">First Name:</label>
-      <input type="text" id="first" name="first" required>
-      <label for="last">Last Name:</label>
-      <input type="text" id="last" name="last" required>
-      <label for="subject">Subject:</label>
-      <input type="text" id="subject" name="subject" required>
-      <label for="email">Email:</label>
-      <input type="email" id="email" name="email" required>
-      <label for="message">Message:</label>
-      <textarea id="message" name="message" required></textarea>
-      <input type="submit" value="Send Now">
-    </form>
-  </div>
+  <form method="post" action="#" netlify>
+    <label for="first">First Name:</label>
+    <input type="text" id="first" name="first" required placeholder="Enter your first name">
+    <label for="last">Last Name:</label>
+    <input type="text" id="last" name="last" required placeholder="Enter your last name">
+    <label for="subject">Subject:</label>
+    <input type="text" id="subject" name="subject" required placeholder="Enter the subject">
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required placeholder="Enter your email address">
+    <label for="message">Message:</label>
+    <textarea id="message" name="message" required placeholder="Enter your message"></textarea>
+    <input type="submit" value="Send Now">
+  </form>
+</div>
