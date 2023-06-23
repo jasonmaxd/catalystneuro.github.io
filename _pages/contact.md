@@ -18,9 +18,15 @@ feature_row:
     justify-content: space-between;
   }
 
+  .feature-row:first-child {
+    margin-left: 0;
+  }
+
   .feature-row {
     flex: 1 0 auto;
+    margin-left: 0;
   }
+
   .color-line {
     height: 100%;
     position: absolute;
@@ -34,6 +40,11 @@ feature_row:
   .contact-info p {
     color: #ffffff;
   }
+
+  .contact-form {
+    background-color: #ffffff;
+  }
+
   .contact-form label {
     display: block;
     margin-bottom: 0.5rem;
@@ -94,7 +105,7 @@ feature_row:
   </div>
 </div>
 
-<div class="contact-form" style="background-color: #ffffff;">
+<div class="contact-form">
   <h2>Get in Touch</h2>
   <form action="{{ page.feature_row[0].button_url }}" method="POST">
     <div>
