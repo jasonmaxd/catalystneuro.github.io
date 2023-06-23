@@ -55,10 +55,13 @@ feature_row:
 
   .contact-info p {
     color: #ffffff;
+    margin: 0;
   }
 
   .contact-form {
     background-color: #ffffff;
+    margin-top: 2rem;
+    padding: 2rem;
   }
 
   .contact-form label {
@@ -94,8 +97,8 @@ feature_row:
 <div style="position: relative;">
   <div class="feature-container">
     <div class="feature-row" style="background-image: url('{{ page.feature_row[0].image_path_left }}'); background-size: cover; background-position: center; display: flex;">
-      <div class="header-content" style="width: 66%; color: #ffffff; padding: 4rem; position: relative;">
-        <h1 style="font-size: 3rem; margin-left: 2rem;">
+      <div class="header-content" style="width: 66%; color: #ffffff; padding: 2rem; position: relative;">
+        <h1 style="font-size: 3rem; margin: 0;">
           <span style="position: relative;">
             <span class="color-line" style="position: absolute; left: -2rem; top: 50%; transform: translateY(-50%); width: 8px; height: 100%; background-color: #47e4e2;"></span>
             {{ page.feature_row[0].title_left }}
@@ -105,7 +108,7 @@ feature_row:
       </div>
     </div>
     <div class="feature-row" style="background-image: url('{{ page.feature_row[1].image_path_right }}'); background-size: cover; background-position: center; display: flex; position: relative;">
-      <div class="contact-info" style="width: 33%; display: flex; flex-direction: column; color: #ffffff; justify-content: flex-end; padding: 4rem;">
+      <div class="contact-info" style="width: 33%; display: flex; flex-direction: column; color: #ffffff; justify-content: flex-end; padding: 2rem;">
         <h2 style="font-size: 2rem; color: #ffffff; margin-bottom: 1rem;">Contact Info</h2>
         <div style="display: flex; align-items: center; margin-bottom: 1rem;">
           <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 384 512">
