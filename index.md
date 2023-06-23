@@ -2,7 +2,7 @@
 layout: splash
 permalink: /
 hidden: true
-title: "<span style='text-align: center; font-family: Akshar, sans-serif; font-stretch: ultra-condensed; margin-bottom: 10px; font-weight: normal;'>CATALYST</span><br><span style='text-align: center; font-family: Akshar, sans-serif;'>NEURO</span>"
+title: "<span style='text-align: center; font-family: Andale Mono, monospace; font-stretch: ultra-condensed; margin-bottom: 10px; font-weight: normal;'>CATALYST</span><br><span style='text-align: center; font-family: Arial, sans-serif;'>NEURO</span>"
 header:
   overlay_color: "#5e616c"
   overlay_image: /assets/images/splash_banner.jpeg
@@ -85,7 +85,6 @@ feature_row_bottom:
         <img src="{{ '/assets/images/portfolio/slide-6.jpg' }}" alt="Image 6">
         <div class="image-overlay">
           <div class="image-overlay-content">
-          <div class="excerpt-line"></div>
             <p>Neurodata Without Borders Dissemination<br>Lawrence Berkley National Laboratory</p>
             <a href="{{ '/project/nwb-dissemination/' }}" class="btn {{ feature.btn_classes[5] }} custom-button-port">Learn More</a>
           </div>
