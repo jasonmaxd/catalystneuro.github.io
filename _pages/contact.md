@@ -55,6 +55,7 @@ feature_row:
   .contact-info p {
     font-size: 0.9rem;
     color: #ffffff;
+    white-space: nowrap;
   }
 
   .contact-form {
