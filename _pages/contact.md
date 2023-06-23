@@ -19,13 +19,8 @@ feature_row:
   }
 
   .feature-row {
-    flex: 0 0 66%;
     margin-left: 0;
     position: relative;
-  }
-
-  .feature-row:first-child {
-    flex: 0 0 34%; /* Adjust the width here */
   }
 
   .feature-row .header-content {
@@ -57,36 +52,8 @@ feature_row:
     background-color: #47e4e2;
   }
 
-  .contact-info {
-    width: 33%; /* Adjust the width here */
-    display: flex;
-    flex-direction: column;
-    color: #ffffff;
-    justify-content: flex-end;
-    padding: 1rem;
-    position: relative;
-  }
-
-  .contact-info h2 {
-    font-size: 2rem;
-    color: #ffffff;
-    margin-bottom: 1rem;
-  }
-
-  .contact-info > div {
-    display: flex;
-    align-items: center;
-    margin-bottom: 1rem;
-  }
-
-  .contact-info svg {
-    width: 30px;
-    height: 30px;
-    margin-right: 0.5rem;
-  }
-
   .contact-info p {
-    margin: 0;
+    color: #ffffff;
   }
 
   .contact-form {
@@ -126,7 +93,7 @@ feature_row:
 <div style="position: relative;">
   <div class="feature-container">
     <div class="feature-row" style="background-image: url('{{ page.feature_row[0].image_path_left }}'); background-size: cover; background-position: center; display: flex;">
-      <div class="header-content" style="width: 66%; color: #ffffff; padding: 1rem; position: relative;">
+      <div class="header-content" style="color: #ffffff; padding: 1rem; position: relative;">
         <h1 style="font-size: 3rem; margin-left: 1rem;">
           <span style="position: relative;">
             <span class="color-line" style="position: absolute; left: -1rem; top: 50%; transform: translateY(-50%); width: 4px; height: 100%; background-color: #47e4e2;"></span>
@@ -137,7 +104,7 @@ feature_row:
       </div>
     </div>
     <div class="feature-row" style="background-image: url('{{ page.feature_row[1].image_path_right }}'); background-size: cover; background-position: center; display: flex; position: relative;">
-      <div class="contact-info" style="width: 34%; display: flex; flex-direction: column; color: #ffffff; justify-content: flex-end; padding: 1rem;">
+      <div class="contact-info" style="width: 33%; display: flex; flex-direction: column; color: #ffffff; justify-content: flex-end; padding: 1rem;">
         <h2 style="font-size: 2rem; color: #ffffff; margin-bottom: 1rem;">Contact Info</h2>
         <div style="display: flex; align-items: center; margin-bottom: 1rem;">
           <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 384 512">
