@@ -141,12 +141,6 @@ feature_row:
   .contact-form {
     background-color: #ffffff;
   }
-
-  .contact-form label {
-    display: block;
-    margin-bottom: 0.5rem;
-    color: #000000;
-  }
 .contact-form input[type="text"],
 .contact-form input[type="email"],
 .contact-form textarea {
@@ -191,7 +185,7 @@ feature_row:
   }
 
   .contact-form input[type="submit"]:hover {
-    background-color: #31b2af;
+    background-color: #0c067e;
   }
 </style>
 
@@ -229,16 +223,11 @@ feature_row:
 </div>
   <div class="contact-form" style="padding: 2rem;">
   <form method="post" action="#" netlify>
-    <label for="first">First Name:</label>
-    <input type="text" id="first" name="first" required placeholder="Enter your first name">
-    <label for="last">Last Name:</label>
-    <input type="text" id="last" name="last" required placeholder="Enter your last name">
-    <label for="subject">Subject:</label>
-    <input type="text" id="subject" name="subject" required placeholder="Enter the subject">
-    <label for="email">Email:</label>
-    <input type="email" id="email" name="email" required placeholder="Enter your email address">
-    <label for="message">Message:</label>
-    <textarea id="message" name="message" required placeholder="Enter your message"></textarea>
+    <input type="text" id="first" name="first" required placeholder="First name">
+    <input type="text" id="last" name="last" required placeholder="Last name">
+    <input type="text" id="subject" name="subject" required placeholder="Subject">
+    <input type="email" id="email" name="email" required placeholder="Email address">
+    <textarea id="message" name="message" required placeholder="Message"></textarea>
     <input type="submit" value="Send Now">
   </form>
 </div>
