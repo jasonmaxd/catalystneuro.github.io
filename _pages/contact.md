@@ -26,7 +26,7 @@ feature_row:
 
   .feature-row .header-content {
     color: #ffffff;
-    padding: 4rem;
+    padding: 2rem; /* Adjust the padding values here */
     position: absolute;
     top: 50%;
     left: 50%;
