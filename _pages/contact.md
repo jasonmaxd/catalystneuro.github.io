@@ -125,8 +125,10 @@ feature_row:
 </div>
   <div class="contact-form" style="padding: 2rem;">
     <form method="post" action="#" netlify>
-      <label for="name">Name:</label>
-      <input type="text" id="name" name="name" required>
+      <label for="first">First Name:</label>
+      <input type="text" id="first" name="first" required>
+      <label for="last">Last Name:</label>
+      <input type="text" id="last" name="last" required>
       <label for="email">Email:</label>
       <input type="email" id="email" name="email" required>
       <label for="message">Message:</label>
@@ -134,4 +136,3 @@ feature_row:
       <input type="submit" value="Submit">
     </form>
   </div>
-</div>
