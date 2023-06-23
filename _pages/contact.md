@@ -182,6 +182,7 @@ feature_row:
     border: none;
     padding: 0.75rem 1rem;
     cursor: pointer;
+    border-radius: 20px;
   }
 
   .contact-form input[type="submit"]:hover {
@@ -221,14 +222,16 @@ feature_row:
     </div>
   </div>
 </div>
-  <div class="contact-form" style="padding: 2rem;">
+   <div class="contact-form" style="padding: 2rem;">
   <h1>Get In Touch</h1>
   <form method="post" action="#" netlify>
-    <input type="text" id="first" name="first" required placeholder="First name">
-    <input type="text" id="last" name="last" required placeholder="Last name">
+    <div style="display: flex;">
+      <input type="text" id="first" name="first" required placeholder="First name" style="width: 50%;">
+      <input type="text" id="last" name="last" required placeholder="Last name" style="width: 50%; margin-left: 1rem;">
+    </div>
     <input type="text" id="subject" name="subject" required placeholder="Subject">
     <input type="email" id="email" name="email" required placeholder="Email address">
     <textarea id="message" name="message" required placeholder="Message"></textarea>
-    <input type="submit" value="Send Now">
+    <input type="submit" value="Send Now" style="border-radius: 50px;">
   </form>
 </div>
