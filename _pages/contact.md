@@ -69,23 +69,24 @@ feature_row:
   .contact-form input[type="submit"]:hover {
     background-color: #31b2af;
   }
-
 </style>
 
 <div style="position: relative;">
   <div class="feature-container">
-    <div class="feature-row" style="background-image: url('{{ page.feature_row[0].image_path_left }}'); background-size: cover; background-position: center; display: flex;">
-      <div class="header-content" style="width: 85%; color: #ffffff; padding: 4rem; position: relative;">
-        <h1 style="font-size: 3rem; margin-left: 2rem;">
+    <div class="feature-row" style="width: 66%; position: relative;">
+      <img src="{{ page.feature_row[0].image_path_left }}" alt="{{ page.feature_row[0].alt_left }}" style="width: 150%;">
+      <div class="header-content" style="position: absolute; left: 4rem; bottom: 4rem; color: #ffffff;">
+        <h1 style="font-size: 3rem;">
           <span style="position: relative;">
-            <span class="color-line" style="position: absolute; left: -2rem; top: 50%; transform: translateY(-50%); width: 8px; height: 100%; background-color: #47e4e2;"></span>
+            <span class="color-line"></span>
             {{ page.feature_row[0].title_left }}
           </span>
         </h1>
         <p style="font-size: 1.5rem;">{{ page.feature_row[0].excerpt_left }}</p>
       </div>
     </div>
-     <div class="contact-info" style="width: 38%; display: flex; flex-direction: column; color: #ffffff; justify-content: flex-end; padding: 4rem; margin-left: auto;">
+    <div class="feature-row" style="background-image: url('{{ page.feature_row[1].image_path_right }}'); background-size: cover; background-position: center; display: flex; width: 33%;"></div>
+    <div class="contact-info" style="width: 33%; display: flex; flex-direction: column; color: #ffffff; justify-content: flex-end; padding: 4rem;">
       <h2 style="font-size: 2rem; color: #ffffff; margin-bottom: 1rem;">Contact Info</h2>
       <div style="display: flex; align-items: center; margin-bottom: 1rem;">
         <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 384 512">
@@ -99,7 +100,7 @@ feature_row:
         </svg>
         <p style="margin: 0 0 0 0.5rem;">inquiry@catalystneuro.com</p>
       </div>
-    <div class="feature-row" style="background-image: url('{{ page.feature_row[1].image_path_right }}'); background-size: cover; background-position: center; display: flex;"></div>
+    </div>
   </div>
 </div>
 
