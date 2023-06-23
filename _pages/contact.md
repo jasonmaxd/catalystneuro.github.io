@@ -171,7 +171,7 @@ feature_row:
 <div style="position: relative;">
   <div class="feature-container">
     <div class="feature-row" style="background-image: url('{{ page.feature_row[0].image_path_left }}'); background-size: cover; background-position: center; display: flex; flex: 0 0 66%;">
-      <div class="header-content" style="color: #ffffff; padding: 1rem; position: relative; width: 80%;">
+      <div class="header-content" style="color: #ffffff; padding: 1rem; position: relative; width: 100%;">
         <h1 style="font-size: 3rem; margin-left: 1rem;">
           <span style="position: relative;">
             <span class="color-line" style="position: absolute; left: -1rem; top: 50%; transform: translateY(-50%); width: 10px; height: 100%; background-color: #47e4e2;"></span>
