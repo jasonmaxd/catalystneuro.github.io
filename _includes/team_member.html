@@ -1,78 +1,70 @@
 <style>
-.border {
-  border-bottom: 1px solid #515151;
-  margin-top: 5px;
-}
-
-.team-member a:hover svg {
-  transform: scale(1.25);
-  text-decoration: none;
-}
-
-.team-member a svg {
-  vertical-align: middle;
-}
-
-.team-members-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: flex-start;
-  align-items: flex-start;
-}
-
-.team-member {
-  display: flex;
-  align-items: flex-start;
-  margin-right: 20px;
-  margin-bottom: 10px;
-  margin-top: 10px;
-  justify-content: space-between;
-}
-
-.image-container {
-  margin-right: 10px;
-  display: flex;
-  align-items: flex-start;
-  justify-content: flex-start;
-  flex-direction: column;
-}
-.image-container img {
-  margin-top: 10px;
-
-.team-member-image {
-  object-fit: cover;
-  aspect-ratio: 1/1;
-  margin-bottom: 5px;
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: auto;
-  height: auto;
-}
-
-.team-member-info {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  flex-grow: 1;
-}
-
-.bio-container {
-  max-width: 90%;
-  font-size: 18px;
-  margin-bottom: 10px;
-}
-
-.team-member-name {
-  margin: 0;
-  margin-bottom: 0px;
-}
-
-.team-member-role {
-  margin: 0;
-  margin-top: -25px;
-}
-</style>
+    .border {
+      border-bottom: 1px solid #515151;
+      margin-top: 5px;
+    }
+  
+    .team-member a:hover svg {
+      transform: scale(1.25);
+      text-decoration: none;
+    }
+  
+    .team-member a svg {
+      vertical-align: middle;
+    }
+  
+    .team-members-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: flex-start;
+      align-items: flex-start;
+    }
+  
+    .team-member {
+      display: flex;
+      align-items: flex-start;
+      margin-right: 20px;
+      margin-bottom: 10px;
+      margin-top: 10px;
+      justify-content: space-between;
+      margin-bottom: 20px; /* Added margin-bottom */
+    }
+  
+    .image-container {
+      margin-right: 10px;
+      display: flex;
+      align-items: flex-start;
+      justify-content: flex-start;
+      flex-direction: column;
+    }
+  
+    .image-container img {
+      margin-top: 10px;
+    }
+  
+    .team-member-info {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      flex-grow: 1;
+    }
+  
+    .bio-container {
+      max-width: 90%;
+      font-size: 18px;
+      margin-bottom: 10px;
+    }
+  
+    .team-member-name {
+      margin: 0;
+      margin-bottom: 0px;
+    }
+  
+    .team-member-role {
+      margin: 0;
+      margin-top: -25px;
+    }
+  </style>
 <div class="team-members-container">
     <div class="team-member" style="display: flex;">
         <div class="image-container">
