@@ -89,6 +89,83 @@ feature_row:
   .contact-form input[type="submit"]:hover {
     background-color: #31b2af;
   }
+<style>
+  .feature-container {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .feature-row {
+    margin-left: 0;
+    position: relative;
+  }
+
+  .feature-row .header-content {
+    color: #ffffff;
+    padding: 2rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .feature-row .header-content h1 {
+    font-size: 3rem;
+    margin: 0;
+  }
+
+  .feature-row .header-content p {
+    font-size: 1.5rem;
+    margin: 0;
+  }
+
+  .color-line {
+    height: 100%;
+    position: absolute;
+    left: -2rem;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #47e4e2;
+  }
+
+  .contact-info p {
+    font-size: 0.9rem;
+    color: #ffffff;
+    white-space: nowrap;
+  }
+
+  .contact-form {
+    background-color: #ffffff;
+  }
+
+  .contact-form label {
+    display: block;
+    margin-bottom: 0.5rem;
+    color: #000000;
+  }
+
+  .contact-form input,
+  .contact-form textarea {
+    width: 100%;
+    padding: 0.5rem 0;
+    margin-bottom: 1rem;
+    border: none;
+    border-bottom: 2px solid #000000;
+    background-color: #ffffff;
+    color: #000000;
+  }
+
+  .contact-form input[type="submit"] {
+    background-color: #47e4e2;
+    color: #ffffff;
+    border: none;
+    padding: 0.75rem 1rem;
+    cursor: pointer;
+  }
+
+  .contact-form input[type="submit"]:hover {
+    background-color: #31b2af;
+  }
 </style>
 
 <div style="position: relative;">
@@ -105,7 +182,7 @@ feature_row:
       </div>
     </div>
     <div class="feature-row" style="background-image: url('{{ page.feature_row[1].image_path_right }}'); background-size: cover; background-position: center; display: flex; position: relative; flex: 0 0 34%;">
-      <div class="contact-info" style="width: 50%; display: flex; flex-direction: column; color: #ffffff; justify-content: flex-end; padding: 1rem;">
+      <div class="contact-info" style="width: 60%; display: flex; flex-direction: column; color: #ffffff; justify-content: flex-end; padding: 1rem;">
         <h2 style="font-size: 2rem; color: #ffffff; margin-bottom: 1rem;">Contact Info</h2>
         <div style="display: flex; align-items: center; margin-bottom: 1rem;">
           <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 384 512">
