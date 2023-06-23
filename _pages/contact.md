@@ -53,6 +53,7 @@ feature_row:
   }
 
   .contact-info p {
+    font-size: 0.9rem;
     color: #ffffff;
   }
 
@@ -110,13 +111,13 @@ feature_row:
           <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 384 512">
             <path fill="#ffffff" d="M172.268 501.67C26.97 291.031 0 269.413 0 192 0 85.961 85.961 0 192 0s192 85.961 192 192c0 77.413-26.97 99.031-172.268 309.67-9.535 13.774-29.93 13.773-39.464 0zM192 272c44.183 0 80-35.817 80-80s-35.817-80-80-80-80 35.817-80 80 35.817 80 80 80z"/>
           </svg>
-          <p style="margin: 0 0 0 0.5rem; font-size: 14;">Catalyst Neuro <br>844 Rose Drive, <br> Benicia, CA 94510</p>
+          <p style="margin: 0 0 0 0.5rem;">Catalyst Neuro <br>844 Rose Drive, <br> Benicia, CA 94510</p>
         </div>
         <div style="display: flex; align-items: center;">
           <svg xmlns="http://www.w3.org/2000/svg" color="#ffffff" width="30" height="30" viewBox="0 0 448 512">
             <path fill="#ffffff" d="M400 32H48C21.49 32 0 53.49 0 80v352c0 26.51 21.49 48 48 48h352c26.51 0 48-21.49 48-48V80c0-26.51-21.49-48-48-48zM178.117 262.104C87.429 196.287 88.353 196.121 64 177.167V152c0-13.255 10.745-24 24-24h272c13.255 0 24 10.745 24 24v25.167c-24.371 18.969-23.434 19.124-114.117 84.938-10.5 7.655-31.392 26.12-45.883 25.894-14.503.218-35.367-18.227-45.883-25.895zM384 217.775V360c0 13.255-10.745 24-24 24H88c-13.255 0-24-10.745-24-24V217.775c13.958 10.794 33.329 25.236 95.303 70.214 14.162 10.341 37.975 32.145 64.694 32.011h0c26.768.134 50.568-21.64 64.706-31.98 61.984-44.961 81.225-59.542 95.297-70.225zM400 96H48V80c0-8.837 7.163-16 16-16h320c8.837 0 16 7.163 16 16v16z"/>
           </svg>
-          <p style="margin: 0 0 0 0.5rem; font-size: 14;">info@catalystneuro.com</p>
+          <p style="margin: 0 0 0 0.5rem;">info@catalystneuro.com</p>
         </div>
       </div>
     </div>
