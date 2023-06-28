@@ -141,7 +141,7 @@ feature_row:
   .contact-form {
     margin-top: 15px;
     background-image: url('/assets/images/2471283.gif/');
-    background-size: auto 100%;
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
   }
