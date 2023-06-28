@@ -139,6 +139,7 @@ feature_row:
   }
 
   .contact-form {
+    margin-top: 15px;
     background-image: url('/assets/images/2471283.gif/');
     background-size: cover;
     background-position: center;
@@ -224,8 +225,8 @@ feature_row:
     </div>
   </div>
 </div>
+
    <div class="contact-form" style="padding: 2rem;">
-  <h1>Get In Touch</h1>
   <form method="post" action="#" netlify>
     <div style="display: flex;">
       <input type="text" id="first" name="first" required placeholder="First name" style="width: 50%;">
