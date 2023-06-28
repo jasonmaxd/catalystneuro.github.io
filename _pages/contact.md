@@ -143,6 +143,7 @@ feature_row:
     background-image: url('/assets/images/2471283.gif/');
     background-size: contain;
     background-position: center;
+    background-repeat: no-repeat;
   }
 .contact-form input[type="text"],
 .contact-form input[type="email"],
