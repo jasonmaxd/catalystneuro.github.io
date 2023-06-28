@@ -139,7 +139,9 @@ feature_row:
   }
 
   .contact-form {
-    background-color: #ffffff;
+    background-image: url('/assets/images/2471283.gif/');
+    background-size: cover;
+    background-position: center;
   }
 .contact-form input[type="text"],
 .contact-form input[type="email"],
