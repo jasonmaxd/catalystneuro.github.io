@@ -22,8 +22,9 @@ $monospace: Monaco, Consolas, "Lucida Console", monospace !default;
    font-family: 'Lato';
    font-style: normal;
    font-weight: 400;
-   src: font-url('assets/fonts/lato-regular.ttf') format('truetype');
+   src: url('assets/fonts/lato-regular.ttf') format('truetype');
  }
+
 /* sans serif typefaces */
 $sans-serif-narrow: $sans-serif !default;
 $helvetica: Helvetica, "Helvetica Neue", Arial, sans-serif !default;
