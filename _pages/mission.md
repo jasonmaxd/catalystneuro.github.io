@@ -16,6 +16,7 @@ header:
   .mission-content {
     background: none;
     padding: 20px;
+    color:black;
   }
 </style>
 <div class="mission-content">
