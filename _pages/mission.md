@@ -10,9 +10,8 @@ header:
 
 <style>
   body {
-    background-image: url("/assets/images/gradient2.jpg");
+    background-image: url("/assets/images/gradient2update.jpg");
     background-size: cover;
-    padding-top: 100px;
   }
   .mission-content {
     background: none;
