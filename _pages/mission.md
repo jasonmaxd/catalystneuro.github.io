@@ -12,7 +12,7 @@ header:
   body {
     background-image: url("/assets/images/gradient2.jpg");
     background-size: cover;
-    margin-top: 100px;
+    padding-top: 100px;
   }
   .mission-content {
     background: none;
