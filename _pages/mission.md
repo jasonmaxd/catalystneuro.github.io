@@ -38,7 +38,7 @@ header:
 
       Presently, our primary areas of focus include data sharing in neurophysiology and spike sorting.
 </p>
-      <h3>Data Sharing in Neurophysiology<h3>
+      <h3>Data Sharing in Neurophysiology</h3>
 <p>
       In collaboration with BRAIN-endorsed teams, we are developing an infrastructure that promotes active cooperation across the neurophysiology community. We utilize the Neurodata Without Borders (NWB) standard for neurophysiology data and work closely with the DANDI Archive, which accepts NWB data and is capable of storing terabytes of neurophysiology data at no charge. As part of the development teams for these projects, we create open-source software to simplify the usage of these tools, including:
 </p>
