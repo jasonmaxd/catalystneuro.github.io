@@ -30,7 +30,7 @@ header:
 
       The problem has become more urgent recently, with a new NIH policy that all papers must include the publication of scientific data. Now, whether motivated by an appreciation for open science or by funding requirements, many labs are facing new challenges in sharing data. This problem is exacerbated by new data acquisition technologies that are producing data at an unprecedented pace.
 </p>
-<h1>Our Solution<h1>
+<h1>Our Solution</h1>
 <p>
       CatalystNeuro is a specialized company committed to assisting neuroscience labs navigate this challenging period. Our international team consists of neuroscientist software developers who are deeply passionate about employing data and software engineering to create a seamless network among data producers, tool developers, and users within the neuroscience community. 
 
@@ -50,7 +50,7 @@ header:
 <p>
       We collaborate with individual labs to develop tailored solutions to help them leverage these resources. This includes both virtual and in-person training, and contracts for the development of customized solutions.
 </p>
-      <h3>Spike Sorting<h3>
+      <h3>Spike Sorting</h3>
     <p>
       Spike sorting is the process of identifying neuronal action potentials in an electrophysiology recordings and assigning them to different neurons. Spike sorting is a challenging problem that is far from solved, and the recent advances in electrophysiology channel count and density have made the problem much more difficult. SpikeInterface is an open source software solution that makes it easy to access state-of-the-art spike sorting technology. With a few lines of code, SpikeInterface enables you to load and pre-process an electrophysiology recording, run several state-of-the-art spike sorters, compare them, post-process and curate the output, compute quality metrics, and visualize the results.
 </p>
