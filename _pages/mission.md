@@ -14,8 +14,9 @@ header:
     background-size: cover;
   }
   .mission-content {
-    background-color: rgba(255, 255, 255, 0.8);
+    background: none;
     padding: 20px;
+    margin-top: 100px;
   }
 </style>
 <div class="mission-content">
@@ -43,9 +44,9 @@ header:
       In collaboration with BRAIN-endorsed teams, we are developing an infrastructure that promotes active cooperation across the neurophysiology community. We utilize the Neurodata Without Borders (NWB) standard for neurophysiology data and work closely with the DANDI Archive, which accepts NWB data and is capable of storing terabytes of neurophysiology data at no charge. As part of the development teams for these projects, we create open-source software to simplify the usage of these tools, including:
 </p>
       <ul>
-        - NWB Inspector: A tool that scans NWB files for potential errors and areas of improvement, generating a comprehensive report.
-        - NeuroConv: A utility that automates the conversion from proprietary neurophysiology data formats to NWB.
-        - NWB GUIDE: A graphical user interface (GUI) that offers a code-free solution for conversion to NWB (currently in progress).
+      <li>NWB Inspector: A tool that scans NWB files for potential errors and areas of improvement, generating a comprehensive report.</li>
+      <li>NeuroConv: A utility that automates the conversion from proprietary neurophysiology data formats to NWB.</li>
+      <li>NWB GUIDE: A graphical user interface (GUI) that offers a code-free solution for conversion to NWB (currently in progress).</li>
       </ul>
 <p>
       We collaborate with individual labs to develop tailored solutions to help them leverage these resources. This includes both virtual and in-person training, and contracts for the development of customized solutions.
