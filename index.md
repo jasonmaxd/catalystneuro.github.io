@@ -25,7 +25,8 @@ feature_row_bottom:
 
 ---
 
-{% include feature_row type="left" %}
+
+{% include feature_row type="left" class="centered-feature-row" %}
 {% for feature in page.feature_row_gallery %}
 
   <div class="feature-row">
