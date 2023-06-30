@@ -160,7 +160,15 @@ $text-color: #333333; // Dark gray text color
     background-color: #0c067e;
     color: #ffffff;
   }
-
+  .centered-feature-row {
+    text-align: center;
+    padding: 20px;
+  }
+  .centered-feature-row .rounded-button {
+    display: inline-block;
+    text-align: center;
+    margin-top: 10px;
+  }
   .excerpt-line {
     display: flex;
     justify-content: center;
