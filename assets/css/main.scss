@@ -294,3 +294,34 @@ $text-color: #333333; // Dark gray text color
     background-color: #47e4e2; /* Adjust the color of the second underline here */
     z-index: -1;
   }
+  .laptop-screen {
+    position: relative;
+    width: 600px; /* Set the width and height according to your laptop screen image */
+    height: 400px;
+    overflow: hidden;
+  }
+  
+  .image-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 200%; /* Set the width to accommodate both images side by side */
+    animation: scrollImages 6s infinite;
+  }
+  
+  .image-list li {
+    float: left;
+    width: 50%; /* Half the width to display one image at a time */
+  }
+  
+  @keyframes scrollImages {
+    0% {
+      transform: translateX(0);
+    }
+    50% {
+      transform: translateX(-50%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }

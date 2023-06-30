@@ -112,17 +112,15 @@ feature_row_bottom:
     </div>
   </div>
 {% endfor %}
-<div class="feature-row" style="background-color: #00a3e0; color: white;">
+<div class="feature-row" style="background-color: #47e4e2; color: white;">
   <div class="feature-image">
-    <div class="dt-laptop-slider"> 
-                      <div class="laptop-screen">
-                        <ul class="fade">
-                                                        <li><img class='app-shot' src="http://www.catalystneuro.com/wp-content/uploads/2020/02/lapi-slids.png"></li>
-                                                         <li><img class='app-shot' src="http://www.catalystneuro.com/wp-content/uploads/2020/03/lap-slide2.jpg"></li>
-                                                     </ul>
-                      </div>
-    </div>
+    <div class="laptop-screen">
+  <ul class="image-list">
+    <li><img class='app-shot' src="http://www.catalystneuro.com/wp-content/uploads/2020/02/lapi-slids.png"></li>
+    <li><img class='app-shot' src="http://www.catalystneuro.com/wp-content/uploads/2020/03/lap-slide2.jpg"></li>
+  </ul>
   </div>
+</div>
   <div class="feature-text" style="text-align: right;">
     <span class="underlined-title">
       <span class="first-word">Our</span> <b>Software</b>
