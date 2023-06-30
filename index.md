@@ -116,10 +116,12 @@ feature_row_bottom:
   <div class="feature-image">
   <div class="laptop-screen">
     <img src="assets/images/laptop.jpg" alt="Laptop Screen" class="laptop-image">
-    <ul class="image-list">
-      <li><img class='app-shot' src="http://www.catalystneuro.com/wp-content/uploads/2020/02/lapi-slids.png"></li>
-      <li><img class='app-shot' src="http://www.catalystneuro.com/wp-content/uploads/2020/03/lap-slide2.jpg"></li>
-    </ul>
+    <div class="image-viewport">
+      <ul class="image-list">
+        <li><img class="app-shot" src="http://www.catalystneuro.com/wp-content/uploads/2020/02/lapi-slids.png"></li>
+        <li><img class="app-shot" src="http://www.catalystneuro.com/wp-content/uploads/2020/03/lap-slide2.jpg"></li>
+      </ul>
+    </div>
   </div>
 </div>
   <div class="feature-text" style="text-align: right;">
