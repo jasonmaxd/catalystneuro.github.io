@@ -310,12 +310,12 @@ $text-color: #333333; // Dark gray text color
   
   .image-viewport {
     white-space: nowrap; /* Keep images in a single line */
-    width: 75%;
+    width: 75%; /* Adjust the width of the image viewport inside the laptop screen */
     height: 100%;
     overflow: hidden;
     position: absolute;
     top: 15%;
-    left: 12.5%;
+    left: 12.5%; /* Adjust the left position to move the image block right inside the laptop screen */
   }
   
   .image-list {
@@ -323,12 +323,12 @@ $text-color: #333333; // Dark gray text color
     padding: 0;
     margin: 0;
     display: inline-block;
-    animation: scrollImages 6s infinite;
+    animation: scrollImages 6s infinite linear; /* Use linear timing function for smooth scrolling */
   }
   
   .image-list li {
     display: inline-block;
-    width: 50%; /* Adjust the width of the images as needed */
+    width: 100%; /* Show two images side by side */
   }
   
   .image-list li img {
@@ -341,6 +341,6 @@ $text-color: #333333; // Dark gray text color
       transform: translateX(0);
     }
     100% {
-      transform: translateX(-100%);
+      transform: translateX(-50%); /* Update the translation to -50% to scroll both images */
     }
   }
