@@ -120,8 +120,6 @@ feature_row_bottom:
     <ul class="image-list">
       <li><img class='app-shot' src="http://www.catalystneuro.com/wp-content/uploads/2020/02/lapi-slids.png"></li>
       <li><img class='app-shot' src="http://www.catalystneuro.com/wp-content/uploads/2020/03/lap-slide2.jpg"></li>
-      <!-- Repeat the first image to ensure smooth looping -->
-      <li><img class='app-shot' src="http://www.catalystneuro.com/wp-content/uploads/2020/02/lapi-slids.png"></li>
     </ul>
   </div>
 </div>
