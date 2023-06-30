@@ -164,6 +164,31 @@ $text-color: #333333; // Dark gray text color
     text-align: center;
     padding: 20px;
   }
+
+  .centered-feature-row .underlined-title {
+    display: block;
+    position: relative;
+    margin: 0 auto;
+  }
+
+  .centered-feature-row .underlined-title::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: #000;
+    bottom: -2px;
+    left: 0;
+  }
+
+  .centered-feature-row .first-word {
+    color: #000;
+  }
+
+  .centered-feature-row .excerpt {
+    margin: 20px 0;
+  }
+
   .centered-feature-row .rounded-button {
     display: inline-block;
     text-align: center;
