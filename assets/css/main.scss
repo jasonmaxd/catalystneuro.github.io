@@ -311,10 +311,10 @@ $text-color: #333333; // Dark gray text color
   .image-viewport {
     white-space: nowrap; /* Keep images in a single line */
     width: 75%;
-    height: 88%;
+    height: 100%;
     overflow: hidden;
     position: absolute;
-    top: 10%;
+    top: 15%;
     left: 12.5%;
   }
   
