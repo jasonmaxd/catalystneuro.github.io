@@ -121,6 +121,7 @@ feature_row_bottom:
                                                          <li><img class='app-shot' src="http://www.catalystneuro.com/wp-content/uploads/2020/03/lap-slide2.jpg"></li>
                                                      </ul>
                       </div>
+    </div>
   </div>
   <div class="feature-text" style="text-align: right;">
     <span class="underlined-title">
