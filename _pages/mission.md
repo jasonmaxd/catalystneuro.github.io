@@ -68,7 +68,6 @@ body {
     margin-bottom: 20px;
   }
   .mission-content .image-container img {
-    max-width: 45%;
     border-radius: 5px;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
   }
@@ -76,12 +75,11 @@ body {
     flex: 1;
     padding: 0 20px;
   }
-  @media (max-width: 2500px) {
+  @media {
     .mission-content .image-container {
       flex-direction: column;
     }
     .mission-content .image-container img {
-      max-width: 100%;
       margin-bottom: 10px;
     }
   }
