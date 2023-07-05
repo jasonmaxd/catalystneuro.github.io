@@ -97,14 +97,14 @@ body {
       The problem has become more urgent recently, with a new NIH policy that all papers must include the publication of scientific data. Now, whether motivated by an appreciation for open science or by funding requirements, many labs are facing new challenges in sharing data. This problem is exacerbated by new data acquisition technologies that are producing data at an unprecedented pace.
 </p>
 <h1>Our Solution</h1>
-<p>
+  <p>
       CatalystNeuro is a specialized company committed to assisting neuroscience labs navigate this challenging period. Our international team consists of neuroscientist software developers who are deeply passionate about employing data and software engineering to create a seamless network among data producers, tool developers, and users within the neuroscience community. 
 
       CatalystNeuro is designed to be complementary to labs. We focus on data and software engineering so labs can focus on advancing and communicating scientific discoveries. Despite being a for-profit organization, we adhere to an open-source approach with permissive licensing for our developed software, thereby offering free access to anyone in the community. 
 
       Presently, our primary areas of focus include data sharing in neurophysiology and spike sorting.
-</p>
-<div class="image-container">
+  </p>
+  <div class="image-container">
       <img src="/assets/images/neurophys.jpeg" alt="Data Sharing Neurophysiology Image">
       <p>In collaboration with BRAIN-endorsed teams, we are developing an infrastructure that promotes active cooperation across the neurophysiology community. We utilize the Neurodata Without Borders (NWB) standard for neurophysiology data and work closely with the DANDI Archive, which accepts NWB data and is capable of storing terabytes of neurophysiology data at no charge. As part of the development teams for these projects, we create open-source software to simplify the usage of these tools, including:</p>
       <ul>
@@ -115,8 +115,8 @@ body {
       <p>We collaborate with individual labs to develop tailored solutions to help them leverage these resources. This includes both virtual and in-person training, and contracts for the development of customized solutions.</p>
   </div>
       
-<div class="image-container">
+  <div class="image-container">
       <p>Spike sorting is the process of identifying neuronal action potentials in an electrophysiology recording and assigning them to different neurons. Spike sorting is a challenging problem that is far from solved, and the recent advances in electrophysiology channel count and density have made the problem much more difficult. SpikeInterface is an open-source software solution that makes it easy to access state-of-the-art spike sorting technology. With a few lines of code, SpikeInterface enables you to load and preprocess an electrophysiology recording, run several state-of-the-art spike sorters, compare them, post-process and curate the output, compute quality metrics, and visualize the results.</p>
       <img src="/assets/images/spike-sort.jpeg" alt="Spike Sorting Image">
-    </div>
+  </div>
 </div>
