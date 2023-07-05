@@ -10,78 +10,78 @@ header:
 
 <style>
     body {
-      font-family: 'Roboto', sans-serif;
-      line-height: 1.6;
-      background-image: url("/assets/images/gradient2update.jpg");
-      background-size: cover;
-    }
-    .mission-content {
-      background-color: #fff;
-      border-radius: 10px;
-      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-      padding: 40px;
-      max-width: 900px;
-      margin: 0 auto;
-    }
-    .mission-content h1 {
-      color: #333;
-      font-size: 30px;
-      font-weight: 700;
-      margin-bottom: 20px;
-    }
-    .mission-content h3 {
-      color: #555;
-      font-size: 24px;
-      font-weight: 700;
-      margin-bottom: 10px;
-    }
-    .mission-content p {
-      color: #666;
-      font-size: 18px;
-      margin-bottom: 20px;
-    }
-    .mission-content ul {
-      list-style: disc;
-      margin-left: 30px;
-      margin-bottom: 20px;
-    }
-    .mission-content li {
-      font-size: 18px;
-      line-height: 1.4;
-    }
-    .mission-content a {
-      color: #007bff;
-      text-decoration: none;
-    }
-    .mission-content a:hover {
-      text-decoration: underline;
-    }
-    .mission-content li:hover {
-      background-color: #f9f9f9;
-    }
-    .mission-content a:hover {
-      color: #0056b3;
-    }
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    background-image: url("/assets/images/gradient2update.jpg");
+    background-size: cover;
+  }
+  .mission-content {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    max-width: 900px;
+    margin: 0 auto;
+  }
+  .mission-content h1 {
+    color: #333;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 20px;
+  }
+  .mission-content h3 {
+    color: #555;
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 10px;
+  }
+  .mission-content p {
+    color: #666;
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  .mission-content ul {
+    list-style: disc;
+    margin-left: 30px;
+    margin-bottom: 20px;
+  }
+  .mission-content li {
+    font-size: 18px;
+    line-height: 1.4;
+  }
+  .mission-content a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  .mission-content a:hover {
+    text-decoration: underline;
+  }
+  .mission-content li:hover {
+    background-color: #f9f9f9;
+  }
+  .mission-content a:hover {
+    color: #0056b3;
+  }
+  .mission-content .image-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  .mission-content .image-container img {
+    max-width: 45%;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  }
+  @media (max-width: 768px) {
     .mission-content .image-container {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      margin-bottom: 20px;
+      flex-direction: column;
     }
     .mission-content .image-container img {
-      max-width: 45%;
-      border-radius: 5px;
-      box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+      max-width: 100%;
+      margin-bottom: 10px;
     }
-    @media (max-width: 768px) {
-      .mission-content .image-container {
-        flex-direction: column;
-      }
-      .mission-content .image-container img {
-        max-width: 100%;
-        margin-bottom: 10px;
-      }
-    }
+  }
   </style>
 <div class="mission-content">
 <h1>The Problem</h1>
