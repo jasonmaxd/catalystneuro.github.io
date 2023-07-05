@@ -76,7 +76,7 @@ body {
     flex: 1;
     padding: 0 20px;
   }
-  @media (max-width: 768px) {
+  @media (max-width: 2500px) {
     .mission-content .image-container {
       flex-direction: column;
     }
