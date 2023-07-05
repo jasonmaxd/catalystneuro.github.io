@@ -64,15 +64,17 @@ body {
   }
   .mission-content .image-container {
     display: flex;
-    flex-wrap: wrap; /* Allow images to wrap to the next line if necessary */
-    justify-content: space-between;
-    align-items: center;
+    flex-wrap: wrap;
     margin-bottom: 20px;
   }
   .mission-content .image-container img {
     max-width: 45%;
     border-radius: 5px;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  }
+  .mission-content .image-container .text-container {
+    flex: 1;
+    padding: 0 20px;
   }
   @media (max-width: 768px) {
     .mission-content .image-container {
