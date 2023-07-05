@@ -9,7 +9,7 @@ header:
 ---
 
 <style>
-  body {
+    body {
       font-family: 'Roboto', sans-serif;
       line-height: 1.6;
       background-image: url("/assets/images/gradient2update.jpg");
@@ -20,7 +20,7 @@ header:
       border-radius: 10px;
       box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
       padding: 40px;
-      max-width: 800px;
+      max-width: 900px;
       margin: 0 auto;
     }
     .mission-content h1 {
@@ -62,7 +62,27 @@ header:
     .mission-content a:hover {
       color: #0056b3;
     }
-</style>
+    .mission-content .image-container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 20px;
+    }
+    .mission-content .image-container img {
+      max-width: 45%;
+      border-radius: 5px;
+      box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    }
+    @media (max-width: 768px) {
+      .mission-content .image-container {
+        flex-direction: column;
+      }
+      .mission-content .image-container img {
+        max-width: 100%;
+        margin-bottom: 10px;
+      }
+    }
+  </style>
 <div class="mission-content">
 <h1>The Problem</h1>
 <p>Acquiring neurophysiology data is expensive and time-consuming, often involving highly skilled individuals and the use of animals. As scientists, it is our duty to ensure that this data is utilized to its maximum potential. We understand that data collected for one project could be used to answer additional scientific queries, but sharing this data can be quite difficult.
@@ -83,20 +103,19 @@ header:
 
       Presently, our primary areas of focus include data sharing in neurophysiology and spike sorting.
 </p>
-      <h3>Data Sharing in Neurophysiology</h3>
-<p>
-      In collaboration with BRAIN-endorsed teams, we are developing an infrastructure that promotes active cooperation across the neurophysiology community. We utilize the Neurodata Without Borders (NWB) standard for neurophysiology data and work closely with the DANDI Archive, which accepts NWB data and is capable of storing terabytes of neurophysiology data at no charge. As part of the development teams for these projects, we create open-source software to simplify the usage of these tools, including:
-</p>
+<div class="image-container">
+      <img src="/assets/images/neurophys.jpeg" alt="Data Sharing Neurophysiology Image">
+      <p>In collaboration with BRAIN-endorsed teams, we are developing an infrastructure that promotes active cooperation across the neurophysiology community. We utilize the Neurodata Without Borders (NWB) standard for neurophysiology data and work closely with the DANDI Archive, which accepts NWB data and is capable of storing terabytes of neurophysiology data at no charge. As part of the development teams for these projects, we create open-source software to simplify the usage of these tools, including:</p>
       <ul>
-      <li>NWB Inspector: A tool that scans NWB files for potential errors and areas of improvement, generating a comprehensive report.</li>
-      <li>NeuroConv: A utility that automates the conversion from proprietary neurophysiology data formats to NWB.</li>
-      <li>NWB GUIDE: A graphical user interface (GUI) that offers a code-free solution for conversion to NWB (currently in progress).</li>
+        <li>NWB Inspector: A tool that scans NWB files for potential errors and areas of improvement, generating a comprehensive report.</li>
+        <li>NeuroConv: A utility that automates the conversion from proprietary neurophysiology data formats to NWB.</li>
+        <li>NWB GUIDE: A graphical user interface (GUI) that offers a code-free solution for conversion to NWB (currently in progress).</li>
       </ul>
-<p>
-      We collaborate with individual labs to develop tailored solutions to help them leverage these resources. This includes both virtual and in-person training, and contracts for the development of customized solutions.
-</p>
-      <h3>Spike Sorting</h3>
-    <p>
-      Spike sorting is the process of identifying neuronal action potentials in an electrophysiology recordings and assigning them to different neurons. Spike sorting is a challenging problem that is far from solved, and the recent advances in electrophysiology channel count and density have made the problem much more difficult. SpikeInterface is an open source software solution that makes it easy to access state-of-the-art spike sorting technology. With a few lines of code, SpikeInterface enables you to load and pre-process an electrophysiology recording, run several state-of-the-art spike sorters, compare them, post-process and curate the output, compute quality metrics, and visualize the results.
-</p>
+      <p>We collaborate with individual labs to develop tailored solutions to help them leverage these resources. This includes both virtual and in-person training, and contracts for the development of customized solutions.</p>
+  </div>
+      
+<div class="image-container">
+      <p>Spike sorting is the process of identifying neuronal action potentials in an electrophysiology recording and assigning them to different neurons. Spike sorting is a challenging problem that is far from solved, and the recent advances in electrophysiology channel count and density have made the problem much more difficult. SpikeInterface is an open-source software solution that makes it easy to access state-of-the-art spike sorting technology. With a few lines of code, SpikeInterface enables you to load and preprocess an electrophysiology recording, run several state-of-the-art spike sorters, compare them, post-process and curate the output, compute quality metrics, and visualize the results.</p>
+      <img src="/assets/images/spike-sort.jpeg" alt="Spike Sorting Image">
+    </div>
 </div>
