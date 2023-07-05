@@ -156,6 +156,7 @@ feature_row:
   background-color: #ffffff;
   color: #000000;
   caret-color: lightgrey;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
 
 .contact-form input[type="text"]::placeholder,
