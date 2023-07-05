@@ -147,29 +147,30 @@ feature_row:
     background-repeat: no-repeat;
   }
 .contact-form input[type="text"],
-.contact-form input[type="email"],
-.contact-form textarea {
-  width: 100%;
-  padding: 0.5rem 0;
-  margin-bottom: 1rem;
-  border: none;
-  border-bottom: 2px solid #000000;
-  background-color: #ffffff;
-  color: #000000;
-  caret-color: lightgrey;
-}
+  .contact-form input[type="email"],
+  .contact-form textarea {
+    width: 100%;
+    padding: 0.5rem 0;
+    margin-bottom: 1rem;
+    border: none;
+    border-bottom: 2px solid #000000;
+    background-color: transparent;
+    color: #000000;
+    caret-color: lightgrey;
+    box-shadow: none;
+  }
 
-.contact-form input[type="text"]::placeholder,
-.contact-form input[type="email"]::placeholder,
-.contact-form textarea::placeholder {
-  color: lightgrey;
-}
+  .contact-form input[type="text"]::placeholder,
+  .contact-form input[type="email"]::placeholder,
+  .contact-form textarea::placeholder {
+    color: lightgrey;
+  }
 
-.contact-form input[type="text"]:focus::placeholder,
-.contact-form input[type="email"]:focus::placeholder,
-.contact-form textarea:focus::placeholder {
-  color: transparent;
-}
+  .contact-form input[type="text"]:focus::placeholder,
+  .contact-form input[type="email"]:focus::placeholder,
+  .contact-form textarea:focus::placeholder {
+    color: transparent;
+  }
   .contact-form input,
   .contact-form textarea {
     width: 100%;
