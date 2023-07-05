@@ -140,10 +140,11 @@ feature_row:
 
   .contact-form {
     margin-top: 15px;
-    background-image: url('/assets/images/calm.jpeg/');
+    background-image: url('/assets/images/calm2.png/');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
   }
 .contact-form input[type="text"],
 .contact-form input[type="email"],
