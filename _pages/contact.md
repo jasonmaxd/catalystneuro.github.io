@@ -147,30 +147,29 @@ feature_row:
     background-repeat: no-repeat;
   }
 .contact-form input[type="text"],
-  .contact-form input[type="email"],
-  .contact-form textarea {
-    width: 100%;
-    padding: 0.5rem 0;
-    margin-bottom: 1rem;
-    border: none;
-    border-bottom: 2px solid #000000;
-    background-color: transparent;
-    color: #000000;
-    caret-color: lightgrey;
-    box-shadow: none;
-  }
+.contact-form input[type="email"],
+.contact-form textarea {
+  width: 100%;
+  padding: 0.5rem 0;
+  margin-bottom: 1rem;
+  border: none;
+  border-bottom: 2px solid #000000;
+  background-color: #ffffff;
+  color: #000000;
+  caret-color: lightgrey;
+}
 
-  .contact-form input[type="text"]::placeholder,
-  .contact-form input[type="email"]::placeholder,
-  .contact-form textarea::placeholder {
-    color: lightgrey;
-  }
+.contact-form input[type="text"]::placeholder,
+.contact-form input[type="email"]::placeholder,
+.contact-form textarea::placeholder {
+  color: lightgrey;
+}
 
-  .contact-form input[type="text"]:focus::placeholder,
-  .contact-form input[type="email"]:focus::placeholder,
-  .contact-form textarea:focus::placeholder {
-    color: transparent;
-  }
+.contact-form input[type="text"]:focus::placeholder,
+.contact-form input[type="email"]:focus::placeholder,
+.contact-form textarea:focus::placeholder {
+  color: transparent;
+}
   .contact-form input,
   .contact-form textarea {
     width: 100%;
@@ -184,11 +183,12 @@ feature_row:
 
   .contact-form input[type="submit"] {
     background-color: #47e4e2;
-    color: #ffffff;
+    color: transparent;
     border: none;
     padding: 0.75rem 1rem;
     cursor: pointer;
     border-radius: 20px;
+    outline: none;
   }
 
   .contact-form input[type="submit"]:hover {
