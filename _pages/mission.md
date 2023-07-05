@@ -9,7 +9,7 @@ header:
 ---
 
 <style>
-    body {
+body {
     font-family: 'Roboto', sans-serif;
     line-height: 1.6;
     background-image: url("/assets/images/gradient2update.jpg");
@@ -64,6 +64,7 @@ header:
   }
   .mission-content .image-container {
     display: flex;
+    flex-wrap: wrap; /* Allow images to wrap to the next line if necessary */
     justify-content: space-between;
     align-items: center;
     margin-bottom: 20px;
