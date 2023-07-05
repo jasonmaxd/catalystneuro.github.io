@@ -74,7 +74,7 @@ feature_row:
     margin-bottom: 1rem;
     border: none;
     border-bottom: 2px solid #000000;
-    background-color: #ffffff;
+    background-color: transparent;
     color: #000000;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
   }
@@ -183,7 +183,7 @@ feature_row:
 
   .contact-form input[type="submit"] {
     background-color: #47e4e2;
-    color: transparent;
+    color: #ffffff;
     border: none;
     padding: 0.75rem 1rem;
     cursor: pointer;
