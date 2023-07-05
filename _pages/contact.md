@@ -140,7 +140,7 @@ feature_row:
 
   .contact-form {
     margin-top: 15px;
-    background-image: url('/assets/images/2471283.gif/');
+    background-image: url('/assets/images/calm.jpeg/');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
