@@ -144,7 +144,6 @@ feature_row:
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
   }
 .contact-form input[type="text"],
 .contact-form input[type="email"],
@@ -179,6 +178,7 @@ feature_row:
     border-bottom: 2px solid #000000;
     background-color: #ffffff;
     color: #000000;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
   }
 
   .contact-form input[type="submit"] {
