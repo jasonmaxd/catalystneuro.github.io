@@ -62,25 +62,34 @@ body {
   .mission-content a:hover {
     color: #0056b3;
   }
-  .mission-content .image-container {
+  .mission-content .image-part {
     display: flex;
     flex-wrap: wrap;
     margin-bottom: 20px;
   }
+
   .mission-content .image-part img {
     border-radius: 5px;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    flex: 1;
+    margin-right: 20px;
+    max-width: 400px;
   }
+
   .mission-content .image-part .text-container {
     flex: 1;
     padding: 0 20px;
   }
-  @media {
+
+  @media (max-width: 768px) {
     .mission-content .image-part {
       flex-direction: column;
     }
+
     .mission-content .image-part img {
       margin-bottom: 10px;
+      margin-right: 0;
+      max-width: 100%;
     }
   }
   </style>
