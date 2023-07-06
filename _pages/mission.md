@@ -77,6 +77,7 @@ body {
     height: auto;
     object-fit: contain;
     align-self: flex-start;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   }
 
   .mission-content .image-part .text-container {
