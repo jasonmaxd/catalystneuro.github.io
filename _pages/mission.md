@@ -115,6 +115,7 @@ body {
   </p>
   <div class="image-part">
       <img src="/assets/images/neurophys.jpeg" alt="Data Sharing Neurophysiology Image">
+      <div class="text-container">
       <p>In collaboration with BRAIN-endorsed teams, we are developing an infrastructure that promotes active cooperation across the neurophysiology community. We utilize the Neurodata Without Borders (NWB) standard for neurophysiology data and work closely with the DANDI Archive, which accepts NWB data and is capable of storing terabytes of neurophysiology data at no charge. As part of the development teams for these projects, we create open-source software to simplify the usage of these tools, including:</p>
       <ul>
         <li>NWB Inspector: A tool that scans NWB files for potential errors and areas of improvement, generating a comprehensive report.</li>
@@ -122,10 +123,13 @@ body {
         <li>NWB GUIDE: A graphical user interface (GUI) that offers a code-free solution for conversion to NWB (currently in progress).</li>
       </ul>
       <p>We collaborate with individual labs to develop tailored solutions to help them leverage these resources. This includes both virtual and in-person training, and contracts for the development of customized solutions.</p>
+      </div>
   </div>
       
   <div class="image-part">
+      <div class="text-container">
       <p>Spike sorting is the process of identifying neuronal action potentials in an electrophysiology recording and assigning them to different neurons. Spike sorting is a challenging problem that is far from solved, and the recent advances in electrophysiology channel count and density have made the problem much more difficult. SpikeInterface is an open-source software solution that makes it easy to access state-of-the-art spike sorting technology. With a few lines of code, SpikeInterface enables you to load and preprocess an electrophysiology recording, run several state-of-the-art spike sorters, compare them, post-process and curate the output, compute quality metrics, and visualize the results.</p>
+      </div>
       <img src="/assets/images/spike-sort.jpeg" alt="Spike Sorting Image">
   </div>
 </div>
