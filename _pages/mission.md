@@ -72,6 +72,7 @@ body {
     border-radius: 5px;
     flex: 0 0 auto;
     margin-right: 20px;
+    margin-top: 30px;
     max-width: 27%;
     height: auto;
     object-fit: contain;
