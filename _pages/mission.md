@@ -78,6 +78,7 @@ body {
     object-fit: contain;
     align-self: flex-start;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    float: left;
   }
 
   .mission-content .image-part .text-container {
@@ -94,7 +95,7 @@ body {
       margin-bottom: 10px;
       margin-right: 0;
       max-width: 100%;
-
+      float: none;
     }
   }
   </style>
