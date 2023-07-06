@@ -63,36 +63,39 @@ body {
     color: #0056b3;
   }
   .mission-content .image-part {
+    display: flex;
+    flex-wrap: wrap;
     margin-bottom: 20px;
-    overflow: auto;
   }
 
   .mission-content .image-part img {
     border-radius: 5px;
-    float: left;
+    flex: 0 0 auto;
     margin-right: 20px;
     margin-top: 30px;
     max-width: 27%;
     height: auto;
     object-fit: contain;
+    align-self: flex-start;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    float: left;
   }
 
   .mission-content .image-part .text-container {
-    margin-left: calc(27% + 20px);
-    clear: left;
+    flex: 1;
+    padding: 0 20px;
   }
 
   @media (max-width: 27%) {
+    .mission-content .image-part {
+      flex-direction: column;
+    }
+
     .mission-content .image-part img {
+      margin-bottom: 10px;
       margin-right: 0;
       max-width: 100%;
       float: none;
-    }
-
-    .mission-content .image-part .text-container {
-      margin-left: 0;
-      clear: none;
     }
   }
   </style>
