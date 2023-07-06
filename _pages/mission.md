@@ -73,6 +73,7 @@ body {
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
     flex: 1;
     margin-right: 20px;
+    height: auto;
     max-width: 400px;
   }
 
@@ -90,6 +91,7 @@ body {
       margin-bottom: 10px;
       margin-right: 0;
       max-width: 100%;
+
     }
   }
   </style>
@@ -116,6 +118,7 @@ body {
   <div class="image-part">
       <img src="/assets/images/neurophys.jpeg" alt="Data Sharing Neurophysiology Image">
       <div class="text-container">
+      <h2>Data Sharing in Neurophysiology</h2>
       <p>In collaboration with BRAIN-endorsed teams, we are developing an infrastructure that promotes active cooperation across the neurophysiology community. We utilize the Neurodata Without Borders (NWB) standard for neurophysiology data and work closely with the DANDI Archive, which accepts NWB data and is capable of storing terabytes of neurophysiology data at no charge. As part of the development teams for these projects, we create open-source software to simplify the usage of these tools, including:</p>
       <ul>
         <li>NWB Inspector: A tool that scans NWB files for potential errors and areas of improvement, generating a comprehensive report.</li>
@@ -128,6 +131,7 @@ body {
       
   <div class="image-part">
       <div class="text-container">
+      <h2>Spike Sorting</h2>
       <p>Spike sorting is the process of identifying neuronal action potentials in an electrophysiology recording and assigning them to different neurons. Spike sorting is a challenging problem that is far from solved, and the recent advances in electrophysiology channel count and density have made the problem much more difficult. SpikeInterface is an open-source software solution that makes it easy to access state-of-the-art spike sorting technology. With a few lines of code, SpikeInterface enables you to load and preprocess an electrophysiology recording, run several state-of-the-art spike sorters, compare them, post-process and curate the output, compute quality metrics, and visualize the results.</p>
       </div>
       <img src="/assets/images/spike-sort.jpeg" alt="Spike Sorting Image">
