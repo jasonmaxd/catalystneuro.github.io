@@ -70,7 +70,6 @@ body {
 
   .mission-content .image-part img {
     border-radius: 5px;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
     flex: 0 0 auto;
     margin-right: 20px;
     max-width: 400px;
