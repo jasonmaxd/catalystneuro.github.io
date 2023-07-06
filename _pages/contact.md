@@ -70,13 +70,13 @@ feature_row:
   .contact-form input,
   .contact-form textarea {
     width: 100%;
-    padding: 0;
+    padding: 0.5rem 0;
     margin-bottom: 1rem;
     border: none;
     border-bottom: 2px solid #000000;
     background-color: transparent;
     color: #000000;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    box-shadow: none;
   }
 
   .contact-form input[type="submit"] {
