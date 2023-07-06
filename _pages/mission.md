@@ -62,7 +62,27 @@ body {
   .mission-content a:hover {
     color: #0056b3;
   }
-  
+  .mission-content .image-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+  }
+  .mission-content .image-part img {
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  }
+  .mission-content .image-part .text-container {
+    flex: 1;
+    padding: 0 20px;
+  }
+  @media {
+    .mission-content .image-part {
+      flex-direction: column;
+    }
+    .mission-content .image-part img {
+      margin-bottom: 10px;
+    }
+  }
   </style>
 <div class="mission-content">
 <h1>The Problem</h1>
@@ -84,7 +104,7 @@ body {
 
       Presently, our primary areas of focus include data sharing in neurophysiology and spike sorting.
   </p>
-  <div class="image-container">
+  <div class="image-part">
       <img src="/assets/images/neurophys.jpeg" alt="Data Sharing Neurophysiology Image">
       <p>In collaboration with BRAIN-endorsed teams, we are developing an infrastructure that promotes active cooperation across the neurophysiology community. We utilize the Neurodata Without Borders (NWB) standard for neurophysiology data and work closely with the DANDI Archive, which accepts NWB data and is capable of storing terabytes of neurophysiology data at no charge. As part of the development teams for these projects, we create open-source software to simplify the usage of these tools, including:</p>
       <ul>
@@ -95,7 +115,7 @@ body {
       <p>We collaborate with individual labs to develop tailored solutions to help them leverage these resources. This includes both virtual and in-person training, and contracts for the development of customized solutions.</p>
   </div>
       
-  <div class="image-container">
+  <div class="image-part">
       <p>Spike sorting is the process of identifying neuronal action potentials in an electrophysiology recording and assigning them to different neurons. Spike sorting is a challenging problem that is far from solved, and the recent advances in electrophysiology channel count and density have made the problem much more difficult. SpikeInterface is an open-source software solution that makes it easy to access state-of-the-art spike sorting technology. With a few lines of code, SpikeInterface enables you to load and preprocess an electrophysiology recording, run several state-of-the-art spike sorters, compare them, post-process and curate the output, compute quality metrics, and visualize the results.</p>
       <img src="/assets/images/spike-sort.jpeg" alt="Spike Sorting Image">
   </div>
