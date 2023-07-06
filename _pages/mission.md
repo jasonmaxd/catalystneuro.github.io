@@ -83,7 +83,7 @@ body {
     padding: 0 20px;
   }
 
-  @media (max-width: 768px) {
+  @media (max-width: 27%) {
     .mission-content .image-part {
       flex-direction: column;
     }
