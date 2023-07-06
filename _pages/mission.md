@@ -62,27 +62,7 @@ body {
   .mission-content a:hover {
     color: #0056b3;
   }
-  .mission-content .image-container {
-    display: flex;
-    flex-wrap: wrap;
-    margin-bottom: 20px;
-  }
-  .mission-content .image-container img {
-    border-radius: 5px;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
-  }
-  .mission-content .image-container .text-container {
-    flex: 1;
-    padding: 0 20px;
-  }
-  @media {
-    .mission-content .image-container {
-      flex-direction: column;
-    }
-    .mission-content .image-container img {
-      margin-bottom: 10px;
-    }
-  }
+  
   </style>
 <div class="mission-content">
 <h1>The Problem</h1>
