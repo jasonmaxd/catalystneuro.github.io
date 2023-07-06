@@ -71,10 +71,11 @@ body {
   .mission-content .image-part img {
     border-radius: 5px;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
-    flex: 1;
+    flex: 0 0 auto;
     margin-right: 20px;
-    height: auto;
     max-width: 400px;
+    height: auto;
+    object-fit: contain;
   }
 
   .mission-content .image-part .text-container {
