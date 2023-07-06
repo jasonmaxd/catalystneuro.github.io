@@ -72,7 +72,7 @@ body {
     border-radius: 5px;
     flex: 0 0 auto;
     margin-right: 20px;
-    max-width: 400px;
+    max-width: 27%;
     height: auto;
     object-fit: contain;
     align-self: flex-start;
