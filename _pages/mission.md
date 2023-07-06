@@ -75,6 +75,7 @@ body {
     max-width: 400px;
     height: auto;
     object-fit: contain;
+    align-self: flex-start;
   }
 
   .mission-content .image-part .text-container {
