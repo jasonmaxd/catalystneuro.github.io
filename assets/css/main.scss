@@ -301,39 +301,34 @@ $text-color: #333333; // Dark gray text color
   }
   .feature-row-blue .feature-image-blue {
     flex: 1;
-    text-align: right;
-    position: relative;
+    text-align: left;
   }
   
-  .feature-row-blue .feature-image-blue .image-viewport {
+  .feature-row-blue .feature-image-blue .image-viewport-blue {
     max-width: 100%;
     height: auto;
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    right: 0;
   }
   
-  .feature-row-blue .feature-image-blue .image-viewport .image-list {
+  .feature-row-blue .feature-image-blue .image-viewport-blue .image-list-blue {
     list-style: none;
     padding: 0;
     margin: 0;
     width: 100%;
   }
   
-  .feature-row-blue .feature-image-blue .image-viewport .image-list li {
+  .feature-row-blue .feature-image-blue .image-viewport-blue .image-list-blue li {
     display: block;
-    text-align: right;
+    text-align: left;
   }
   
-  .feature-row-blue .feature-image-blue .image-viewport .image-list li img {
+  .feature-row-blue .feature-image-blue .image-viewport-blue .image-list-blue li img {
     max-width: 100%;
     height: auto;
   }
   
   .feature-row-blue .feature-text-blue {
     flex: 1;
-    text-align: left;
+    text-align: right;
   }
   
   .image-list {
