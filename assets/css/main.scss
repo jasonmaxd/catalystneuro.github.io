@@ -294,19 +294,43 @@ $text-color: #333333; // Dark gray text color
     background-color: #47e4e2; /* Adjust the color of the second underline here */
     z-index: -1;
   }
-  .laptop-screen {
-    position: relative;
-    width: 600px; /* Set the width and height according to your laptop screen image */
-    height: 400px;
-    overflow: hidden;
+  .feature-row {
+    display: flex;
+    background-color: #47e4e2;
+    color: white;
   }
-  
-  .laptop-image {
-    width: 100%;
-    height: 100%;
+
+  .feature-row .feature-image {
+    flex: 1;
+    text-align: right;
+  }
+
+  .feature-row .feature-image .image-viewport {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .feature-row .feature-image .image-viewport .image-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .feature-row .feature-image .image-viewport .image-list li {
     display: block;
+    text-align: right;
   }
-  
+
+  .feature-row .feature-image .image-viewport .image-list li img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .feature-row .feature-text {
+    flex: 1;
+    text-align: left;
+  }
+</style>
   .image-list {
     list-style: none;
     margin-left: 12.5%;

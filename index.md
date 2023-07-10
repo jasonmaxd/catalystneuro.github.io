@@ -34,24 +34,16 @@ feature_row_bottom:
     </a>
   </div>
 </div>
-<hr style="margin-top: 40px; margin-bottom: 40px;">
-{% for feature in page.feature_row_bottom %}
-  <div class="feature-row">
-    <h1 style="text-align: center;">{{ feature.title }}</h1>
-    <div class="gif-container" style="display: flex; justify-content: center; align-items: center;">
-      <img src="/assets/images/bottom.gif" alt="Bottom GIF">
+
+<div class="feature-row">
+  <div class="feature-image">
+    <div class="image-viewport">
+      <ul class="image-list">
+        <li><img class='app-shot' src="http://www.catalystneuro.com/wp-content/uploads/2020/02/lapi-slids.png"></li>
+        <li><img class='app-shot' src="http://www.catalystneuro.com/wp-content/uploads/2020/03/lap-slide2.jpg"></li>
+      </ul>
     </div>
   </div>
-{% endfor %}
-<div class="feature-row" style="background-color: #47e4e2; color: white;">
-  <div class="feature-image">
-  <div class="image-viewport">
-    <ul class="image-list">
-      <li><img class='app-shot' src="http://www.catalystneuro.com/wp-content/uploads/2020/02/lapi-slids.png"></li>
-      <li><img class='app-shot' src="http://www.catalystneuro.com/wp-content/uploads/2020/03/lap-slide2.jpg"></li>
-    </ul>
-  </div>
-</div>
   <div class="feature-text" style="text-align: right;">
     <span class="underlined-title">
       <span class="first-word">Our</span> <b>Software</b>
@@ -135,3 +127,11 @@ We commonly work with labs to customize these software solutions to the specific
   </div>
 {% endfor %}
 <hr style="margin-top: 40px; margin-bottom: 40px;">
+{% for feature in page.feature_row_bottom %}
+  <div class="feature-row">
+    <h1 style="text-align: center;">{{ feature.title }}</h1>
+    <div class="gif-container" style="display: flex; justify-content: center; align-items: center;">
+      <img src="/assets/images/bottom.gif" alt="Bottom GIF">
+    </div>
+  </div>
+{% endfor %}
