@@ -294,35 +294,34 @@ $text-color: #333333; // Dark gray text color
     background-color: #47e4e2; /* Adjust the color of the second underline here */
     z-index: -1;
   }
-  .feature-row-blue {
-    display: flex;
-    background-color: #47e4e2;
-    color: white;
-  }
-
   .feature-row-blue .feature-image-blue {
     flex: 1;
     text-align: right;
-    margin-right: 5%; /* Add a margin to shift the image to the right */
+    position: relative;
   }
   
-  .feature-row-blue .feature-image-blue .image-viewport {
+  .feature-row-blue .feature-image-blue .image-viewport-blue {
     max-width: 100%;
     height: auto;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 0;
   }
   
-  .feature-row-blue .feature-image-blue .image-viewport .image-list {
+  .feature-row-blue .feature-image-blue .image-viewport-blue .image-list-blue {
     list-style: none;
     padding: 0;
     margin: 0;
+    width: 100%;
   }
   
-  .feature-row-blue .feature-image-blue .image-viewport .image-list li {
+  .feature-row-blue .feature-image-blue .image-viewport-blue .image-list-blue li {
     display: block;
     text-align: right;
   }
   
-  .feature-row-blue .feature-image-blue .image-viewport .image-list li img {
+  .feature-row-blue .feature-image-blue .image-viewport-blue .image-list-blue li img {
     max-width: 100%;
     height: auto;
   }
