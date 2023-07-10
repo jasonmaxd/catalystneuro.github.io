@@ -34,6 +34,7 @@ feature_row_bottom:
     </a>
   </div>
 </div>
+<hr style="margin-top: 40px; margin-bottom: 40px;">
 {% for feature in page.feature_row_bottom %}
   <div class="feature-row">
     <h1 style="text-align: center;">{{ feature.title }}</h1>
