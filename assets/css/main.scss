@@ -303,7 +303,8 @@ $text-color: #333333; // Dark gray text color
     flex: 1;
     text-align: left;
     position: relative;
-  z-index: 1
+    z-index: 1;
+    overflow: hidden;
   }
   
   .feature-row-blue .feature-image-blue .image-viewport-blue {
