@@ -300,7 +300,7 @@ $text-color: #333333; // Dark gray text color
     position: relative;
   }
   
-  .feature-row-blue .feature-image-blue .image-viewport-blue {
+  .feature-row-blue .feature-image-blue .image-viewport {
     max-width: 100%;
     height: auto;
     position: absolute;
@@ -309,19 +309,19 @@ $text-color: #333333; // Dark gray text color
     right: 0;
   }
   
-  .feature-row-blue .feature-image-blue .image-viewport-blue .image-list-blue {
+  .feature-row-blue .feature-image-blue .image-viewport .image-list {
     list-style: none;
     padding: 0;
     margin: 0;
     width: 100%;
   }
   
-  .feature-row-blue .feature-image-blue .image-viewport-blue .image-list-blue li {
+  .feature-row-blue .feature-image-blue .image-viewport .image-list li {
     display: block;
     text-align: right;
   }
   
-  .feature-row-blue .feature-image-blue .image-viewport-blue .image-list-blue li img {
+  .feature-row-blue .feature-image-blue .image-viewport .image-list li img {
     max-width: 100%;
     height: auto;
   }
