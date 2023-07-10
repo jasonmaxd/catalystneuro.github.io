@@ -15,7 +15,7 @@ feature_row:
         - Porting existing technologies into the cloud
         - Outreach, dissemination, and user support
     url: "https://calendly.com/ben-dichter/45-minute-meeting?month=2023-05"
-    btn_class: "btn--primary"
+    btn_class: "btn--primary rounded-button"
     btn_label: "Schedule a Grant Sub-Award Consultation"
     image_path: /assets/images/grant-app.jpeg
 

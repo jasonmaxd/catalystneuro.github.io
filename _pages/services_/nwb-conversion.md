@@ -13,7 +13,7 @@ feature_row:
 
       CatalystNeuro provides services to build custom conversion pipelines, which generally costs somewhere between $20,000 and $40,000, depending on the sophistication of the conversion and level of development required.
     url: "https://calendly.com/cody-c-baker"
-    btn_class: "btn--primary"
+    btn_class: "btn--primary rounded-button"
     btn_label: "Schedule a NWB Consultation"
     image_path: /assets/images/logo_nwb.png
 
