@@ -302,6 +302,8 @@ $text-color: #333333; // Dark gray text color
   .feature-row-blue .feature-image-blue {
     flex: 1;
     text-align: left;
+    position: relative;
+  z-index: 1
   }
   
   .feature-row-blue .feature-image-blue .image-viewport-blue {
@@ -314,11 +316,20 @@ $text-color: #333333; // Dark gray text color
     padding: 0;
     margin: 0;
     width: 100%;
+    position: relative;
+    overflow: hidden;
   }
   
   .feature-row-blue .feature-image-blue .image-viewport-blue .image-list-blue li {
     display: block;
     text-align: left;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
   }
   
   .feature-row-blue .feature-image-blue .image-viewport-blue .image-list-blue li img {
@@ -329,6 +340,7 @@ $text-color: #333333; // Dark gray text color
   .feature-row-blue .feature-text-blue {
     flex: 1;
     text-align: right;
+    z-index: 2;
   }
   
   .image-list {
