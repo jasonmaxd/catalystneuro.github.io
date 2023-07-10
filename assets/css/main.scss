@@ -301,7 +301,7 @@ $text-color: #333333; // Dark gray text color
   }
   .feature-row-blue .feature-image-blue {
     flex: 1;
-    text-align: left;
+    text-align: right;
     position: relative;
     z-index: 1;
     overflow: hidden;
@@ -323,7 +323,7 @@ $text-color: #333333; // Dark gray text color
   
   .feature-row-blue .feature-image-blue .image-viewport-blue .image-list-blue li {
     display: block;
-    text-align: left;
+    text-align: right;
     position: absolute;
     top: 0;
     left: 0;
@@ -340,7 +340,7 @@ $text-color: #333333; // Dark gray text color
   
   .feature-row-blue .feature-text-blue {
     flex: 1;
-    text-align: right;
+    text-align: left;
     z-index: 2;
   }
   
