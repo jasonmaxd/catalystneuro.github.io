@@ -60,7 +60,7 @@ We commonly work with labs to customize these software solutions to the specific
 </div>
 {% for feature in page.feature_row_gallery %}
 
-  <div class="feature-row">
+  <div class="feature-row" style="margin-top: 15px">
     <h1>{{ feature.title }}</h1>
     <p>{{ feature.excerpt }}</p>
     <div class="image-grid">
