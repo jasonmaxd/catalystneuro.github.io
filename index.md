@@ -34,7 +34,37 @@ feature_row_bottom:
     </a>
   </div>
 </div>
+{% for feature in page.feature_row_bottom %}
+  <div class="feature-row">
+    <h1 style="text-align: center;">{{ feature.title }}</h1>
+    <div class="gif-container" style="display: flex; justify-content: center; align-items: center;">
+      <img src="/assets/images/bottom.gif" alt="Bottom GIF">
+    </div>
+  </div>
+{% endfor %}
+<div class="feature-row" style="background-color: #47e4e2; color: white;">
+  <div class="feature-image">
+  <div class="image-viewport">
+    <ul class="image-list">
+      <li><img class='app-shot' src="http://www.catalystneuro.com/wp-content/uploads/2020/02/lapi-slids.png"></li>
+      <li><img class='app-shot' src="http://www.catalystneuro.com/wp-content/uploads/2020/03/lap-slide2.jpg"></li>
+    </ul>
+  </div>
+</div>
+  <div class="feature-text" style="text-align: right;">
+    <span class="underlined-title">
+      <span class="first-word">Our</span> <b>Software</b>
+    </span>
+    <p class="excerpt">
+      CatalystNeuro develops software solutions across the data pipeline aimed to help neuroscientists focus on the science and accelerate their discovery process immediately. We release and support packages for data homogenization, visualization, analysis, and lab-wide records. These libraries are developed by a team that focuses specifically on neural data and good software practices. Our projects are packaged, documented, and tested for robustness and ease of use. Everything we build is released as it is developed under a permissive license.
 
+We commonly work with labs to customize these software solutions to the specific needs of the lab, interfacing our platforms with their data formats and analysis packages.
+    </p>
+    <a href="/software/" class="btn btn--primary rounded-button">
+      <span style="font-family: Helvetica, sans-serif;">Learn more</span>
+    </a>
+  </div>
+</div>
 {% for feature in page.feature_row_gallery %}
 
   <div class="feature-row">
@@ -104,37 +134,3 @@ feature_row_bottom:
   </div>
 {% endfor %}
 <hr style="margin-top: 40px; margin-bottom: 40px;">
-{% for feature in page.feature_row_bottom %}
-  <div class="feature-row">
-    <h1 style="text-align: center;">{{ feature.title }}</h1>
-    <div class="gif-container" style="display: flex; justify-content: center; align-items: center;">
-      <img src="/assets/images/bottom.gif" alt="Bottom GIF">
-    </div>
-  </div>
-{% endfor %}
-<div class="feature-row" style="background-color: #47e4e2; color: white;">
-  <div class="feature-image">
-  <div class="laptop-screen">
-  <img src="assets/images/laptop.jpg" alt="Laptop Screen" class="laptop-image">
-  <div class="image-viewport">
-    <ul class="image-list">
-      <li><img class='app-shot' src="http://www.catalystneuro.com/wp-content/uploads/2020/02/lapi-slids.png"></li>
-      <li><img class='app-shot' src="http://www.catalystneuro.com/wp-content/uploads/2020/03/lap-slide2.jpg"></li>
-    </ul>
-  </div>
-</div>
-</div>
-  <div class="feature-text" style="text-align: right;">
-    <span class="underlined-title">
-      <span class="first-word">Our</span> <b>Software</b>
-    </span>
-    <p class="excerpt">
-      CatalystNeuro develops software solutions across the data pipeline aimed to help neuroscientists focus on the science and accelerate their discovery process immediately. We release and support packages for data homogenization, visualization, analysis, and lab-wide records. These libraries are developed by a team that focuses specifically on neural data and good software practices. Our projects are packaged, documented, and tested for robustness and ease of use. Everything we build is released as it is developed under a permissive license.
-
-We commonly work with labs to customize these software solutions to the specific needs of the lab, interfacing our platforms with their data formats and analysis packages.
-    </p>
-    <a href="/software/" class="btn btn--primary rounded-button">
-      <span style="font-family: Helvetica, sans-serif;">Learn more</span>
-    </a>
-  </div>
-</div>
