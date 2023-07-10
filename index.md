@@ -45,7 +45,7 @@ feature_row_bottom:
 
 We commonly work with labs to customize these software solutions to the specific needs of the lab, interfacing our platforms with their data formats and analysis packages.
     </p>
-    <a href="/software/" class="btn btn--primary rounded-button">
+    <a href="/software/" class="btn btn--primary rounded-button-2">
       <span style="font-family: Helvetica, sans-serif;">Learn more</span>
     </a>
   </div>

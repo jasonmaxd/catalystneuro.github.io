@@ -138,6 +138,8 @@ $text-color: #333333; // Dark gray text color
   .image-overlay-content a {
     color: #fff;
   }
+
+  //Custom catalystneuro button
   .custom-button-port {
     background-color: #47e4e2;
     color: #fff;
@@ -160,6 +162,8 @@ $text-color: #333333; // Dark gray text color
     background-color: #0c067e;
     color: #ffffff;
   }
+
+  //Centered feature row
   .centered-feature-row {
     display: flex;
     justify-content: center;
@@ -242,6 +246,8 @@ $text-color: #333333; // Dark gray text color
     margin-left: auto; 
   margin-right: auto;
   }
+
+  //Normal underlined title
   .underlined-title {
     font-family: Verdana, sans-serif;
     margin-bottom: 10px;
@@ -334,7 +340,7 @@ $text-color: #333333; // Dark gray text color
     left: 0;
     width: 100%;
     height: 9px;
-    background-color: #050a6a;
+    background-color: #0c067e;
     z-index: -1;
   }
   
@@ -345,8 +351,23 @@ $text-color: #333333; // Dark gray text color
     left: 0;
     width: 100%;
     height: 3px;
-    background-color: #050a6a;
+    background-color: #0c067e;
     z-index: -1;
+  }
+
+  //Custom catalystneuro button for blue background
+  .btn--primary.rounded-button-2 {
+    background-color: #0c067e;
+    border-radius: 50px;
+    transition: background-color 0.3s ease;
+  }
+  .rounded-button-2 {
+    border-radius: 50px;
+    background-color: #0c067e;
+  }
+  .rounded-button-2:hover {
+    background-color: #ffffff;
+    color: #000000;
   }
 
 //Feature row with bright blue background
