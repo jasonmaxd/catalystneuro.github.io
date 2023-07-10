@@ -37,7 +37,7 @@ feature_row_bottom:
 
 <div class="feature-row-blue">
   <div class="feature-text-blue" style="text-align: left;">
-    <span class="underlined-title">
+    <span class="underlined-title-blue">
       <span class="first-word">Our</span> <b>Software</b>
     </span>
     <p class="excerpt">
