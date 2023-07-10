@@ -36,15 +36,7 @@ feature_row_bottom:
 </div>
 
 <div class="feature-row-blue">
-  <div class="feature-image-blue">
-    <div class="image-viewport">
-      <ul class="image-list">
-        <li><img class='app-shot' src="http://www.catalystneuro.com/wp-content/uploads/2020/02/lapi-slids.png"></li>
-        <li><img class='app-shot' src="http://www.catalystneuro.com/wp-content/uploads/2020/03/lap-slide2.jpg"></li>
-      </ul>
-    </div>
-  </div>
-  <div class="feature-text-blue" style="text-align: right;">
+  <div class="feature-text-blue" style="text-align: left;">
     <span class="underlined-title">
       <span class="first-word">Our</span> <b>Software</b>
     </span>
@@ -56,6 +48,14 @@ We commonly work with labs to customize these software solutions to the specific
     <a href="/software/" class="btn btn--primary rounded-button">
       <span style="font-family: Helvetica, sans-serif;">Learn more</span>
     </a>
+  </div>
+  <div class="feature-image-blue">
+    <div class="image-viewport">
+      <ul class="image-list">
+        <li><img class='app-shot' src="http://www.catalystneuro.com/wp-content/uploads/2020/02/lapi-slids.png"></li>
+        <li><img class='app-shot' src="http://www.catalystneuro.com/wp-content/uploads/2020/03/lap-slide2.jpg"></li>
+      </ul>
+    </div>
   </div>
 </div>
 {% for feature in page.feature_row_gallery %}
