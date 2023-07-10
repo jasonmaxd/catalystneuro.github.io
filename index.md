@@ -35,8 +35,8 @@ feature_row_bottom:
   </div>
 </div>
 
-<div class="feature-row">
-  <div class="feature-image">
+<div class="feature-row-blue">
+  <div class="feature-image-blue">
     <div class="image-viewport">
       <ul class="image-list">
         <li><img class='app-shot' src="http://www.catalystneuro.com/wp-content/uploads/2020/02/lapi-slids.png"></li>
@@ -44,7 +44,7 @@ feature_row_bottom:
       </ul>
     </div>
   </div>
-  <div class="feature-text" style="text-align: right;">
+  <div class="feature-text-blue" style="text-align: right;">
     <span class="underlined-title">
       <span class="first-word">Our</span> <b>Software</b>
     </span>
