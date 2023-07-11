@@ -115,11 +115,12 @@ We commonly work with labs to customize these software solutions to the specific
         </div>
       </div>
       <div class="image-grid-item">
-        <img src="{{ '/assets/images/portfolio/slide-6.jpg' }}" alt="Image 6">
+        <img src="{{ '/assets/images/portfolio/slide-2.jpg' }}" alt="Image 2">
         <div class="image-overlay">
           <div class="image-overlay-content">
-            <p>Neurodata Without Borders Dissemination<br>Lawrence Berkley National Laboratory</p>
-            <a href="{{ '/project/nwb-dissemination/' }}" class="btn {{ feature.btn_classes[5] }} custom-button-port">Learn More</a>
+          <div class="excerpt-line"></div>
+            <p>Data Engineering Speech Neuroscience<br>UC San Francisco</p>
+            <a href="{{ '/project/data-engineering-speech/' }}" class="btn {{ feature.btn_classes[1] }} custom-button-port">Learn More</a>
           </div>
         </div>
       </div>
