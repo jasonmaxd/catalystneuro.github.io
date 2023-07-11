@@ -375,8 +375,8 @@ $text-color: #333333; // Dark gray text color
     display: flex;
     background-color: #47e4e2;
     color: white;
-    margin-left: -100px;
-    margin-right: -100px;
+    margin-left: -120px;
+    margin-right: -120px;
   }
   .feature-row-blue .feature-image-blue {
     flex: 1;
@@ -384,7 +384,7 @@ $text-color: #333333; // Dark gray text color
     position: relative;
     z-index: 1;
     overflow: hidden;
-    margin-right: 10px;
+    margin-right: 110px;
   }
   
   .feature-row-blue .feature-image-blue .image-viewport-blue {
@@ -429,7 +429,7 @@ $text-color: #333333; // Dark gray text color
     flex: 1;
     text-align: left;
     z-index: 2;
-    margin-left: 10px;
+    margin-left: 110px;
   }
   
   .image-list {
