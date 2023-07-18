@@ -4,8 +4,6 @@ main:
     url: /team/
   - title: "Mission"
     url: /mission/
-  - title: "Projects"
-    url: /projects/
   - title: "Services"
     sublinks:
       - title: "NWB Conversion Pipelines"
