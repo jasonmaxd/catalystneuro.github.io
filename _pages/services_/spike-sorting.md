@@ -11,6 +11,6 @@ feature_row:
     url: "https://calendly.com/d/djx-rc5-95r/ben-and-alessio?month=2023-05"
     btn_class: "btn--primary rounded-button"
     btn_label: "Schedule a Spike Sorting Consultation"
-    image_path: /assets/images/spike-navy.jpeg
+    image_path: /assets/images/spikeinterface.jpeg
 ---
 {% include feature_row type="left" %}

@@ -30,6 +30,7 @@ feature_row3:
   excerpt: NWB GUIDE is a graphical user interface (GUI) that offers a code-free solution for conversion to NWB (currently in progress).
 feature_row4:
 - title: "SpikeInterface"
+  image_path: /assets/images/spikeinterface.jpeg
   excerpt: We can help design and implement spike sorting pipelines using state-of-the-art algorithms using
     SpikeInterface.
 ---
