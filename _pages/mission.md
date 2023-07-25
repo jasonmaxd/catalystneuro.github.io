@@ -98,7 +98,7 @@ body {
       float: none;
     }
   }
-    @media (max-width: 45%) {
+    @media (max-width: 768px) {
     body {
         background-image: url("/assets/images/gradient2small.jpg");
         background-size: cover;
