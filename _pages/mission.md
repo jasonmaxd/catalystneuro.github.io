@@ -100,6 +100,7 @@ body {
     @media (max-width: 45%) {
     body {
         background-image: url("/assets/images/gradient2small.jpg");
+        background-size: cover;
     }
 }
   }
