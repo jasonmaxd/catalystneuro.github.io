@@ -97,13 +97,13 @@ body {
       max-width: 100%;
       float: none;
     }
+  }
     @media (max-width: 45%) {
     body {
         background-image: url("/assets/images/gradient2small.jpg");
         background-size: cover;
     }
 }
-  }
   </style>
 <div class="mission-content">
 <h1>The Problem</h1>
